@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_take-photo-input-selected_file</name>
+   <tag></tag>
+   <elementGuidId>3073cc24-62ce-4c27-b08f-6f867cfdc1c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#take-photo-input-selected__file</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'take-photo-input-selected__file' and @type = 'file']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'take-photo-input-selected__file']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Upload&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>94fb2ac8-6e2e-4adf-8416-d09a1f4ae972</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>take-photo-input-selected__file</value>
+      <webElementGuid>51db3f1a-5486-4894-975b-8b3b25e097d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>d8ae938c-88cd-40f5-a22a-caf4b99f48d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accept</name>
+      <type>Main</type>
+      <value>image/jpeg,image/png,image/webp,image/gif,video/mp4,video/quicktime</value>
+      <webElementGuid>ae4a1c05-96b0-4534-9336-48231a96a1f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-31f00f0c546b5e63e6f9683621083c3d</value>
+      <webElementGuid>18a3287c-880f-479a-b571-51703ee7392a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'take-photo-input-selected__file']</value>
+      <webElementGuid>af90dcc4-9abb-47d3-91d5-7216febaa4f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'take-photo-input-selected__file']</value>
+      <webElementGuid>6a7faf02-6668-477f-8acb-47f0edca5b04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'take-photo-input-selected__file' and @type = 'file']</value>
+      <webElementGuid>d73a1ec2-a97d-4d41-aea0-4f0b45adad35</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

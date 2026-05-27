@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Enter Email_1</name>
+   <tag></tag>
+   <elementGuidId>7fb0920d-fe52-49a2-b812-0df26b1248c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[value=&quot;apisupport\@cicod\.com&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@value = 'apisupport@cicod.com']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Enter Email&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>2a354998-a473-461c-8d42-c5dbf2cce3b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>7e188c66-56cf-4516-bf06-ff009086d627</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter Email</value>
+      <webElementGuid>f2b0c439-d38f-4526-9839-c04683555e42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full h-10 border border-[#bcbbbb] rounded-md p-2 focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 focus:outline-none</value>
+      <webElementGuid>91031346-c1e9-4ecb-89f1-a08e375817b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>list</name>
+      <type>Main</type>
+      <value>emails-list</value>
+      <webElementGuid>01e4d8a2-feb0-40f3-ba38-e40587f0a923</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>apisupport@cicod.com</value>
+      <webElementGuid>9a7f77ed-0c17-444e-a8eb-30c41de8f5b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0c993bd482f6f9cdd3f10244c0874971</value>
+      <webElementGuid>3d27e151-19f3-483c-b28b-ee6b2b7b7233</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@value = 'apisupport@cicod.com']</value>
+      <webElementGuid>6c4fc77a-3cbe-4688-b2c3-05b2e0600bda</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@value = 'apisupport@cicod.com']</value>
+      <webElementGuid>8ab1a859-9c53-498d-b969-1f53940b8ad9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Enter Email']</value>
+      <webElementGuid>b8612f2d-8b76-4dd9-a64e-0e9c0f11dfab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

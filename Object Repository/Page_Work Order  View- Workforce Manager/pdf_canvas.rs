@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pdf_canvas</name>
+   <tag></tag>
+   <elementGuidId>2da79873-26df-4394-b9e1-02788f9b4387</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.react-pdf__Page__textContent.textLayer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id='page-1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#page-1 >> internal:text=&quot;Summary Ticket ID: 2712Workflow:Complaints | Billing IssuePriority:LowStatus:UND&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>76214332-5b09-4847-818f-138ff5aed95b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>react-pdf__Page__textContent textLayer</value>
+      <webElementGuid>86ed82b2-3a7d-4bf0-8688-dc21812597f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-main-rotation</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>36ba2b4c-6e10-4ae6-895c-1f4949147c64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Summary Ticket ID: 2712Workflow:Complaints | Billing IssuePriority:LowStatus:UNDER INVESTIGATIONTitle:essential checklistContact Details:Name: Mr Chinwuba OkaforContact Number: 08137638481Email: chinwuba.okafor@cicod.comAddress 1:Address 2:Create Date:2025-09-24 22:45:38Created By: Chinwuba OkaforAssigned By:Last Update:2025-09-24 22:48:19Ticket Assigned To:DescriptionAdditional FieldsAddressaddresshouse/apartment_numberNo data submittedstreetNo data submittedaddress_line 2No data submittedcountryAngolastateNo data submittedcityNo data submittedpostal/zip_codeNo data submittedpriorityLowAttached FilesFile Name Description Create Time Created Bycypress_login_notification_flowchart.png 24 Sep 2025 22:51:07 Chinwuba OkaforTicket ID: 2712, Title: essential checklistTicket ID: 2712, Title: essential checklistTicket ID: 2712, Title: essential checklist</value>
+      <webElementGuid>48f80291-e4ea-4767-af2a-13a69a53633e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-1&quot;)/div[@class=&quot;react-pdf__Page&quot;]/div[@class=&quot;react-pdf__Page__textContent textLayer&quot;]</value>
+      <webElementGuid>acc9c80d-3b4a-4cfc-851d-ee06017b675e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-1']/div/div</value>
+      <webElementGuid>ce085c3f-1998-444d-af00-38679805b54c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Comment'])[3]/following::div[19]</value>
+      <webElementGuid>3e977ddc-a894-40dc-b8ba-5e516efab2d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Comment'])[2]/following::div[20]</value>
+      <webElementGuid>4ec01d63-eeac-44fd-9014-eed53e509db0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div/div/div/div/div</value>
+      <webElementGuid>9c4d76d6-de2b-4fe6-b2c6-4e9a51788c04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Summary Ticket ID: 2712Workflow:Complaints | Billing IssuePriority:LowStatus:UNDER INVESTIGATIONTitle:essential checklistContact Details:Name: Mr Chinwuba OkaforContact Number: 08137638481Email: chinwuba.okafor@cicod.comAddress 1:Address 2:Create Date:2025-09-24 22:45:38Created By: Chinwuba OkaforAssigned By:Last Update:2025-09-24 22:48:19Ticket Assigned To:DescriptionAdditional FieldsAddressaddresshouse/apartment_numberNo data submittedstreetNo data submittedaddress_line 2No data submittedcountryAngolastateNo data submittedcityNo data submittedpostal/zip_codeNo data submittedpriorityLowAttached FilesFile Name Description Create Time Created Bycypress_login_notification_flowchart.png 24 Sep 2025 22:51:07 Chinwuba OkaforTicket ID: 2712, Title: essential checklistTicket ID: 2712, Title: essential checklistTicket ID: 2712, Title: essential checklist' or . = 'Summary Ticket ID: 2712Workflow:Complaints | Billing IssuePriority:LowStatus:UNDER INVESTIGATIONTitle:essential checklistContact Details:Name: Mr Chinwuba OkaforContact Number: 08137638481Email: chinwuba.okafor@cicod.comAddress 1:Address 2:Create Date:2025-09-24 22:45:38Created By: Chinwuba OkaforAssigned By:Last Update:2025-09-24 22:48:19Ticket Assigned To:DescriptionAdditional FieldsAddressaddresshouse/apartment_numberNo data submittedstreetNo data submittedaddress_line 2No data submittedcountryAngolastateNo data submittedcityNo data submittedpostal/zip_codeNo data submittedpriorityLowAttached FilesFile Name Description Create Time Created Bycypress_login_notification_flowchart.png 24 Sep 2025 22:51:07 Chinwuba OkaforTicket ID: 2712, Title: essential checklistTicket ID: 2712, Title: essential checklistTicket ID: 2712, Title: essential checklist')]</value>
+      <webElementGuid>0e248d6e-1075-4860-ba00-59836bd37812</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

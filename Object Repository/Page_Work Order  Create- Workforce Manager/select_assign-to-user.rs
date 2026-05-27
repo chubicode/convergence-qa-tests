@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_assign-to-user</name>
+   <tag></tag>
+   <elementGuidId>b709f835-f66d-47c3-913c-d7f9344b835b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'assign-to-user']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#assign-to-user</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'assign-to-user' and (text() = 'Select UserSelf(api support)Adedero CosmossAnn NyaAyomide OlusanyaBlessing IgweBoyomo RaissaChima ChimaChubby ChubbyFaruq BalogunFavour UgbechieHenry OkwarajiakuJoel OmuyaJudtih ChukwurahKingDavid  BensonMarcellinus OnweMercy MercyOghenemarho IyonuOlajide OlajideOlufisayo OdukoyaOnyema  DavidOnyinye OkoRebecca sakuSamuel EhizokhaiSharon MusaSola Odedinatest testThompson IdowuTomilayo BalogunWalter  UzonwanneWunisod Efut' or . = 'Select UserSelf(api support)Adedero CosmossAnn NyaAyomide OlusanyaBlessing IgweBoyomo RaissaChima ChimaChubby ChubbyFaruq BalogunFavour UgbechieHenry OkwarajiakuJoel OmuyaJudtih ChukwurahKingDavid  BensonMarcellinus OnweMercy MercyOghenemarho IyonuOlajide OlajideOlufisayo OdukoyaOnyema  DavidOnyinye OkoRebecca sakuSamuel EhizokhaiSharon MusaSola Odedinatest testThompson IdowuTomilayo BalogunWalter  UzonwanneWunisod Efut')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#assign-to-user</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>0ba63219-b722-48d3-b2f7-f4ed3c5dee7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>assign-to-user</value>
+      <webElementGuid>f269e9c9-c87d-47eb-bef4-6d9fc811aea5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>2da332a7-eaac-4ee2-a049-9f5d8a9b6973</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select UserSelf(api support)Adedero CosmossAnn NyaAyomide OlusanyaBlessing IgweBoyomo RaissaChima ChimaChubby ChubbyFaruq BalogunFavour UgbechieHenry OkwarajiakuJoel OmuyaJudtih ChukwurahKingDavid  BensonMarcellinus OnweMercy MercyOghenemarho IyonuOlajide OlajideOlufisayo OdukoyaOnyema  DavidOnyinye OkoRebecca sakuSamuel EhizokhaiSharon MusaSola Odedinatest testThompson IdowuTomilayo BalogunWalter  UzonwanneWunisod Efut</value>
+      <webElementGuid>e106d76c-c209-4fcb-8818-6691cb05cf4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a91cff07b69263826d01192ad704cd05</value>
+      <webElementGuid>949354ac-90da-4d61-a1e7-006479e71c9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'assign-to-user']</value>
+      <webElementGuid>5dcbf8d9-f45a-4cd9-82c7-8adb2b427c88</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'assign-to-user']</value>
+      <webElementGuid>59a5ee1f-c395-478d-bb75-c8991f3786bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'assign-to-user' and (text() = 'Select UserSelf(api support)Adedero CosmossAnn NyaAyomide OlusanyaBlessing IgweBoyomo RaissaChima ChimaChubby ChubbyFaruq BalogunFavour UgbechieHenry OkwarajiakuJoel OmuyaJudtih ChukwurahKingDavid  BensonMarcellinus OnweMercy MercyOghenemarho IyonuOlajide OlajideOlufisayo OdukoyaOnyema  DavidOnyinye OkoRebecca sakuSamuel EhizokhaiSharon MusaSola Odedinatest testThompson IdowuTomilayo BalogunWalter  UzonwanneWunisod Efut' or . = 'Select UserSelf(api support)Adedero CosmossAnn NyaAyomide OlusanyaBlessing IgweBoyomo RaissaChima ChimaChubby ChubbyFaruq BalogunFavour UgbechieHenry OkwarajiakuJoel OmuyaJudtih ChukwurahKingDavid  BensonMarcellinus OnweMercy MercyOghenemarho IyonuOlajide OlajideOlufisayo OdukoyaOnyema  DavidOnyinye OkoRebecca sakuSamuel EhizokhaiSharon MusaSola Odedinatest testThompson IdowuTomilayo BalogunWalter  UzonwanneWunisod Efut')]</value>
+      <webElementGuid>5741fbb4-4028-489a-853a-7262964a3669</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'assign-to-user' and (text() = 'Select UserSelf(api support)Adedero CosmossAnn NyaAyomide OlusanyaBlessing IgweBoyomo RaissaChima ChimaChubby ChubbyFaruq BalogunFavour UgbechieHenry OkwarajiakuJoel OmuyaJudtih ChukwurahKingDavid  BensonMarcellinus OnweMercy MercyOghenemarho IyonuOlajide Durosinmi-EttiOlufisayo OdukoyaOnyema  DavidOnyinye OkoRebecca sakuSamuel EhizokhaiSharon MusaSola Odedinatest testThompson IdowuTomilayo BalogunWalter  UzonwanneWunisod Efut' or . = 'Select UserSelf(api support)Adedero CosmossAnn NyaAyomide OlusanyaBlessing IgweBoyomo RaissaChima ChimaChubby ChubbyFaruq BalogunFavour UgbechieHenry OkwarajiakuJoel OmuyaJudtih ChukwurahKingDavid  BensonMarcellinus OnweMercy MercyOghenemarho IyonuOlajide Durosinmi-EttiOlufisayo OdukoyaOnyema  DavidOnyinye OkoRebecca sakuSamuel EhizokhaiSharon MusaSola Odedinatest testThompson IdowuTomilayo BalogunWalter  UzonwanneWunisod Efut')]</value>
+      <webElementGuid>52143a68-b065-46ab-81fc-cc79ff028e69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

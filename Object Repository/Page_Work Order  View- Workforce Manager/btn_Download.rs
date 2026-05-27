@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Download</name>
+   <tag></tag>
+   <elementGuidId>bac8ee67-b45b-4f66-a27a-188fb28f51fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@title='Download']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(name() = 'tr') and (position() = 1)]//*[(name() = 'span') and (position() = 1)]//*[@fill = 'none']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-child(1) span:nth-child(1) [fill=&quot;none&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;PAST.pdf 2026-05-25 13:05:21 2026-05-25 13:07:37 api support View | Download | Sign | file upload icon | Delete |&quot;i] >> internal:attr=[title=&quot;View&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>14efe9e5-0a6b-46e8-939e-bb10eadec1db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>16</value>
+      <webElementGuid>deff89cc-ba70-4f0c-8659-1020974a8a4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>12</value>
+      <webElementGuid>062a2fbd-c8d4-44f2-af43-9f5ec4086599</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 16 12</value>
+      <webElementGuid>5aebbeb5-2457-4e7c-bde1-ed26416c60f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>da941dde-9615-436d-a6dd-6ccb22cfc1a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>a354966c-8051-44fc-a81c-7669cdfafd9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ba498dd7090298b2dcf6ae38ba3b8705</value>
+      <webElementGuid>a90459ca-266d-4863-a1e0-97675ec06b18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(name() = 'tr') and (position() = 1)]//*[(name() = 'span') and (position() = 1)]//*[@fill = 'none']</value>
+      <webElementGuid>ade64044-08c6-4056-a6d9-b1cd50112e70</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(name() = 'tr') and (position() = 1)]//*[(name() = 'span') and (position() = 1)]//*[@fill = 'none']</value>
+      <webElementGuid>18c11447-620f-484e-b3d9-c3ad672ac29d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

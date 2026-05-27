@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_message-dismiss</name>
+   <tag></tag>
+   <elementGuidId>fdafcce9-03b2-4497-9287-a4a08d2239b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'message-dismiss']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#message-dismiss</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'message-dismiss' and (text() = 'OK' or . = 'OK')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;OK&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cbb38c77-c2a6-4888-8730-89e2ebd3c293</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-dismiss</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>42e5751a-ffae-4307-8817-aa8bf51b598d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>message-dismiss</value>
+      <webElementGuid>0f4e26e1-fadb-499e-bda1-f209d4cbe3a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn green</value>
+      <webElementGuid>1d7bfced-6db0-4d06-975c-120d67515e89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OK</value>
+      <webElementGuid>1d252792-2417-4dd8-972d-6f97d084bc20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-d29341502308101fe7595a809b600dd6</value>
+      <webElementGuid>0280bfa8-c54d-4458-a529-7262993e8454</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'message-dismiss']</value>
+      <webElementGuid>469002c2-fc27-4dce-a26e-ab8844f4200f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'message-dismiss']</value>
+      <webElementGuid>b36f5d0f-b187-47f3-90cb-8cc87fd2fb12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'message-dismiss' and (text() = 'OK' or . = 'OK')]</value>
+      <webElementGuid>29cc4bd9-a9e4-454d-a794-ee59c5b3ec74</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

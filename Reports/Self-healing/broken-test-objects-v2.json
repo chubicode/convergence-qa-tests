@@ -1,0 +1,84 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_1Government Login/div_FAILED_VALIDATION_1",
+      "brokenLocator": "//*[@data-rht-toaster \u003d \u0027\u0027]/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_1Government Login/div_FAILED_VALIDATION_1_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Work Order  Create- Workforce Manager/button_Create",
+      "brokenLocator": "//*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 wfm-c-button--lg \u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@id\u003d\u0027save_quick_note\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Work Order  View- Workforce Manager/button_No",
+      "brokenLocator": "//*[@data-tippy-content \u003d \u0027This option uploads the file with a classification of \u0027Official\u0027. This is the default classification for any file uploaded.\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@id\u003d\u0027close_global_note_editor\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Work Order  Index- Workforce Manager/p_TEST AUTOMATION 10028791",
+      "brokenLocator": "//*[@aria-describedby \u003d \u0027tippy-5\u0027]//a//p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027cProdDropdown\u0027]/div/div/a/div/p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_1Gov/p_Automate Government MDAs critical operations,",
+      "brokenLocator": "//*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 h-full \u0027) and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 outline-none \u0027) and (position() \u003d 1)]//*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 leading-normal \u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_1Gov/p_Automate Government MDAs critical operations,_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Work Order  Index- Workforce Manager/p_TEST AUTOMATION 10028791",
+      "brokenLocator": "//*[@id \u003d \u0027created-by-me\u0027]//*[(name() \u003d \u0027tr\u0027) and (position() \u003d 1)]//a//p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027cProdDropdown\u0027]/div/div/a/div/p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Work Order  View- Workforce Manager/div_Summary Ticket ID_ 2712Workflow_Complaints _",
+      "brokenLocator": "//*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 w-fit \u0027) and (position() \u003d 1)]/*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 react-pdf__Page \u0027)]//*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 textLayer \u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027page-1\u0027]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Work Order  View- Workforce Manager/div_Summary Ticket ID_ 2712Workflow_Complaints __XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Work Order  View- Workforce Manager/svg_svg",
+      "brokenLocator": "//*[(name() \u003d \u0027tr\u0027) and (position() \u003d 1)]//*[(name() \u003d \u0027span\u0027) and (position() \u003d 3)]//*[@fill \u003d \u0027none\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/main/section/div[3]/div/button[2]/span/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Work Order  View- Workforce Manager/svg_svg_XPATH.png"
+    }
+  ]
+}

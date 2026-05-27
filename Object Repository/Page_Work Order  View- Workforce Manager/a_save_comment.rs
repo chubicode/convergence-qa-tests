@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_save_comment</name>
+   <tag></tag>
+   <elementGuidId>1054fa21-cdfa-40bb-8620-23cc0962119c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'save_comment']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#save_comment</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and @id = 'save_comment' and (text() = 'Save Comment ' or . = 'Save Comment ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Save Comment&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>292410d1-b670-4e4e-9778-5e576bff1710</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>37261ebd-b0cc-437e-9628-6c71a8521c3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>save_comment</value>
+      <webElementGuid>ad8268d7-010c-4040-a1d0-c39ab904477b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wfm-c-button wfm-c-button--primary wfm-c-button--sm</value>
+      <webElementGuid>30327abb-1564-468b-9859-fff9f7cf5746</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save Comment </value>
+      <webElementGuid>25f46388-7bd4-46c4-9a1b-630dd8f027bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3b25fb5e5bbbd911704ff85a48f77221</value>
+      <webElementGuid>adc3763f-2b2c-4a82-88fc-2756e6cc08d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'save_comment']</value>
+      <webElementGuid>88155fa3-0791-44fe-be4f-5703ac60410f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'save_comment']</value>
+      <webElementGuid>75ec4236-cfad-4aea-93d0-3bde7cb8288c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and @id = 'save_comment' and (text() = 'Save Comment ' or . = 'Save Comment ')]</value>
+      <webElementGuid>54f3b7c7-0dc6-4810-9122-c38632a5d403</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

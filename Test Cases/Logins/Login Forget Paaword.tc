@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Forget Paaword</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a7da39f-cf98-48d1-9b56-c3aa517f5ffd</testCaseGuid>
+</TestCaseEntity>

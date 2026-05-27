@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_TEST AUTOMATION</name>
+   <tag></tag>
+   <elementGuidId>9d6a3b57-44cc-4ec8-8442-d8432f962c0c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(name() = 'li') and (position() = 114)]//*[@role = 'option']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-child(114) [role=&quot;option&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'TEST AUTOMATION ' or . = 'TEST AUTOMATION ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=listbox >> internal:role=option[name=&quot;TEST AUTOMATION&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3894f8ae-c0cd-4fd4-87d7-6e003bf180cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>eecdf617-77de-4ba0-a81d-99a5c112a699</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tokens</name>
+      <type>Main</type>
+      <value>null</value>
+      <webElementGuid>ca5ef647-d996-4676-88f8-b5aed3fd723e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>5534b108-5715-46b6-967b-0e58172014c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>3d42d8fa-212d-46eb-b9e7-f0c5a3e31303</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>77772ffe-252e-40f8-8536-27aa8890f514</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TEST AUTOMATION </value>
+      <webElementGuid>f5365e99-c242-4167-a406-6fd1abb88fc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f34dcfbb7ce370f7f0c80a6a427a80a0</value>
+      <webElementGuid>a3505978-ba91-4256-b7e5-82023cf36229</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(name() = 'li') and (position() = 114)]//*[@role = 'option']</value>
+      <webElementGuid>870ebc21-28f2-4218-9110-aa375954f1f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(name() = 'li') and (position() = 114)]//*[@role = 'option']</value>
+      <webElementGuid>922ae254-48a2-4ea5-9c6f-7ed01007e286</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'TEST AUTOMATION ' or . = 'TEST AUTOMATION ')]</value>
+      <webElementGuid>539682f2-522b-4d48-9597-4c464dc89c2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(name() = 'li') and (position() = 110)]//*[@role = 'option']</value>
+      <webElementGuid>ef187334-1926-4a5e-b60a-e9181f548882</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_No</name>
+   <tag></tag>
+   <elementGuidId>33a3144e-4afc-4412-8a4e-a10d8bd1154a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-tippy-content=&quot;This\ option\ uploads\ the\ file\ with\ a\ classification\ of\ \'Official\'\.\ This\ is\ the\ default\ classification\ for\ any\ file\ uploaded\.&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-tippy-content = 'This option uploads the file with a classification of 'Official'. This is the default classification for any file uploaded.']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;No&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>12f3914c-6b32-4229-bfae-6db6cac64176</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5edfb879-3f36-44d3-b32d-418fe2233ba3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>switchClassificationSteps('default')</value>
+      <webElementGuid>4197dc4d-484c-4682-b35b-d53328111c10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tippy-content</name>
+      <type>Main</type>
+      <value>This option uploads the file with a classification of 'Official'. This is the default classification for any file uploaded.</value>
+      <webElementGuid>22c6274a-822a-4079-8757-17dc9effb446</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wfm-c-button wfm-c-button--secondary wfm-c-button--lg</value>
+      <webElementGuid>886ebccb-e565-4ac0-b16b-1c9471f14554</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No</value>
+      <webElementGuid>d17baa53-c07d-4510-b6e5-3d7a1b6356d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-bae48f317a9775c91136b5518f178138</value>
+      <webElementGuid>d391fe2a-ef51-450a-b312-04ec3cbb0f6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-tippy-content = 'This option uploads the file with a classification of 'Official'. This is the default classification for any file uploaded.']</value>
+      <webElementGuid>f5ef8ca1-e45e-4fca-8ea5-d90449f0f485</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-tippy-content = 'This option uploads the file with a classification of 'Official'. This is the default classification for any file uploaded.']</value>
+      <webElementGuid>241e7d85-64f0-46e3-9918-12dc2578ad03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'No' or . = 'No')]</value>
+      <webElementGuid>b477ca23-cc4f-4d10-9845-9ecdb69fe067</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

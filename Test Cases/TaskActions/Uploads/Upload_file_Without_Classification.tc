@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload_file_Without_Classification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>62493dfd-7d98-4c4e-94a4-20f5d8f37208</testCaseGuid>
+</TestCaseEntity>

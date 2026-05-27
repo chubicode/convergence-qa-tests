@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_check_use_contact_info</name>
+   <tag></tag>
+   <elementGuidId>76ebc826-cbc2-401c-9b66-a596d5c66803</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#check_use_contact_info</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'check_use_contact_info']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#check_use_contact_info</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>edad3fab-9212-4ab5-b5dc-f358d273c64e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>9a38c7ad-c585-497e-9efa-ee3ad4dcdb5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>check_use_contact_info</value>
+      <webElementGuid>289a566f-faef-46d3-978c-9d448f04de0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a1a5b5cde6bceacf81be79113a814410</value>
+      <webElementGuid>d7245159-3d93-4c24-86d8-a67521e9c1fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'check_use_contact_info']</value>
+      <webElementGuid>8ec6d6dc-3dc1-412b-92ca-2e2934f318dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'check_use_contact_info']</value>
+      <webElementGuid>2c629224-51ae-49c7-b6dc-876f8cbb6b8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox' and @id = 'check_use_contact_info']</value>
+      <webElementGuid>82dd907c-02c8-4b7e-8e5e-3d496474ffaa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

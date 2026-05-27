@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Survey_suite_model,Chrome 148.0.7778.179,,,26-05-2026 16:09:56,26-05-2026 16:19:29,9m - 32.846s,ERROR
+,,,,,,,
+Test Cases/Setup/TC_Prepare_Task,Chrome 148.0.7778.179,,,26-05-2026 16:16:14,26-05-2026 16:19:29,3m - 15.006s,ERROR
+"callTestCase(findTestCase(""Authentication/TC_Login""), [:], STOP_ON_FAILURE)",Chrome 148.0.7778.179,,,26-05-2026 16:16:14,26-05-2026 16:16:23,9.061s,PASSED
+"callTestCase(findTestCase(""Navigation/TC_Open_Task_Module""), [:], STOP_ON_FAILURE)",Chrome 148.0.7778.179,,,26-05-2026 16:16:23,26-05-2026 16:17:13,50.013s,PASSED
+"callTestCase(findTestCase(""Setup/TC_Create_Task""), [:], STOP_ON_FAILURE)",Chrome 148.0.7778.179,,,26-05-2026 16:17:13,26-05-2026 16:17:45,32.493s,PASSED
+"callTestCase(findTestCase(""Setup/TC_Open_Task_Details""), [:], STOP_ON_FAILURE)",Chrome 148.0.7778.179,,,26-05-2026 16:17:45,26-05-2026 16:18:47,1m - 1.503s,PASSED
+"callTestCase(findTestCase(""TaskActions/Uploads/Upload_File_From_Govdrive""), [:], STOP_ON_FAILURE)",Chrome 148.0.7778.179,,,26-05-2026 16:18:47,26-05-2026 16:19:29,41.911s,ERROR

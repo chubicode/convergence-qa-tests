@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Automated Testing</name>
+   <tag></tag>
+   <elementGuidId>2f331711-ab55-4962-bb60-da83e9ebf300</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-group ') and contains(concat(' ', normalize-space(@class), ' '), ' bootstrap-select ') and contains(concat(' ', normalize-space(@class), ' '), ' date-input ')]//*[(name() = 'li') and (position() = 2)]//*[@role = 'option']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.form-control.btn-group.bootstrap-select.date-input li:nth-child(2) [role=&quot;option&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Automated Testing ' or . = 'Automated Testing ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=listbox >> internal:role=option[name=&quot;Automated Testing&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5723bc63-1e1c-4bed-8e0b-fc409ea007b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>fe3455bb-6d33-4e8a-92b2-0226449f05b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tokens</name>
+      <type>Main</type>
+      <value>null</value>
+      <webElementGuid>bfe76660-d7ba-4879-a7b8-343968da7cb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>9a541f12-a05f-465f-bfaa-42b1e66ef24c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>402f7b1a-49c5-472d-bf0f-9b5296cc1533</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>ee7e8708-cc02-4d80-bbea-1ba72cca849c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Automated Testing </value>
+      <webElementGuid>d4bfcd2d-1862-4bcd-bdc7-e1041ec18fc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-53d0dfee8724547809f95ad1acabba4c</value>
+      <webElementGuid>da9ffdc0-1b23-40c5-ae6c-93a1f87d8293</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-group ') and contains(concat(' ', normalize-space(@class), ' '), ' bootstrap-select ') and contains(concat(' ', normalize-space(@class), ' '), ' date-input ')]//*[(name() = 'li') and (position() = 2)]//*[@role = 'option']</value>
+      <webElementGuid>4b4737da-220c-4f09-aa80-ce843804fc26</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ') and contains(concat(' ', normalize-space(@class), ' '), ' btn-group ') and contains(concat(' ', normalize-space(@class), ' '), ' bootstrap-select ') and contains(concat(' ', normalize-space(@class), ' '), ' date-input ')]//*[(name() = 'li') and (position() = 2)]//*[@role = 'option']</value>
+      <webElementGuid>8e4779fb-7839-43d4-8b39-544cd17b9502</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Automated Testing ' or . = 'Automated Testing ')]</value>
+      <webElementGuid>90fbc43a-7130-47d4-9da3-f594b72d8366</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

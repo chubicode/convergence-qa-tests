@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Email</name>
+   <tag></tag>
+   <elementGuidId>04f5de5a-1b88-40b7-8817-22ca565888e1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.w-full:nth-child(3) .font-bold</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' w-full ') and (name() = 'div') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Email&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>de67705d-c497-448e-85d2-62488de1da03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-[14px] text-[#101928] font-bold text-left</value>
+      <webElementGuid>f56843b3-fe8e-4b7a-b13f-6ebe9a913bb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email</value>
+      <webElementGuid>2f946575-946e-41b1-958c-acc955410ba2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f4ee838b49cb41bb9b9234922dfb3abb</value>
+      <webElementGuid>29226ecf-46bc-4687-9186-b4c1b73e1e55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' w-full ') and (name() = 'div') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ')]</value>
+      <webElementGuid>adae3546-66e3-4e1d-ba5f-9f843efcf2e5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' w-full ') and (name() = 'div') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ')]</value>
+      <webElementGuid>dc71eb37-42a2-4a87-96fa-f180f2e8338e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Email' or . = 'Email')]</value>
+      <webElementGuid>5bb475f7-410a-4ffe-87b5-7383c69494fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

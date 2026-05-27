@@ -1,0 +1,365 @@
+2026-05-27 08:50:49.783 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\CROWN-STAFF\.katalon\packages\KS-11.1.3\configuration\org.eclipse.osgi\150\0\.cp\resources\logback\logback-execution.xml
+2026-05-27 08:50:49.789 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\CROWN-STAFF\git\convergence-qa-tests\Include\config\log.properties
+2026-05-27 08:50:51.779 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Survey_suite_model
+2026-05-27 08:50:51.982 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Chinwuba Okafor
+2026-05-27 08:50:51.982 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = convergence-qa-tests
+2026-05-27 08:50:51.988 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = CROWN-STAFF - DESKTOP-4SI0S1N
+2026-05-27 08:50:51.989 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-05-27 08:50:51.997 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.100.9
+2026-05-27 08:50:51.999 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.3.0
+2026-05-27 08:50:52.365 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-27 08:50:52.365 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Authentication/TC_Login
+2026-05-27 08:50:53.264 DEBUG testcase.TC_Login                        - 1: openBrowser("")
+2026-05-27 08:50:53.917 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-27 08:50:54.065 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-27 08:50:58.153 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b182109cbfde193e92ad9b806e27f719
+2026-05-27 08:50:58.159 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.179
+2026-05-27 08:50:58.159 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-05-27 08:50:58.161 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-27 08:50:58.176 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-27 08:50:58.252 DEBUG testcase.TC_Login                        - 2: navigateToUrl("https://convergenceondemand.com/login")
+2026-05-27 08:50:59.032 DEBUG testcase.TC_Login                        - 3: setText(findTestObject("Page_1Government Login/input_Enter your MDA"), "govtest")
+2026-05-27 08:51:00.237 DEBUG testcase.TC_Login                        - 4: setText(findTestObject("Page_1Government Login/input_Enter Email"), "apisupport@cicod.com")
+2026-05-27 08:51:01.048 DEBUG testcase.TC_Login                        - 5: setEncryptedText(findTestObject("Page_1Government Login/input_Enter password"), "9zJdpvfgkgtFa8MQRHGI0w==")
+2026-05-27 08:51:01.519 DEBUG testcase.TC_Login                        - 6: click(findTestObject("Page_1Government Login/button_Login"))
+2026-05-27 08:51:01.943 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Authentication/TC_Login
+2026-05-27 08:51:01.953 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-27 08:51:01.953 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Navigation/TC_Open_Task_Module
+2026-05-27 08:51:02.056 DEBUG testcase.TC_Open_Task_Module             - 1: click(findTestObject("Page_1Gov/p_Automate Government MDAs critical operations,"))
+2026-05-27 08:51:06.998 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Navigation/TC_Open_Task_Module
+2026-05-27 08:51:07.007 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-27 08:51:07.007 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Setup/TC_Create_Task
+2026-05-27 08:51:07.327 DEBUG testcase.TC_Create_Task                  - 1: navigateToUrl("https://govtest.convergenceondemand.com/wfm/index.php?r=workOrder#active-tickets")
+2026-05-27 08:51:07.356 DEBUG testcase.TC_Create_Task                  - 2: delay(5)
+2026-05-27 08:51:12.423 DEBUG testcase.TC_Create_Task                  - 3: maximizeWindow()
+2026-05-27 08:51:12.883 DEBUG testcase.TC_Create_Task                  - 4: click(findTestObject("Page_Work Order  Index- Workforce Manager/a_Create Task"))
+2026-05-27 08:51:15.157 DEBUG testcase.TC_Create_Task                  - 5: click(findTestObject("Page_Work Order  Create- Workforce Manager/span_Select Queue"))
+2026-05-27 08:51:17.956 DEBUG testcase.TC_Create_Task                  - 6: setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Search"), "aut")
+2026-05-27 08:51:18.743 DEBUG testcase.TC_Create_Task                  - 7: click(findTestObject("Page_Work Order  Create- Workforce Manager/a_TEST AUTOMATION"))
+2026-05-27 08:51:19.177 DEBUG testcase.TC_Create_Task                  - 8: click(findTestObject("Page_Work Order  Create- Workforce Manager/span_Select Queue Type"))
+2026-05-27 08:51:21.803 DEBUG testcase.TC_Create_Task                  - 9: click(findTestObject("Page_Work Order  Create- Workforce Manager/span_Automated Testing"))
+2026-05-27 08:51:22.214 DEBUG testcase.TC_Create_Task                  - 10: setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Task Title _"), "TEST AUTOMATION 10028791")
+2026-05-27 08:51:24.972 DEBUG testcase.TC_Create_Task                  - 11: setText(findTestObject("Page_Work Order  Create- Workforce Manager/textarea_Description"), "Smoke Test")
+2026-05-27 08:51:25.787 DEBUG testcase.TC_Create_Task                  - 12: setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Input First Name"), "Mr")
+2026-05-27 08:51:26.499 DEBUG testcase.TC_Create_Task                  - 13: setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Input Last Name"), "Adekola")
+2026-05-27 08:51:27.309 DEBUG testcase.TC_Create_Task                  - 14: setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Input Phone Number"), "Cole")
+2026-05-27 08:51:28.083 DEBUG testcase.TC_Create_Task                  - 15: setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Input Email Address"), "testautomation@cicod.com")
+2026-05-27 08:51:28.881 DEBUG testcase.TC_Create_Task                  - 16: setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_house_no"), "45b")
+2026-05-27 08:51:29.683 DEBUG testcase.TC_Create_Task                  - 17: setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_street"), "Admiralty Way")
+2026-05-27 08:51:30.621 DEBUG testcase.TC_Create_Task                  - 18: selectOptionByValue(findTestObject("Page_Work Order  Create- Workforce Manager/select_AngolaCameroonCongoEthopiaNigeriaSouth Af"), "Nigeria", false)
+2026-05-27 08:51:31.437 DEBUG testcase.TC_Create_Task                  - 19: selectOptionByValue(findTestObject("Page_Work Order  Create- Workforce Manager/select_Select StateAbiaAbujaAdamawaAkwa IbomAnam"), "Lagos", false)
+2026-05-27 08:51:32.133 DEBUG testcase.TC_Create_Task                  - 20: switchToWindowTitle("Work Order | Create- Workforce Manager")
+2026-05-27 08:51:32.177 DEBUG testcase.TC_Create_Task                  - 21: click(findTestObject("Page_Work Order  Create- Workforce Manager/input_optionsRadios1"))
+2026-05-27 08:51:32.648 DEBUG testcase.TC_Create_Task                  - 22: click(findTestObject("Page_Work Order  Create- Workforce Manager/input_optionsChecks1"))
+2026-05-27 08:51:33.090 DEBUG testcase.TC_Create_Task                  - 23: setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Select Date"), "2026-05-20")
+2026-05-27 08:51:33.879 DEBUG testcase.TC_Create_Task                  - 24: filePath = getProjectDir() + "/Include/test-files/data_backup.png"
+2026-05-27 08:51:33.884 DEBUG testcase.TC_Create_Task                  - 25: assert File(filePath).exists()
+2026-05-27 08:51:33.901 DEBUG testcase.TC_Create_Task                  - 26: uploadObj = findTestObject("Page_Work Order  Create- Workforce Manager/input_take-photo-input-selected_file")
+2026-05-27 08:51:33.907 DEBUG testcase.TC_Create_Task                  - 27: waitForElementPresent(uploadObj, 10)
+2026-05-27 08:51:34.198 DEBUG testcase.TC_Create_Task                  - 28: uploadFile(uploadObj, filePath)
+2026-05-27 08:51:34.529 WARN  c.k.k.c.w.k.builtin.UploadFileKeyword    - Cannot clear the existing file path in the input element. Continue to upload file.
+2026-05-27 08:51:34.570 DEBUG testcase.TC_Create_Task                  - 29: click(findTestObject("Page_Work Order  Create- Workforce Manager/input_should_assign_ticket"))
+2026-05-27 08:51:35.251 DEBUG testcase.TC_Create_Task                  - 30: selectOptionByValue(findTestObject("Page_Work Order  Create- Workforce Manager/select_assign-to-user"), "82", false)
+2026-05-27 08:51:36.017 DEBUG testcase.TC_Create_Task                  - 31: waitForElementClickable(findTestObject("Page_Work Order  Create- Workforce Manager/button_Create"), 20)
+2026-05-27 08:51:36.616 DEBUG testcase.TC_Create_Task                  - 32: click(findTestObject("Page_Work Order  Create- Workforce Manager/button_Create"))
+2026-05-27 08:51:37.138 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Setup/TC_Create_Task
+2026-05-27 08:51:37.146 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-27 08:51:37.146 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Setup/TC_Open_Task_Details
+2026-05-27 08:51:38.021 DEBUG testcase.TC_Open_Task_Details            - 1: waitForPageLoad(30)
+2026-05-27 08:51:38.240 DEBUG testcase.TC_Open_Task_Details            - 2: delay(3)
+2026-05-27 08:51:41.256 DEBUG testcase.TC_Open_Task_Details            - 3: modal = new com.kms.katalon.core.testobject.TestObject()
+2026-05-27 08:51:41.261 DEBUG testcase.TC_Open_Task_Details            - 4: modal.addProperty("xpath", EQUALS, "//*[contains(text(),'Ticket ID')]")
+2026-05-27 08:51:41.274 DEBUG testcase.TC_Open_Task_Details            - 5: waitForElementVisible(modal, 30)
+2026-05-27 08:51:41.696 DEBUG testcase.TC_Open_Task_Details            - 6: successMessage = getText(modal)
+2026-05-27 08:51:41.979 DEBUG testcase.TC_Open_Task_Details            - 7: println("SUCCESS → " + successMessage)
+SUCCESS → Task Created Successfully - Ticket ID: 16712
+2026-05-27 08:51:41.987 DEBUG testcase.TC_Open_Task_Details            - 8: matcher = successMessage =~ "\d+"
+2026-05-27 08:51:41.992 DEBUG testcase.TC_Open_Task_Details            - 9: if (!(matcher.find()))
+2026-05-27 08:51:42.001 DEBUG testcase.TC_Open_Task_Details            - 10: ticketId = matcher.group()
+2026-05-27 08:51:42.004 DEBUG testcase.TC_Open_Task_Details            - 11: println("Captured Ticket → " + ticketId)
+Captured Ticket → 16712
+2026-05-27 08:51:42.007 DEBUG testcase.TC_Open_Task_Details            - 12: click(findTestObject("Page_Work Order  Create- Workforce Manager/button_message-dismiss"))
+2026-05-27 08:51:43.219 DEBUG testcase.TC_Open_Task_Details            - 13: waitForPageLoad(20)
+2026-05-27 08:51:43.242 DEBUG testcase.TC_Open_Task_Details            - 14: delay(2)
+2026-05-27 08:51:45.261 DEBUG testcase.TC_Open_Task_Details            - 15: click(findTestObject("Page_Work Order  Index- Workforce Manager/a_Created By Me"))
+2026-05-27 08:51:46.145 DEBUG testcase.TC_Open_Task_Details            - 16: waitForPageLoad(10)
+2026-05-27 08:51:46.160 DEBUG testcase.TC_Open_Task_Details            - 17: delay(3)
+2026-05-27 08:51:49.167 DEBUG testcase.TC_Open_Task_Details            - 18: search = findTestObject("Page_Work Order  Index- Workforce Manager/input_Search")
+2026-05-27 08:51:49.197 DEBUG testcase.TC_Open_Task_Details            - 19: waitForElementVisible(search, 30)
+2026-05-27 08:51:49.810 DEBUG testcase.TC_Open_Task_Details            - 20: click(search)
+2026-05-27 08:51:50.193 DEBUG testcase.TC_Open_Task_Details            - 21: clearText(search)
+2026-05-27 08:51:50.501 DEBUG testcase.TC_Open_Task_Details            - 22: setText(search, ticketId)
+2026-05-27 08:51:51.178 DEBUG testcase.TC_Open_Task_Details            - 23: sendKeys(search, Keys.chord(ENTER))
+2026-05-27 08:51:51.544 DEBUG testcase.TC_Open_Task_Details            - 24: println("Searching → " + ticketId)
+Searching → 16712
+2026-05-27 08:51:51.547 DEBUG testcase.TC_Open_Task_Details            - 25: delay(8)
+2026-05-27 08:51:59.566 DEBUG testcase.TC_Open_Task_Details            - 26: row = new com.kms.katalon.core.testobject.TestObject()
+2026-05-27 08:51:59.569 DEBUG testcase.TC_Open_Task_Details            - 27: row.addProperty("xpath", EQUALS, //tr[.//*[contains(text(),'$ticketId')]])
+2026-05-27 08:51:59.607 DEBUG testcase.TC_Open_Task_Details            - 28: found = waitForElementPresent(row, 30)
+2026-05-27 08:51:59.860 DEBUG testcase.TC_Open_Task_Details            - 29: if (!(found))
+2026-05-27 08:51:59.862 DEBUG testcase.TC_Open_Task_Details            - 30: println("Ticket row found")
+Ticket row found
+2026-05-27 08:51:59.867 DEBUG testcase.TC_Open_Task_Details            - 31: titleLink = new com.kms.katalon.core.testobject.TestObject()
+2026-05-27 08:51:59.872 DEBUG testcase.TC_Open_Task_Details            - 32: titleLink.addProperty("xpath", EQUALS, (//tr[.//*[contains(text(),'$ticketId')]]//td[3]//a) | (//tr[.//*[contains(text(),'$ticketId')]]//td[3]//*[self::span or self::div]))
+2026-05-27 08:51:59.875 DEBUG testcase.TC_Open_Task_Details            - 33: waitForElementVisible(titleLink, 30)
+2026-05-27 08:52:00.171 DEBUG testcase.TC_Open_Task_Details            - 34: scrollToElement(titleLink, 10)
+2026-05-27 08:52:00.530 DEBUG testcase.TC_Open_Task_Details            - 35: link = findWebElement(titleLink, 20)
+2026-05-27 08:52:00.800 DEBUG testcase.TC_Open_Task_Details            - 36: executeJavaScript("\narguments[0].scrollIntoView({\nblock:'center'\n});\n", Arrays.asList(link))
+2026-05-27 08:52:00.839 DEBUG testcase.TC_Open_Task_Details            - 37: delay(2)
+2026-05-27 08:52:02.857 DEBUG testcase.TC_Open_Task_Details            - 38: println("Opening ticket")
+Opening ticket
+2026-05-27 08:52:02.859 DEBUG testcase.TC_Open_Task_Details            - 39: try
+2026-05-27 08:52:02.861 DEBUG testcase.TC_Open_Task_Details            - 1: click(titleLink)
+2026-05-27 08:52:06.579 DEBUG testcase.TC_Open_Task_Details            - 42: opened = false
+2026-05-27 08:52:06.581 DEBUG testcase.TC_Open_Task_Details            - 43: for ([i = 0, i < 30, (i++)])
+2026-05-27 08:52:06.583 DEBUG testcase.TC_Open_Task_Details            - 1: delay(1)
+2026-05-27 08:52:07.589 DEBUG testcase.TC_Open_Task_Details            - 2: details = new com.kms.katalon.core.testobject.TestObject()
+2026-05-27 08:52:07.591 DEBUG testcase.TC_Open_Task_Details            - 3: details.addProperty("xpath", EQUALS, "\n//*[contains(text(),'Priority')]\n|\n//*[contains(text(),'Task Details')]\n|\n//*[contains(text(),'Queue')]\n")
+2026-05-27 08:52:07.593 DEBUG testcase.TC_Open_Task_Details            - 4: if (verifyElementPresent(details, 1, OPTIONAL))
+2026-05-27 08:52:08.903 DEBUG testcase.TC_Open_Task_Details            - 1: opened = true
+2026-05-27 08:52:08.904 DEBUG testcase.TC_Open_Task_Details            - 2: break
+2026-05-27 08:52:08.906 DEBUG testcase.TC_Open_Task_Details            - 44: if (!(opened))
+2026-05-27 08:52:08.908 DEBUG testcase.TC_Open_Task_Details            - 45: println("TASK DETAILS OPENED → " + ticketId)
+TASK DETAILS OPENED → 16712
+2026-05-27 08:52:08.911 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Setup/TC_Open_Task_Details
+2026-05-27 08:52:08.916 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-27 08:52:08.917 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive
+2026-05-27 08:52:11.486 DEBUG testcase.Upload_File_From_Govdrive       - 1: driver = getWebDriver()
+2026-05-27 08:52:11.488 DEBUG testcase.Upload_File_From_Govdrive       - 2: switchToDefaultContent()
+2026-05-27 08:52:11.812 DEBUG testcase.Upload_File_From_Govdrive       - 3: waitForPageLoad(30)
+2026-05-27 08:52:11.828 DEBUG testcase.Upload_File_From_Govdrive       - 4: println("Starting upload flow")
+Starting upload flow
+2026-05-27 08:52:11.835 DEBUG testcase.Upload_File_From_Govdrive       - 5: waitForElementVisible(findTestObject("Page_Work Order  View- Workforce Manager/a_dLabel"), 30)
+2026-05-27 08:52:12.841 DEBUG testcase.Upload_File_From_Govdrive       - 6: waitForElementClickable(findTestObject("Page_Work Order  View- Workforce Manager/a_dLabel"), 30)
+2026-05-27 08:52:13.369 DEBUG testcase.Upload_File_From_Govdrive       - 7: click(findTestObject("Page_Work Order  View- Workforce Manager/a_dLabel"))
+2026-05-27 08:52:13.767 DEBUG testcase.Upload_File_From_Govdrive       - 8: println("Upload menu opened")
+Upload menu opened
+2026-05-27 08:52:13.769 DEBUG testcase.Upload_File_From_Govdrive       - 9: waitForElementVisible(findTestObject("Page_Work Order  View- Workforce Manager/a_cde-upload"), 30)
+2026-05-27 08:52:14.937 DEBUG testcase.Upload_File_From_Govdrive       - 10: waitForElementClickable(findTestObject("Page_Work Order  View- Workforce Manager/a_cde-upload"), 30)
+2026-05-27 08:52:15.259 DEBUG testcase.Upload_File_From_Govdrive       - 11: try
+2026-05-27 08:52:15.261 DEBUG testcase.Upload_File_From_Govdrive       - 1: click(findTestObject("Page_Work Order  View- Workforce Manager/a_cde-upload"))
+2026-05-27 08:52:15.738 DEBUG testcase.Upload_File_From_Govdrive       - 14: println("GovDrive selected")
+GovDrive selected
+2026-05-27 08:52:15.740 DEBUG testcase.Upload_File_From_Govdrive       - 15: switchToDefaultContent()
+2026-05-27 08:52:15.775 DEBUG testcase.Upload_File_From_Govdrive       - 16: waitForElementVisible(findTestObject("Page_Work Order  View- Workforce Manager/iframe_cde-widget"), 30)
+2026-05-27 08:52:16.459 DEBUG testcase.Upload_File_From_Govdrive       - 17: switched = false
+2026-05-27 08:52:16.461 DEBUG testcase.Upload_File_From_Govdrive       - 18: for ([i = 0, i < 3, (i++)])
+2026-05-27 08:52:16.464 DEBUG testcase.Upload_File_From_Govdrive       - 1: try
+2026-05-27 08:52:16.466 DEBUG testcase.Upload_File_From_Govdrive       - 1: switchToFrame(findTestObject("Page_Work Order  View- Workforce Manager/iframe_cde-widget"), 10)
+2026-05-27 08:52:16.804 DEBUG testcase.Upload_File_From_Govdrive       - 2: switched = true
+2026-05-27 08:52:16.806 DEBUG testcase.Upload_File_From_Govdrive       - 3: break
+2026-05-27 08:52:16.808 DEBUG testcase.Upload_File_From_Govdrive       - 19: if (!(switched))
+2026-05-27 08:52:16.810 DEBUG testcase.Upload_File_From_Govdrive       - 20: println("Inside iframe")
+Inside iframe
+2026-05-27 08:52:16.817 DEBUG testcase.Upload_File_From_Govdrive       - 21: delay(5)
+2026-05-27 08:52:21.829 DEBUG testcase.Upload_File_From_Govdrive       - 22: println("Waiting for files to appear...")
+Waiting for files to appear...
+2026-05-27 08:52:21.831 DEBUG testcase.Upload_File_From_Govdrive       - 23: found = false
+2026-05-27 08:52:21.834 DEBUG testcase.Upload_File_From_Govdrive       - 24: checkbox = null
+2026-05-27 08:52:21.835 DEBUG testcase.Upload_File_From_Govdrive       - 25: for ([i = 0, i < 20, (i++)])
+2026-05-27 08:52:21.835 DEBUG testcase.Upload_File_From_Govdrive       - 1: checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']"))
+2026-05-27 08:52:21.885 DEBUG testcase.Upload_File_From_Govdrive       - 2: println("Checkbox count = " + checkboxes.size())
+Checkbox count = 8
+2026-05-27 08:52:21.887 DEBUG testcase.Upload_File_From_Govdrive       - 3: if (!(checkboxes.isEmpty()))
+2026-05-27 08:52:21.889 DEBUG testcase.Upload_File_From_Govdrive       - 1: checkbox = checkboxes[0]
+2026-05-27 08:52:22.698 DEBUG testcase.Upload_File_From_Govdrive       - 2: driver.executeScript("arguments[0].scrollIntoView(true)", checkbox)
+2026-05-27 08:52:22.717 DEBUG testcase.Upload_File_From_Govdrive       - 3: delay(1)
+2026-05-27 08:52:23.733 DEBUG testcase.Upload_File_From_Govdrive       - 4: driver.executeScript("arguments[0].click();", checkbox)
+2026-05-27 08:52:23.828 DEBUG testcase.Upload_File_From_Govdrive       - 5: found = true
+2026-05-27 08:52:23.831 DEBUG testcase.Upload_File_From_Govdrive       - 6: println("File selected")
+File selected
+2026-05-27 08:52:23.832 DEBUG testcase.Upload_File_From_Govdrive       - 7: break
+2026-05-27 08:52:23.833 DEBUG testcase.Upload_File_From_Govdrive       - 26: if (!(found))
+2026-05-27 08:52:23.835 DEBUG testcase.Upload_File_From_Govdrive       - 27: delay(3)
+2026-05-27 08:52:26.840 DEBUG testcase.Upload_File_From_Govdrive       - 28: insertBtn = null
+2026-05-27 08:52:26.841 DEBUG testcase.Upload_File_From_Govdrive       - 29: for ([i = 0, i < 15, (i++)])
+2026-05-27 08:52:26.841 DEBUG testcase.Upload_File_From_Govdrive       - 1: try
+2026-05-27 08:52:26.844 DEBUG testcase.Upload_File_From_Govdrive       - 1: insertBtn = driver.findElement(By.xpath("//button[normalize-space()='Insert']"))
+2026-05-27 08:52:26.874 DEBUG testcase.Upload_File_From_Govdrive       - 2: visible = insertBtn.isDisplayed()
+2026-05-27 08:52:26.893 DEBUG testcase.Upload_File_From_Govdrive       - 3: enabled = insertBtn.isEnabled()
+2026-05-27 08:52:26.904 DEBUG testcase.Upload_File_From_Govdrive       - 4: disabled = insertBtn.getAttribute("disabled")
+2026-05-27 08:52:26.921 DEBUG testcase.Upload_File_From_Govdrive       - 5: if (visible && enabled && disabled == null)
+2026-05-27 08:52:26.923 DEBUG testcase.Upload_File_From_Govdrive       - 1: break
+2026-05-27 08:52:26.924 DEBUG testcase.Upload_File_From_Govdrive       - 30: if (insertBtn == null)
+2026-05-27 08:52:26.925 DEBUG testcase.Upload_File_From_Govdrive       - 31: driver.executeScript("\narguments[0].scrollIntoView({\nblock:'center'\n});\n", insertBtn)
+2026-05-27 08:52:26.937 DEBUG testcase.Upload_File_From_Govdrive       - 32: delay(1)
+2026-05-27 08:52:27.946 DEBUG testcase.Upload_File_From_Govdrive       - 33: driver.executeScript("arguments[0].click();", insertBtn)
+2026-05-27 08:52:27.971 DEBUG testcase.Upload_File_From_Govdrive       - 34: println("Insert clicked")
+Insert clicked
+2026-05-27 08:52:27.973 DEBUG testcase.Upload_File_From_Govdrive       - 35: switchToDefaultContent()
+2026-05-27 08:52:27.981 DEBUG testcase.Upload_File_From_Govdrive       - 36: try
+2026-05-27 08:52:27.983 DEBUG testcase.Upload_File_From_Govdrive       - 1: delay(3)
+2026-05-27 08:52:30.985 DEBUG testcase.Upload_File_From_Govdrive       - 2: okButton = driver.findElement(By.xpath("//button[normalize-space()='OK'] | //a[normalize-space()='OK']"))
+2026-05-27 08:52:34.813 DEBUG testcase.Upload_File_From_Govdrive       - 3: driver.executeScript("arguments[0].click();", okButton)
+2026-05-27 08:52:34.840 DEBUG testcase.Upload_File_From_Govdrive       - 4: println("Success popup closed")
+Success popup closed
+2026-05-27 08:52:34.843 DEBUG testcase.Upload_File_From_Govdrive       - 39: switchToDefaultContent()
+2026-05-27 08:52:34.853 DEBUG testcase.Upload_File_From_Govdrive       - 40: println("Upload completed")
+Upload completed
+2026-05-27 08:52:34.857 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive
+2026-05-27 08:52:34.861 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-27 08:52:34.862 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TaskActions/Uploads/Upload_file_Without_Classification
+2026-05-27 08:52:35.166 DEBUG t.Upload_file_Without_Classification     - 1: taskName = "TEST AUTOMATION"
+2026-05-27 08:52:35.167 DEBUG t.Upload_file_Without_Classification     - 2: uploadFile = getProjectDir() + "/Include/test-files/TASK CYCLE.pdf"
+2026-05-27 08:52:35.170 DEBUG t.Upload_file_Without_Classification     - 3: waitForPageLoad(20)
+2026-05-27 08:52:35.184 DEBUG t.Upload_file_Without_Classification     - 4: switchToDefaultContent()
+2026-05-27 08:52:35.200 DEBUG t.Upload_file_Without_Classification     - 5: println("Looking for task: " + taskName)
+Looking for task: TEST AUTOMATION
+2026-05-27 08:52:35.203 DEBUG t.Upload_file_Without_Classification     - 6: task = new com.kms.katalon.core.testobject.TestObject()
+2026-05-27 08:52:35.209 DEBUG t.Upload_file_Without_Classification     - 7: task.addProperty("xpath", EQUALS, "//p[contains(normalize-space(.),'" + taskName + "')]")
+2026-05-27 08:52:35.215 DEBUG t.Upload_file_Without_Classification     - 8: taskExists = waitForElementPresent(task, 20, OPTIONAL)
+2026-05-27 08:52:35.497 DEBUG t.Upload_file_Without_Classification     - 9: println("Task exists = " + taskExists)
+Task exists = true
+2026-05-27 08:52:35.500 DEBUG t.Upload_file_Without_Classification     - 10: if (!(taskExists))
+2026-05-27 08:52:35.501 DEBUG t.Upload_file_Without_Classification     - 11: assert taskExists
+2026-05-27 08:52:35.503 DEBUG t.Upload_file_Without_Classification     - 12: scrollToElement(task, 10)
+2026-05-27 08:52:35.777 DEBUG t.Upload_file_Without_Classification     - 13: enhancedClick(task)
+2026-05-27 08:52:36.213 ERROR c.k.k.c.w.k.b.EnhancedClickKeyword       - ❌ element not interactable: [object HTMLParagraphElement] has no size and location\n  (Session info: chrome=148.0.7778.179)\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCommand: [b182109cbfde193e92ad9b806e27f719, actions {actions=[org.openqa.selenium.interactions.Sequence@6d9f624]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\CROWN-~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57523}, goog:processID: 51904, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57523/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:41613/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b182109cbfde193e92ad9b806e27f719
+2026-05-27 08:52:46.377 DEBUG t.Upload_file_Without_Classification     - 14: waitForPageLoad(20)
+2026-05-27 08:52:46.424 DEBUG t.Upload_file_Without_Classification     - 15: uploadBtn = findTestObject("Page_Work Order  View- Workforce Manager/Page_Work Order  View- Workforce Manager/a_dLabel")
+2026-05-27 08:52:46.437 DEBUG t.Upload_file_Without_Classification     - 16: waitForElementClickable(uploadBtn, 20)
+2026-05-27 08:52:46.870 DEBUG t.Upload_file_Without_Classification     - 17: enhancedClick(uploadBtn)
+2026-05-27 08:52:47.295 DEBUG t.Upload_file_Without_Classification     - 18: println("Upload modal opened")
+Upload modal opened
+2026-05-27 08:52:47.298 DEBUG t.Upload_file_Without_Classification     - 19: assert Files.exists(Paths.get(uploadFile))
+2026-05-27 08:52:47.338 DEBUG t.Upload_file_Without_Classification     - 20: println("Uploading -> " + uploadFile)
+Uploading -> C:/Users/CROWN-STAFF/git/convergence-qa-tests/Include/test-files/TASK CYCLE.pdf
+2026-05-27 08:52:47.341 DEBUG t.Upload_file_Without_Classification     - 21: fileInput = new com.kms.katalon.core.testobject.TestObject()
+2026-05-27 08:52:47.344 DEBUG t.Upload_file_Without_Classification     - 22: fileInput.addProperty("xpath", EQUALS, "//*[@id='file_upload']")
+2026-05-27 08:52:47.346 DEBUG t.Upload_file_Without_Classification     - 23: waitForElementPresent(fileInput, 20)
+2026-05-27 08:52:47.680 DEBUG t.Upload_file_Without_Classification     - 24: executeJavaScript("\narguments[0].style.display='block';\narguments[0].style.visibility='visible';\narguments[0].removeAttribute('hidden');\narguments[0].removeAttribute('disabled');\n", [findWebElement(fileInput, 20)])
+2026-05-27 08:52:48.171 DEBUG t.Upload_file_Without_Classification     - 25: uploadFile(fileInput, uploadFile)
+2026-05-27 08:52:48.513 WARN  c.k.k.c.w.k.builtin.UploadFileKeyword    - Cannot clear the existing file path in the input element. Continue to upload file.
+2026-05-27 08:52:48.581 DEBUG t.Upload_file_Without_Classification     - 26: println("File injected successfully")
+File injected successfully
+2026-05-27 08:52:48.585 DEBUG t.Upload_file_Without_Classification     - 27: delay(8)
+2026-05-27 08:52:56.601 DEBUG t.Upload_file_Without_Classification     - 28: noButton = new com.kms.katalon.core.testobject.TestObject()
+2026-05-27 08:52:56.603 DEBUG t.Upload_file_Without_Classification     - 29: noButton.addProperty("xpath", EQUALS, "//button[normalize-space()='No']")
+2026-05-27 08:52:56.605 DEBUG t.Upload_file_Without_Classification     - 30: modalPresent = waitForElementPresent(noButton, 10, OPTIONAL)
+2026-05-27 08:52:57.093 DEBUG t.Upload_file_Without_Classification     - 31: if (modalPresent)
+2026-05-27 08:52:57.094 DEBUG t.Upload_file_Without_Classification     - 1: waitForElementClickable(noButton, 10)
+2026-05-27 08:52:57.393 DEBUG t.Upload_file_Without_Classification     - 2: enhancedClick(noButton)
+2026-05-27 08:52:58.147 DEBUG t.Upload_file_Without_Classification     - 3: println("Clicked NO")
+Clicked NO
+2026-05-27 08:52:58.150 DEBUG t.Upload_file_Without_Classification     - 32: println("Upload completed")
+Upload completed
+2026-05-27 08:52:58.153 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TaskActions/Uploads/Upload_file_Without_Classification
+2026-05-27 08:52:58.164 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-27 08:52:58.164 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TaskActions/Table_Actions/Esign
+2026-05-27 08:52:59.140 DEBUG testcase.Esign                           - 1: driver = getWebDriver()
+2026-05-27 08:52:59.143 DEBUG testcase.Esign                           - 2: wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, java.time.Duration.ofSeconds(30))
+2026-05-27 08:52:59.147 DEBUG testcase.Esign                           - 3: println("===== START ESIGN =====")
+===== START ESIGN =====
+2026-05-27 08:52:59.152 DEBUG testcase.Esign                           - 4: waitForPageLoad(30)
+2026-05-27 08:52:59.166 DEBUG testcase.Esign                           - 5: click(findTestObject("Page_Work Order  View- Workforce Manager/svg_svg"))
+2026-05-27 08:53:11.666 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-05-27 08:53:11.803 DEBUG testcase.Esign                           - 6: println("eSign modal opened")
+eSign modal opened
+2026-05-27 08:53:11.805 DEBUG testcase.Esign                           - 7: iframe = new com.kms.katalon.core.testobject.TestObject()
+2026-05-27 08:53:11.806 DEBUG testcase.Esign                           - 8: iframe.addProperty("xpath", EQUALS, "//iframe[contains(@id,'esign')]")
+2026-05-27 08:53:11.807 DEBUG testcase.Esign                           - 9: waitForElementPresent(iframe, 60)
+2026-05-27 08:53:12.634 DEBUG testcase.Esign                           - 10: switchToFrame(iframe, 20)
+2026-05-27 08:53:12.900 DEBUG testcase.Esign                           - 11: println("Inside iframe")
+Inside iframe
+2026-05-27 08:53:12.903 DEBUG testcase.Esign                           - 12: signTool = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[normalize-space()='Signature']")))
+2026-05-27 08:53:16.229 DEBUG testcase.Esign                           - 13: driver.executeScript("arguments[0].click();", signTool)
+2026-05-27 08:53:16.244 DEBUG testcase.Esign                           - 14: println("Signature selected")
+Signature selected
+2026-05-27 08:53:16.245 DEBUG testcase.Esign                           - 15: page = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(@id,'page-')]")))
+2026-05-27 08:53:20.104 DEBUG testcase.Esign                           - 16: println("PDF located")
+PDF located
+2026-05-27 08:53:20.106 DEBUG testcase.Esign                           - 17: driver.executeScript("\nvar rect=arguments[0].getBoundingClientRect();\n\nvar x=rect.left+(rect.width/2);\nvar y=rect.top+250;\n\nvar el=document.elementFromPoint(x,y);\n\nif(el){\nel.dispatchEvent(\nnew MouseEvent(\n'click',\n{\nbubbles:true,\nclientX:x,\nclientY:y\n}\n)\n);\n}\n", page)
+2026-05-27 08:53:20.143 DEBUG testcase.Esign                           - 18: println("Signature dropped")
+Signature dropped
+2026-05-27 08:53:20.146 DEBUG testcase.Esign                           - 19: Thread.sleep(2000)
+2026-05-27 08:53:22.169 DEBUG testcase.Esign                           - 20: try
+2026-05-27 08:53:22.170 DEBUG testcase.Esign                           - 1: okSign = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[normalize-space()='OK']")))
+2026-05-27 08:53:52.525 DEBUG testcase.Esign                           - 21: catch (Exception e)
+2026-05-27 08:53:52.527 DEBUG testcase.Esign                           - 1: println("No signature OK popup")
+No signature OK popup
+2026-05-27 08:53:52.530 DEBUG testcase.Esign                           - 23: previewBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(.,'Preview')]")))
+2026-05-27 08:53:52.608 DEBUG testcase.Esign                           - 24: driver.executeScript("arguments[0].click();", previewBtn)
+2026-05-27 08:53:52.640 DEBUG testcase.Esign                           - 25: println("Preview clicked")
+Preview clicked
+2026-05-27 08:53:52.641 DEBUG testcase.Esign                           - 26: wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//button[contains(.,'Preview') or contains(.,'Save')]"), "Save"))
+2026-05-27 08:53:52.764 DEBUG testcase.Esign                           - 27: saveBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(.,'Save')]")))
+2026-05-27 08:53:52.835 DEBUG testcase.Esign                           - 28: Thread.sleep(1000)
+2026-05-27 08:53:53.853 DEBUG testcase.Esign                           - 29: driver.executeScript("arguments[0].click();", saveBtn)
+2026-05-27 08:53:53.877 DEBUG testcase.Esign                           - 30: println("Save clicked")
+Save clicked
+2026-05-27 08:53:53.879 DEBUG testcase.Esign                           - 31: switchToDefaultContent()
+2026-05-27 08:53:53.898 DEBUG testcase.Esign                           - 32: println("Back to main page")
+Back to main page
+2026-05-27 08:53:53.900 DEBUG testcase.Esign                           - 33: okModalClosed = false
+2026-05-27 08:53:53.901 DEBUG testcase.Esign                           - 34: try
+2026-05-27 08:53:53.903 DEBUG testcase.Esign                           - 1: okBtn = new com.kms.katalon.core.testobject.TestObject()
+2026-05-27 08:53:53.905 DEBUG testcase.Esign                           - 2: okBtn.addProperty("xpath", EQUALS, "//button[normalize-space()='OK']")
+2026-05-27 08:53:53.905 DEBUG testcase.Esign                           - 3: if (waitForElementVisible(okBtn, 10, OPTIONAL))
+2026-05-27 08:53:58.329 DEBUG testcase.Esign                           - 1: click(okBtn)
+2026-05-27 08:53:58.791 DEBUG testcase.Esign                           - 2: okModalClosed = true
+2026-05-27 08:53:58.793 DEBUG testcase.Esign                           - 3: println("Success modal closed")
+Success modal closed
+2026-05-27 08:53:58.795 DEBUG testcase.Esign                           - 37: if (!(okModalClosed))
+2026-05-27 08:53:58.801 DEBUG testcase.Esign                           - 38: modal = new com.kms.katalon.core.testobject.TestObject()
+2026-05-27 08:53:58.806 DEBUG testcase.Esign                           - 39: modal.addProperty("xpath", EQUALS, "//*[contains(@class,'modal')]")
+2026-05-27 08:53:58.808 DEBUG testcase.Esign                           - 40: waitForElementNotPresent(modal, 20, OPTIONAL)
+2026-05-27 08:54:19.549 WARN  .c.w.k.b.WaitForElementNotPresentKeyword - Web element with id: '' located by 'By.xpath: //*[contains(@class,'modal')]' is present after '20' second(s)
+2026-05-27 08:54:19.550 DEBUG testcase.Esign                           - 41: println("===== ESIGN SUCCESS =====")
+===== ESIGN SUCCESS =====
+2026-05-27 08:54:19.552 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TaskActions/Table_Actions/Esign
+2026-05-27 08:54:19.556 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-27 08:54:19.557 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TaskActions/Comments/TC_Add_Comment
+2026-05-27 08:54:19.643 DEBUG testcase.TC_Add_Comment                  - 1: waitForPageLoad(20)
+2026-05-27 08:54:19.655 DEBUG testcase.TC_Add_Comment                  - 2: waitForElementPresent(findTestObject("Page_Work Order  Index- Workforce Manager/input_Search"), 20)
+2026-05-27 08:54:39.841 WARN  k.k.c.w.k.b.WaitForElementPresentKeyword - Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is not present after 20 second(s)
+2026-05-27 08:54:39.844 DEBUG testcase.TC_Add_Comment                  - 3: waitForPageLoad(20)
+2026-05-27 08:54:39.858 DEBUG testcase.TC_Add_Comment                  - 4: waitForElementPresent(findTestObject("Page_Work Order  Index- Workforce Manager/input_Search"), 20)
+2026-05-27 08:55:00.084 WARN  k.k.c.w.k.b.WaitForElementPresentKeyword - Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is not present after 20 second(s)
+2026-05-27 08:55:00.086 DEBUG testcase.TC_Add_Comment                  - 5: click(findTestObject("Page_Work Order  View- Workforce Manager/div_Hi there, For line manager escalation or app"))
+2026-05-27 08:55:00.549 DEBUG testcase.TC_Add_Comment                  - 6: click(findTestObject("Page_Work Order  View- Workforce Manager/button_assign-modal-close-btn_1"))
+2026-05-27 08:55:01.050 DEBUG testcase.TC_Add_Comment                  - 7: click(findTestObject("Page_Work Order  View- Workforce Manager/a_Add Comment"))
+2026-05-27 08:55:01.644 DEBUG testcase.TC_Add_Comment                  - 8: setText(findTestObject("Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr"), "@chubby")
+2026-05-27 08:55:02.847 DEBUG testcase.TC_Add_Comment                  - 9: click(findTestObject("Page_Work Order  View- Workforce Manager/a_Chubby Chubbystandard user"))
+2026-05-27 08:55:04.548 DEBUG testcase.TC_Add_Comment                  - 10: setText(findTestObject("Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr"), "[~Chubby Chubby] ")
+2026-05-27 08:55:05.387 DEBUG testcase.TC_Add_Comment                  - 11: setText(findTestObject("Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr"), "[~Chubby Chubby] Smoke test comment Automation ")
+2026-05-27 08:55:06.577 DEBUG testcase.TC_Add_Comment                  - 12: click(findTestObject("Page_Work Order  View- Workforce Manager/a_save_comment"))
+2026-05-27 08:55:07.218 DEBUG testcase.TC_Add_Comment                  - 13: waitForElementVisible(findTestObject("Page_Work Order  View- Workforce Manager/div_Comment saved successfully"), 20)
+2026-05-27 08:55:27.869 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Object 'Object Repository/Page_Work Order  View- Workforce Manager/div_Comment saved successfully' is not visible after 20 second(s)
+2026-05-27 08:55:27.870 DEBUG testcase.TC_Add_Comment                  - 14: delay(2)
+2026-05-27 08:55:29.883 DEBUG testcase.TC_Add_Comment                  - 15: waitForElementClickable(findTestObject("Page_Work Order  View- Workforce Manager/button_SaveComment"), 20)
+2026-05-27 08:55:30.891 DEBUG testcase.TC_Add_Comment                  - 16: click(findTestObject("Page_Work Order  View- Workforce Manager/button_SaveComment"))
+2026-05-27 08:55:31.706 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TaskActions/Comments/TC_Add_Comment
+2026-05-27 08:55:31.711 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-27 08:55:31.712 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TaskActions/Change_Priority/Priority
+2026-05-27 08:55:31.863 DEBUG testcase.Priority                        - 1: waitForPageLoad(20)
+2026-05-27 08:55:31.874 DEBUG testcase.Priority                        - 2: waitForElementClickable(findTestObject("Page_Work Order  View- Workforce Manager/i_fa fa-pencil text-interact-blue"), 20)
+2026-05-27 08:55:32.260 DEBUG testcase.Priority                        - 3: click(findTestObject("Page_Work Order  View- Workforce Manager/i_fa fa-pencil text-interact-blue"))
+2026-05-27 08:55:32.630 DEBUG testcase.Priority                        - 4: waitForElementClickable(findTestObject("Page_Work Order  View- Workforce Manager/small_High"), 20)
+2026-05-27 08:55:33.045 DEBUG testcase.Priority                        - 5: click(findTestObject("Page_Work Order  View- Workforce Manager/small_High"))
+2026-05-27 08:55:36.220 DEBUG testcase.Priority                        - 6: click(findTestObject("Page_Work Order  View- Workforce Manager/div_Successful"))
+2026-05-27 08:55:39.572 DEBUG testcase.Priority                        - 7: click(findTestObject("Page_Work Order  View- Workforce Manager/button_OK"))
+2026-05-27 08:55:41.673 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TaskActions/Change_Priority/Priority
+2026-05-27 08:55:41.786 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-27 08:55:41.786 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TaskActions/Table_Actions/Download_File
+2026-05-27 08:55:41.901 DEBUG testcase.Download_File                   - 1: waitForPageLoad(20)
+2026-05-27 08:55:41.913 DEBUG testcase.Download_File                   - 2: waitForElementPresent(findTestObject("Page_Work Order  Index- Workforce Manager/input_Search"), 20)
+2026-05-27 08:56:02.069 WARN  k.k.c.w.k.b.WaitForElementPresentKeyword - Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is not present after 20 second(s)
+2026-05-27 08:56:02.072 DEBUG testcase.Download_File                   - 3: click(findTestObject("Page_Work Order  View- Workforce Manager/btn_Download"))
+2026-05-27 08:56:02.712 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TaskActions/Table_Actions/Download_File
+2026-05-27 08:56:02.715 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-27 08:56:02.715 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TaskActions/Table_Actions/View_File
+2026-05-27 08:56:02.887 DEBUG testcase.View_File                       - 1: waitForPageLoad(20)
+2026-05-27 08:56:02.954 DEBUG testcase.View_File                       - 2: waitForElementPresent(findTestObject("Page_Work Order  Index- Workforce Manager/input_Search"), 20)
+2026-05-27 08:56:23.117 WARN  k.k.c.w.k.b.WaitForElementPresentKeyword - Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is not present after 20 second(s)
+2026-05-27 08:56:23.119 DEBUG testcase.View_File                       - 3: click(findTestObject("Page_Work Order  View- Workforce Manager/btn_View"))
+2026-05-27 08:56:23.616 DEBUG testcase.View_File                       - 4: println("Viewer opened")
+Viewer opened
+2026-05-27 08:56:23.618 DEBUG testcase.View_File                       - 5: delay(5)
+2026-05-27 08:56:28.633 DEBUG testcase.View_File                       - 6: waitForElementVisible(findTestObject("Page_Work Order  View- Workforce Manager/i_fa fa-chevron-right_1"), 20)
+2026-05-27 08:56:29.008 DEBUG testcase.View_File                       - 7: click(findTestObject("Page_Work Order  View- Workforce Manager/i_fa fa-chevron-right_1"))
+2026-05-27 08:56:29.404 DEBUG testcase.View_File                       - 8: println("Viewer closed")
+Viewer closed
+2026-05-27 08:56:29.407 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TaskActions/Table_Actions/View_File
+2026-05-27 08:56:30.059 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-05-27 08:56:30.059 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Survey_suite_model
+2026-05-27 08:56:30.059 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

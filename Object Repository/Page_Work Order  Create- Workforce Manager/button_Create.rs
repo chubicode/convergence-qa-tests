@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Create</name>
+   <tag></tag>
+   <elementGuidId>a8e8ec12-9ca8-4c34-8360-c2ec0e6d2c62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wfm-c-button--primary ') and contains(concat(' ', normalize-space(@class), ' '), ' wfm-c-button--lg ') and (@type = 'submit')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.wfm-c-button--primary.wfm-c-button--lg[type=&quot;submit&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Create  ' or . = 'Create  ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Create&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>07766ec6-06c4-4b31-b598-a2b4619765fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>d9419036-e01a-4206-aa92-65bb26455a4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wfm-c-button wfm-c-button--primary wfm-c-button--lg</value>
+      <webElementGuid>0c209fe6-818e-4074-958f-0d5223840f8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create  </value>
+      <webElementGuid>18087eb3-1a86-4bda-8ee1-d7e3237c988b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0c01dfbd5609d4a3d43691e50dd02a4d</value>
+      <webElementGuid>6cd55c58-b99b-4588-831b-fb06813c4c84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wfm-c-button--primary ') and contains(concat(' ', normalize-space(@class), ' '), ' wfm-c-button--lg ') and (@type = 'submit')]</value>
+      <webElementGuid>ff93f11f-2d4e-4791-a9db-c8e9c86cab53</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wfm-c-button--primary ') and contains(concat(' ', normalize-space(@class), ' '), ' wfm-c-button--lg ') and (@type = 'submit')]</value>
+      <webElementGuid>616e62ff-cd8d-4d6a-a08e-c038852360ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Create  ' or . = 'Create  ')]</value>
+      <webElementGuid>a150e959-8ec2-4811-b15e-d75fbb4d2536</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wfm-c-button--lg ')]</value>
+      <webElementGuid>6e889c30-6158-4900-acef-ff09eb22012c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

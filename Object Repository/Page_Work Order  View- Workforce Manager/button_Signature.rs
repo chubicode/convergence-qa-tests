@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Signature</name>
+   <tag></tag>
+   <elementGuidId>c5ef918d-7e9b-4030-b45b-38437a378e7a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.overflow-y-scroll.flex-col > .fon:nth-child(1)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' overflow-y-scroll ') and contains(concat(' ', normalize-space(@class), ' '), ' flex-col ')]/*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fon ') and (position() = 1)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Signature&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7c537192-ccb7-437e-bbaa-a110332829bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-2 flex flex-row items-center border-[1px]  gap-3 rounded-md bg-white cursor-pointer fon </value>
+      <webElementGuid>d66dfec1-5805-4bfb-b23d-a8284f24b2fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Signature</value>
+      <webElementGuid>21315b7b-04a2-426d-9448-92a763e0e286</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-93f89ca8743ffb890e2cf8e12bc47ad9</value>
+      <webElementGuid>4da2c921-52e7-4821-8412-3a8525343ac2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' overflow-y-scroll ') and contains(concat(' ', normalize-space(@class), ' '), ' flex-col ')]/*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fon ') and (position() = 1)]</value>
+      <webElementGuid>19647f9f-49a4-40ed-95a3-f23f661fb676</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Work Order  View- Workforce Manager/iframe_esign-widget</value>
+      <webElementGuid>f617eea4-b9d6-4f2a-a409-76c1850ce9cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' overflow-y-scroll ') and contains(concat(' ', normalize-space(@class), ' '), ' flex-col ')]/*[@class and contains(concat(' ', normalize-space(@class), ' '), ' fon ') and (position() = 1)]</value>
+      <webElementGuid>12d43f97-9f7b-4770-9e6e-b1aee9c1f33f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Signature' or . = 'Signature')]</value>
+      <webElementGuid>e5f5b99a-429d-4c34-8775-f84fa1fb9566</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

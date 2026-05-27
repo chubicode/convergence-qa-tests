@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Survey_suite_model" time="61.416" tests="3" passed="3" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Survey_suite_model" tests="3" passed="3" failures="0" errors="0" incompleted="0" skipped="0" time="61.416" timestamp="2026-05-19T10:18:13.295Z" hostname="CROWN-STAFF - DESKTOP-4SI0S1N" id="Test Suites/Survey_suite_model" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\CROWN-STAFF\\git\\convergence-qa-tests\\Reports\\20260519_111752\\Survey_suite_model\\20260519_111753"/>
+         <property name="logFiles" value="C:\\Users\\CROWN-STAFF\\git\\convergence-qa-tests\\Reports\\20260519_111752\\Survey_suite_model\\20260519_111753\\console0.log, C:\\Users\\CROWN-STAFF\\git\\convergence-qa-tests\\Reports\\20260519_111752\\Survey_suite_model\\20260519_111753\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="CROWN-STAFF - DESKTOP-4SI0S1N"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.1.3.0"/>
+         <property name="browser" value="Chrome 148.0.7778.168"/>
+         <property name="userFullName" value="Chinwuba Okafor"/>
+         <property name="hostAddress" value="192.168.2.111"/>
+         <property name="sessionId" value="1de2a1077eff7c399ee202a47aea78ac"/>
+         <property name="projectName" value="convergence-qa-tests"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login with Invalid Credentials_Wrong Password" time="26.005" classname="Test Cases/Login/Login with Invalid Credentials_Wrong Password" status="PASSED">
+         <system-out><![CDATA[19-05-2026T11:18:14 - [TEST_CASE][PASSED] - Test Cases/Login/Login with Invalid Credentials_Wrong Password: Test Cases/Login/Login with Invalid Credentials_Wrong Password
+
+19-05-2026T11:18:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-05-2026T11:18:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-05-2026T11:18:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2026T11:18:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-05-2026T11:18:25 - [TEST_STEP][PASSED] - navigateToUrl("https://convergenceondemand.com/login"): Navigate to 'https://convergenceondemand.com/login' successfully
+
+19-05-2026T11:18:26 - [MESSAGE][PASSED] - Navigate to 'https://convergenceondemand.com/login' successfully
+
+19-05-2026T11:18:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-05-2026T11:18:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-05-2026T11:18:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-05-2026T11:18:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2026T11:18:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-05-2026T11:18:33 - [TEST_STEP][PASSED] - navigateToUrl("https://convergenceondemand.com/login"): Navigate to 'https://convergenceondemand.com/login' successfully
+
+19-05-2026T11:18:34 - [MESSAGE][PASSED] - Navigate to 'https://convergenceondemand.com/login' successfully
+
+19-05-2026T11:18:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_1Government Login/input_Enter your MDA"), "govtest"): Text 'govtest' is set on object 'Object Repository/Page_1Government Login/input_Enter your MDA'
+
+19-05-2026T11:18:37 - [MESSAGE][PASSED] - Text 'govtest' is set on object 'Object Repository/Page_1Government Login/input_Enter your MDA'
+
+19-05-2026T11:18:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_1Government Login/input_Enter Email"), "apisupport@cicod.com"): Text 'apisupport@cicod.com' is set on object 'Object Repository/Page_1Government Login/input_Enter Email'
+
+19-05-2026T11:18:38 - [MESSAGE][PASSED] - Text 'apisupport@cicod.com' is set on object 'Object Repository/Page_1Government Login/input_Enter Email'
+
+19-05-2026T11:18:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_1Government Login/input_Enter password"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/Page_1Government Login/input_Enter password'
+
+19-05-2026T11:18:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_1Government Login/input_Enter password'
+
+19-05-2026T11:18:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_1Government Login/button_Login")): Object: 'Object Repository/Page_1Government Login/button_Login' is clicked on
+
+19-05-2026T11:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_1Government Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login With Valid Credentials" time="15.97" classname="Test Cases/Login/Login With Valid Credentials" status="PASSED">
+         <system-out><![CDATA[19-05-2026T11:18:40 - [TEST_CASE][PASSED] - Test Cases/Login/Login With Valid Credentials: Test Cases/Login/Login With Valid Credentials
+
+19-05-2026T11:18:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-05-2026T11:18:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-05-2026T11:18:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-05-2026T11:18:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2026T11:18:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-05-2026T11:18:45 - [TEST_STEP][PASSED] - navigateToUrl("https://convergenceondemand.com/login"): Navigate to 'https://convergenceondemand.com/login' successfully
+
+19-05-2026T11:18:46 - [MESSAGE][PASSED] - Navigate to 'https://convergenceondemand.com/login' successfully
+
+19-05-2026T11:18:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-05-2026T11:18:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-05-2026T11:18:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-05-2026T11:18:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2026T11:18:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-05-2026T11:18:50 - [TEST_STEP][PASSED] - navigateToUrl("https://convergenceondemand.com/login"): Navigate to 'https://convergenceondemand.com/login' successfully
+
+19-05-2026T11:18:51 - [MESSAGE][PASSED] - Navigate to 'https://convergenceondemand.com/login' successfully
+
+19-05-2026T11:18:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_1Government Login/input_Enter your MDA"), "govtest"): Text 'govtest' is set on object 'Object Repository/Page_1Government Login/input_Enter your MDA'
+
+19-05-2026T11:18:53 - [MESSAGE][PASSED] - Text 'govtest' is set on object 'Object Repository/Page_1Government Login/input_Enter your MDA'
+
+19-05-2026T11:18:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_1Government Login/input_Enter Email"), "apisupport@cicod.com"): Text 'apisupport@cicod.com' is set on object 'Object Repository/Page_1Government Login/input_Enter Email'
+
+19-05-2026T11:18:54 - [MESSAGE][PASSED] - Text 'apisupport@cicod.com' is set on object 'Object Repository/Page_1Government Login/input_Enter Email'
+
+19-05-2026T11:18:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_1Government Login/input_Enter password"), "9zJdpvfgkgtFa8MQRHGI0w=="): Text ****** has been set on object 'Object Repository/Page_1Government Login/input_Enter password'
+
+19-05-2026T11:18:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_1Government Login/input_Enter password'
+
+19-05-2026T11:18:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_1Government Login/button_Login")): Object: 'Object Repository/Page_1Government Login/button_Login' is clicked on
+
+19-05-2026T11:18:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_1Government Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login with Invalid Credentials_ Empty Username" time="18.652" classname="Test Cases/Login/Login with Invalid Credentials_ Empty Username" status="PASSED">
+         <system-out><![CDATA[19-05-2026T11:18:56 - [TEST_CASE][PASSED] - Test Cases/Login/Login with Invalid Credentials_ Empty Username: Test Cases/Login/Login with Invalid Credentials_ Empty Username
+
+19-05-2026T11:18:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-05-2026T11:18:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+19-05-2026T11:18:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-05-2026T11:18:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2026T11:19:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-05-2026T11:19:00 - [TEST_STEP][PASSED] - navigateToUrl("https://convergenceondemand.com/login"): Navigate to 'https://convergenceondemand.com/login' successfully
+
+19-05-2026T11:19:01 - [MESSAGE][PASSED] - Navigate to 'https://convergenceondemand.com/login' successfully
+
+19-05-2026T11:19:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_1Government Login/input_Enter your MDA")): Object: 'Object Repository/Page_1Government Login/input_Enter your MDA' is clicked on
+
+19-05-2026T11:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_1Government Login/input_Enter your MDA' is clicked on
+
+19-05-2026T11:19:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_1Government Login/input_Enter Email"), "apisupport@cicod.com"): Text 'apisupport@cicod.com' is set on object 'Object Repository/Page_1Government Login/input_Enter Email'
+
+19-05-2026T11:19:03 - [MESSAGE][PASSED] - Text 'apisupport@cicod.com' is set on object 'Object Repository/Page_1Government Login/input_Enter Email'
+
+19-05-2026T11:19:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_1Government Login/input_Enter password"), "9zJdpvfgkgtFa8MQRHGI0w=="): Text ****** has been set on object 'Object Repository/Page_1Government Login/input_Enter password'
+
+19-05-2026T11:19:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_1Government Login/input_Enter password'
+
+19-05-2026T11:19:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_1Government Login/button_Login")): Object: 'Object Repository/Page_1Government Login/button_Login' is clicked on
+
+19-05-2026T11:19:14 - [MESSAGE][WARNING] - Waiting for element timed out
+
+19-05-2026T11:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_1Government Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-05-2026T11:18:13 - [TEST_SUITE][PASSED] - Survey_suite_model: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

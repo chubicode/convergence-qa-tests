@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Survey_suite_model" time="572.728" tests="1" passed="0" failures="0" errors="1" incompleted="0" skipped="0">
+   <testsuite name="Survey_suite_model" tests="1" passed="0" failures="0" errors="1" incompleted="0" skipped="0" time="572.728" timestamp="2026-05-26T15:09:56.510Z" hostname="CROWN-STAFF - DESKTOP-4SI0S1N" id="Test Suites/Survey_suite_model" status="ERROR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\CROWN-STAFF\\git\\convergence-qa-tests\\Reports\\20260526_160945\\Survey_suite_model\\20260526_160945"/>
+         <property name="logFiles" value="C:\\Users\\CROWN-STAFF\\git\\convergence-qa-tests\\Reports\\20260526_160945\\Survey_suite_model\\20260526_160945\\console0.log, C:\\Users\\CROWN-STAFF\\git\\convergence-qa-tests\\Reports\\20260526_160945\\Survey_suite_model\\20260526_160945\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\CROWN-STAFF\\git\\convergence-qa-tests\\Reports\\20260526_160945\\Survey_suite_model\\20260526_160945\\1779808382038.png, C:\\Users\\CROWN-STAFF\\git\\convergence-qa-tests\\Reports\\20260526_160945\\Survey_suite_model\\20260526_160945\\1779808558652.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="CROWN-STAFF - DESKTOP-4SI0S1N"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.1.3.0"/>
+         <property name="browser" value="Chrome 148.0.7778.179"/>
+         <property name="userFullName" value="Chinwuba Okafor"/>
+         <property name="hostAddress" value="192.168.2.111"/>
+         <property name="sessionId" value="225a5c05b78441a85e954eb01dfcce4b"/>
+         <property name="projectName" value="convergence-qa-tests"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Setup/TC_Prepare_Task" time="195.006" classname="Test Cases/Setup/TC_Prepare_Task" status="ERROR">
+         <error type="ERROR" message="Test Cases/Setup/TC_Prepare_Task FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive' failed because of error(s)&#xa;	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)&#xa;	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)&#xa;	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:294)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;	at TC_Prepare_Task.run(TC_Prepare_Task:28)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)&#xa;	at S0526_48.run(S0526_48.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id&#xa;Build info: version: '4.39.0', revision: '126f156aee'&#xa;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [225a5c05b78441a85e954eb01dfcce4b, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.4DAC052CA3FEB4FE51CE0528B32FF850.d.1C08B71D40416BD199F0CE767F43DCB6.e.28805}]}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\CROWN-~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60209}, goog:processID: 37312, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60209/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:37136/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 225a5c05b78441a85e954eb01dfcce4b&#xa;	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$R84BUx1H.executeScript(Unknown Source)&#xa;	at Upload_File_From_Govdrive.run(Upload_File_From_Govdrive:174)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)&#xa;	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:152)&#xa;	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)&#xa;	... 24 more&#xa;"/>
+         <system-out><![CDATA[26-05-2026T16:16:14 - [TEST_CASE][ERROR] - Test Cases/Setup/TC_Prepare_Task: Test Cases/Setup/TC_Prepare_Task FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:294)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Prepare_Task.run(TC_Prepare_Task:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0526_48.run(S0526_48.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [225a5c05b78441a85e954eb01dfcce4b, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.4DAC052CA3FEB4FE51CE0528B32FF850.d.1C08B71D40416BD199F0CE767F43DCB6.e.28805}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\CROWN-~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60209}, goog:processID: 37312, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60209/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:37136/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 225a5c05b78441a85e954eb01dfcce4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$R84BUx1H.executeScript(Unknown Source)
+	at Upload_File_From_Govdrive.run(Upload_File_From_Govdrive:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:152)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 24 more
+
+
+26-05-2026T16:16:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Authentication/TC_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Authentication/TC_Login' successfully
+
+26-05-2026T16:16:14 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC_Login: Test Cases/Authentication/TC_Login
+
+26-05-2026T16:16:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-05-2026T16:16:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-05-2026T16:16:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2026T16:16:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2026T16:16:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-05-2026T16:16:15 - [TEST_STEP][PASSED] - navigateToUrl("https://convergenceondemand.com/login"): Navigate to 'https://convergenceondemand.com/login' successfully
+
+26-05-2026T16:16:20 - [MESSAGE][PASSED] - Navigate to 'https://convergenceondemand.com/login' successfully
+
+26-05-2026T16:16:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_1Government Login/input_Enter your MDA"), "govtest"): Text 'govtest' is set on object 'Object Repository/Page_1Government Login/input_Enter your MDA'
+
+26-05-2026T16:16:21 - [MESSAGE][PASSED] - Text 'govtest' is set on object 'Object Repository/Page_1Government Login/input_Enter your MDA'
+
+26-05-2026T16:16:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_1Government Login/input_Enter Email"), "apisupport@cicod.com"): Text 'apisupport@cicod.com' is set on object 'Object Repository/Page_1Government Login/input_Enter Email'
+
+26-05-2026T16:16:22 - [MESSAGE][PASSED] - Text 'apisupport@cicod.com' is set on object 'Object Repository/Page_1Government Login/input_Enter Email'
+
+26-05-2026T16:16:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_1Government Login/input_Enter password"), "9zJdpvfgkgtFa8MQRHGI0w=="): Text ****** has been set on object 'Object Repository/Page_1Government Login/input_Enter password'
+
+26-05-2026T16:16:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_1Government Login/input_Enter password'
+
+26-05-2026T16:16:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_1Government Login/button_Login")): Object: 'Object Repository/Page_1Government Login/button_Login' is clicked on
+
+26-05-2026T16:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_1Government Login/button_Login' is clicked on
+
+26-05-2026T16:16:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Authentication/TC_Login' successfully
+
+26-05-2026T16:16:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Navigation/TC_Open_Task_Module"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Navigation/TC_Open_Task_Module' successfully
+
+26-05-2026T16:16:23 - [TEST_CASE][PASSED] - Test Cases/Navigation/TC_Open_Task_Module: Test Cases/Navigation/TC_Open_Task_Module
+
+26-05-2026T16:16:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_1Gov/p_Automate Government MDAs critical operations,")): Object: 'Object Repository/Page_1Gov/p_Automate Government MDAs critical operations,' is clicked on
+
+26-05-2026T16:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_1Gov/p_Automate Government MDAs critical operations,' is clicked on
+
+26-05-2026T16:17:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigation/TC_Open_Task_Module' successfully
+
+26-05-2026T16:17:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Setup/TC_Create_Task"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Setup/TC_Create_Task' successfully
+
+26-05-2026T16:17:13 - [TEST_CASE][PASSED] - Test Cases/Setup/TC_Create_Task: Test Cases/Setup/TC_Create_Task
+
+26-05-2026T16:17:13 - [TEST_STEP][PASSED] - navigateToUrl("https://govtest.convergenceondemand.com/wfm/index.php?r=workOrder#active-tickets"): Navigate to 'https://govtest.convergenceondemand.com/wfm/index.php?r=workOrder#active-tickets' successfully
+
+26-05-2026T16:17:13 - [MESSAGE][PASSED] - Navigate to 'https://govtest.convergenceondemand.com/wfm/index.php?r=workOrder#active-tickets' successfully
+
+26-05-2026T16:17:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+26-05-2026T16:17:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+26-05-2026T16:17:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2026T16:17:18 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2026T16:17:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Index- Workforce Manager/a_Create Task")): Object: 'Object Repository/Page_Work Order  Index- Workforce Manager/a_Create Task' is clicked on
+
+26-05-2026T16:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Index- Workforce Manager/a_Create Task' is clicked on
+
+26-05-2026T16:17:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/span_Select Queue")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/span_Select Queue' is clicked on
+
+26-05-2026T16:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/span_Select Queue' is clicked on
+
+26-05-2026T16:17:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Search"), "aut"): Text 'aut' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Search'
+
+26-05-2026T16:17:26 - [MESSAGE][PASSED] - Text 'aut' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Search'
+
+26-05-2026T16:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/a_TEST AUTOMATION")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/a_TEST AUTOMATION' is clicked on
+
+26-05-2026T16:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/a_TEST AUTOMATION' is clicked on
+
+26-05-2026T16:17:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/span_Select Queue Type")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/span_Select Queue Type' is clicked on
+
+26-05-2026T16:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/span_Select Queue Type' is clicked on
+
+26-05-2026T16:17:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/span_Automated Testing")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/span_Automated Testing' is clicked on
+
+26-05-2026T16:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/span_Automated Testing' is clicked on
+
+26-05-2026T16:17:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Task Title _"), "TEST AUTOMATION 10028791"): Text 'TEST AUTOMATION 10028791' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Task Title _'
+
+26-05-2026T16:17:35 - [MESSAGE][PASSED] - Text 'TEST AUTOMATION 10028791' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Task Title _'
+
+26-05-2026T16:17:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/textarea_Description"), "Smoke Test"): Text 'Smoke Test' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/textarea_Description'
+
+26-05-2026T16:17:36 - [MESSAGE][PASSED] - Text 'Smoke Test' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/textarea_Description'
+
+26-05-2026T16:17:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Input First Name"), "Mr"): Text 'Mr' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input First Name'
+
+26-05-2026T16:17:36 - [MESSAGE][PASSED] - Text 'Mr' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input First Name'
+
+26-05-2026T16:17:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Input Last Name"), "Adekola"): Text 'Adekola' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input Last Name'
+
+26-05-2026T16:17:37 - [MESSAGE][PASSED] - Text 'Adekola' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input Last Name'
+
+26-05-2026T16:17:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Input Phone Number"), "Cole"): Text 'Cole' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input Phone Number'
+
+26-05-2026T16:17:38 - [MESSAGE][PASSED] - Text 'Cole' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input Phone Number'
+
+26-05-2026T16:17:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Input Email Address"), "testautomation@cicod.com"): Text 'testautomation@cicod.com' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input Email Address'
+
+26-05-2026T16:17:39 - [MESSAGE][PASSED] - Text 'testautomation@cicod.com' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input Email Address'
+
+26-05-2026T16:17:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_house_no"), "45b"): Text '45b' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_house_no'
+
+26-05-2026T16:17:39 - [MESSAGE][PASSED] - Text '45b' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_house_no'
+
+26-05-2026T16:17:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_street"), "Admiralty Way"): Text 'Admiralty Way' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_street'
+
+26-05-2026T16:17:40 - [MESSAGE][PASSED] - Text 'Admiralty Way' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_street'
+
+26-05-2026T16:17:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Work Order  Create- Workforce Manager/select_AngolaCameroonCongoEthopiaNigeriaSouth Af"), "Nigeria", false): All options with value 'Nigeria' are selected in object 'Object Repository/Page_Work Order  Create- Workforce Manager/select_AngolaCameroonCongoEthopiaNigeriaSouth Af' 
+
+26-05-2026T16:17:41 - [MESSAGE][PASSED] - All options with value 'Nigeria' are selected in object 'Object Repository/Page_Work Order  Create- Workforce Manager/select_AngolaCameroonCongoEthopiaNigeriaSouth Af' 
+
+26-05-2026T16:17:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Work Order  Create- Workforce Manager/select_Select StateAbiaAbujaAdamawaAkwa IbomAnam"), "Lagos", false): All options with value 'Lagos' are selected in object 'Object Repository/Page_Work Order  Create- Workforce Manager/select_Select StateAbiaAbujaAdamawaAkwa IbomAnam' 
+
+26-05-2026T16:17:41 - [MESSAGE][PASSED] - All options with value 'Lagos' are selected in object 'Object Repository/Page_Work Order  Create- Workforce Manager/select_Select StateAbiaAbujaAdamawaAkwa IbomAnam' 
+
+26-05-2026T16:17:41 - [TEST_STEP][PASSED] - switchToWindowTitle("Work Order | Create- Workforce Manager"): Switched to window with title: 'Work Order | Create- Workforce Manager'
+
+26-05-2026T16:17:41 - [MESSAGE][PASSED] - Switched to window with title: 'Work Order | Create- Workforce Manager'
+
+26-05-2026T16:17:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/input_optionsRadios1")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_optionsRadios1' is clicked on
+
+26-05-2026T16:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_optionsRadios1' is clicked on
+
+26-05-2026T16:17:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/input_optionsChecks1")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_optionsChecks1' is clicked on
+
+26-05-2026T16:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_optionsChecks1' is clicked on
+
+26-05-2026T16:17:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Select Date"), "2026-05-20"): Text '2026-05-20' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Select Date'
+
+26-05-2026T16:17:43 - [MESSAGE][PASSED] - Text '2026-05-20' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Select Date'
+
+26-05-2026T16:17:43 - [TEST_STEP][PASSED] - filePath = getProjectDir() + "/Include/test-files/data_backup.png": null
+
+26-05-2026T16:17:43 - [TEST_STEP][PASSED] - assert File(filePath).exists(): null
+
+26-05-2026T16:17:43 - [TEST_STEP][PASSED] - uploadObj = findTestObject("Page_Work Order  Create- Workforce Manager/input_take-photo-input-selected_file"): null
+
+26-05-2026T16:17:43 - [TEST_STEP][PASSED] - waitForElementPresent(uploadObj, 10): Object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_take-photo-input-selected_file' is present
+
+26-05-2026T16:17:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_take-photo-input-selected_file' is present
+
+26-05-2026T16:17:43 - [TEST_STEP][PASSED] - uploadFile(uploadObj, filePath): File 'C:/Users/CROWN-STAFF/git/convergence-qa-tests/Include/test-files/data_backup.png' sent to object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_take-photo-input-selected_file'
+
+26-05-2026T16:17:43 - [MESSAGE][WARNING] - Cannot clear the existing file path in the input element. Continue to upload file.
+
+26-05-2026T16:17:43 - [MESSAGE][PASSED] - File 'C:/Users/CROWN-STAFF/git/convergence-qa-tests/Include/test-files/data_backup.png' sent to object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_take-photo-input-selected_file'
+
+26-05-2026T16:17:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/input_should_assign_ticket")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_should_assign_ticket' is clicked on
+
+26-05-2026T16:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_should_assign_ticket' is clicked on
+
+26-05-2026T16:17:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Work Order  Create- Workforce Manager/select_assign-to-user"), "82", false): All options with value '82' are selected in object 'Object Repository/Page_Work Order  Create- Workforce Manager/select_assign-to-user' 
+
+26-05-2026T16:17:45 - [MESSAGE][PASSED] - All options with value '82' are selected in object 'Object Repository/Page_Work Order  Create- Workforce Manager/select_assign-to-user' 
+
+26-05-2026T16:17:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Work Order  Create- Workforce Manager/button_Create"), 20): Object 'Object Repository/Page_Work Order  Create- Workforce Manager/button_Create' is clickable
+
+26-05-2026T16:17:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  Create- Workforce Manager/button_Create' is clickable
+
+26-05-2026T16:17:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/button_Create")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/button_Create' is clicked on
+
+26-05-2026T16:17:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/button_Create' is clicked on
+
+26-05-2026T16:17:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Setup/TC_Create_Task' successfully
+
+26-05-2026T16:17:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Setup/TC_Open_Task_Details"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Setup/TC_Open_Task_Details' successfully
+
+26-05-2026T16:17:45 - [TEST_CASE][PASSED] - Test Cases/Setup/TC_Open_Task_Details: Test Cases/Setup/TC_Open_Task_Details
+
+26-05-2026T16:17:45 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+26-05-2026T16:17:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-05-2026T16:17:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+26-05-2026T16:17:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+26-05-2026T16:17:48 - [TEST_STEP][PASSED] - modal = new com.kms.katalon.core.testobject.TestObject(): null
+
+26-05-2026T16:17:48 - [TEST_STEP][PASSED] - modal.addProperty("xpath", EQUALS, "//*[contains(text(),'Ticket ID')]"): null
+
+26-05-2026T16:17:48 - [TEST_STEP][WARNING] - waitForElementVisible(modal, 30): Object '' is not visible after 30 second(s)
+
+26-05-2026T16:18:19 - [MESSAGE][WARNING] - Object '' is not visible after 30 second(s)
+
+26-05-2026T16:18:19 - [TEST_STEP][PASSED] - successMessage = getText(modal): Text of object '' is: 'Task Created Successfully - Ticket ID: 16702'
+
+26-05-2026T16:18:19 - [MESSAGE][PASSED] - Text of object '' is: 'Task Created Successfully - Ticket ID: 16702'
+
+26-05-2026T16:18:19 - [TEST_STEP][PASSED] - println("SUCCESS → " + successMessage): null
+
+26-05-2026T16:18:19 - [TEST_STEP][PASSED] - matcher = successMessage =~ "\d+": null
+
+26-05-2026T16:18:19 - [TEST_STEP][PASSED] - if (!(matcher.find())): null
+
+26-05-2026T16:18:19 - [TEST_STEP][PASSED] - ticketId = matcher.group(): null
+
+26-05-2026T16:18:19 - [TEST_STEP][PASSED] - println("Captured Ticket → " + ticketId): null
+
+26-05-2026T16:18:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/button_message-dismiss")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/button_message-dismiss' is clicked on
+
+26-05-2026T16:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/button_message-dismiss' is clicked on
+
+26-05-2026T16:18:21 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+26-05-2026T16:18:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-05-2026T16:18:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:18:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Index- Workforce Manager/a_Created By Me")): Object: 'Object Repository/Page_Work Order  Index- Workforce Manager/a_Created By Me' is clicked on
+
+26-05-2026T16:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Index- Workforce Manager/a_Created By Me' is clicked on
+
+26-05-2026T16:18:24 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+26-05-2026T16:18:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-05-2026T16:18:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+26-05-2026T16:18:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+26-05-2026T16:18:27 - [TEST_STEP][PASSED] - search = findTestObject("Page_Work Order  Index- Workforce Manager/input_Search"): null
+
+26-05-2026T16:18:27 - [TEST_STEP][PASSED] - waitForElementVisible(search, 30): Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is visible
+
+26-05-2026T16:18:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is visible
+
+26-05-2026T16:18:27 - [TEST_STEP][PASSED] - click(search): Object: 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is clicked on
+
+26-05-2026T16:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is clicked on
+
+26-05-2026T16:18:27 - [TEST_STEP][PASSED] - clearText(search): Text of object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is cleared
+
+26-05-2026T16:18:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is cleared
+
+26-05-2026T16:18:28 - [TEST_STEP][PASSED] - setText(search, ticketId): Text '16702' is set on object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search'
+
+26-05-2026T16:18:29 - [MESSAGE][PASSED] - Text '16702' is set on object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search'
+
+26-05-2026T16:18:29 - [TEST_STEP][PASSED] - sendKeys(search, Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search'
+
+26-05-2026T16:18:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search'
+
+26-05-2026T16:18:29 - [TEST_STEP][PASSED] - println("Searching → " + ticketId): null
+
+26-05-2026T16:18:29 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+26-05-2026T16:18:37 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+26-05-2026T16:18:37 - [TEST_STEP][PASSED] - row = new com.kms.katalon.core.testobject.TestObject(): null
+
+26-05-2026T16:18:37 - [TEST_STEP][PASSED] - row.addProperty("xpath", EQUALS, //tr[.//*[contains(text(),'$ticketId')]]): null
+
+26-05-2026T16:18:37 - [TEST_STEP][PASSED] - found = waitForElementPresent(row, 30): Object '' is present
+
+26-05-2026T16:18:37 - [MESSAGE][PASSED] - Object '' is present
+
+26-05-2026T16:18:37 - [TEST_STEP][PASSED] - if (!(found)): null
+
+26-05-2026T16:18:37 - [TEST_STEP][PASSED] - println("Ticket row found"): null
+
+26-05-2026T16:18:37 - [TEST_STEP][PASSED] - titleLink = new com.kms.katalon.core.testobject.TestObject(): null
+
+26-05-2026T16:18:37 - [TEST_STEP][PASSED] - titleLink.addProperty("xpath", EQUALS, (//tr[.//*[contains(text(),'$ticketId')]]//td[3]//a) | (//tr[.//*[contains(text(),'$ticketId')]]//td[3]//*[self::span or self::div])): null
+
+26-05-2026T16:18:37 - [TEST_STEP][PASSED] - waitForElementVisible(titleLink, 30): Object '' is visible
+
+26-05-2026T16:18:38 - [MESSAGE][PASSED] - Object '' is visible
+
+26-05-2026T16:18:38 - [TEST_STEP][PASSED] - scrollToElement(titleLink, 10): Scroll to object '' successfully
+
+26-05-2026T16:18:38 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+26-05-2026T16:18:38 - [TEST_STEP][PASSED] - link = findWebElement(titleLink, 20): Found web element by test object 
+
+26-05-2026T16:18:38 - [MESSAGE][PASSED] - Found web element by test object 
+
+26-05-2026T16:18:38 - [TEST_STEP][PASSED] - executeJavaScript("\narguments[0].scrollIntoView({\nblock:'center'\n});\n", Arrays.asList(link)): Execute JavaScript '
+arguments[0].scrollIntoView({
+block:'center'
+});
+' successfully
+
+26-05-2026T16:18:38 - [MESSAGE][PASSED] - Execute JavaScript '
+arguments[0].scrollIntoView({
+block:'center'
+});
+' successfully
+
+26-05-2026T16:18:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:18:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:18:40 - [TEST_STEP][PASSED] - println("Opening ticket"): null
+
+26-05-2026T16:18:40 - [TEST_STEP][PASSED] - try: Object: '' is clicked on
+
+26-05-2026T16:18:40 - [TEST_STEP][PASSED] - click(titleLink): Object: '' is clicked on
+
+26-05-2026T16:18:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+26-05-2026T16:18:44 - [TEST_STEP][PASSED] - opened = false: null
+
+26-05-2026T16:18:44 - [TEST_STEP][PASSED] - for ([i = 0, i < 30, (i++)]): null
+
+26-05-2026T16:18:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+26-05-2026T16:18:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-05-2026T16:18:45 - [TEST_STEP][PASSED] - details = new com.kms.katalon.core.testobject.TestObject(): null
+
+26-05-2026T16:18:45 - [TEST_STEP][PASSED] - details.addProperty("xpath", EQUALS, "\n//*[contains(text(),'Priority')]\n|\n//*[contains(text(),'Task Details')]\n|\n//*[contains(text(),'Queue')]\n"): null
+
+26-05-2026T16:18:45 - [TEST_STEP][PASSED] - if (verifyElementPresent(details, 1, OPTIONAL)): null
+
+26-05-2026T16:18:47 - [MESSAGE][PASSED] - Object '' is present
+
+26-05-2026T16:18:47 - [TEST_STEP][PASSED] - opened = true: null
+
+26-05-2026T16:18:47 - [TEST_STEP][PASSED] - break: null
+
+26-05-2026T16:18:47 - [TEST_STEP][PASSED] - if (!(opened)): null
+
+26-05-2026T16:18:47 - [TEST_STEP][PASSED] - println("TASK DETAILS OPENED → " + ticketId): null
+
+26-05-2026T16:18:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Setup/TC_Open_Task_Details' successfully
+
+26-05-2026T16:18:47 - [TEST_STEP][ERROR] - callTestCase(findTestCase("TaskActions/Uploads/Upload_File_From_Govdrive"), [:], STOP_ON_FAILURE): Test Cases/Setup/TC_Prepare_Task FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:294)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Prepare_Task.run(TC_Prepare_Task:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0526_48.run(S0526_48.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [225a5c05b78441a85e954eb01dfcce4b, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.4DAC052CA3FEB4FE51CE0528B32FF850.d.1C08B71D40416BD199F0CE767F43DCB6.e.28805}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\CROWN-~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60209}, goog:processID: 37312, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60209/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:37136/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 225a5c05b78441a85e954eb01dfcce4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$R84BUx1H.executeScript(Unknown Source)
+	at Upload_File_From_Govdrive.run(Upload_File_From_Govdrive:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:152)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 24 more
+
+
+26-05-2026T16:18:47 - [TEST_CASE][ERROR] - Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive: Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive FAILED.
+Reason:
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [225a5c05b78441a85e954eb01dfcce4b, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.4DAC052CA3FEB4FE51CE0528B32FF850.d.1C08B71D40416BD199F0CE767F43DCB6.e.28805}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\CROWN-~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60209}, goog:processID: 37312, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60209/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:37136/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 225a5c05b78441a85e954eb01dfcce4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$R84BUx1H.executeScript(Unknown Source)
+	at Upload_File_From_Govdrive.run(Upload_File_From_Govdrive:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:152)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:294)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Prepare_Task.run(TC_Prepare_Task:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0526_48.run(S0526_48.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+26-05-2026T16:18:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+26-05-2026T16:18:47 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+26-05-2026T16:18:47 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+26-05-2026T16:18:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-05-2026T16:18:47 - [TEST_STEP][PASSED] - println("Starting upload flow"): null
+
+26-05-2026T16:18:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Work Order  View- Workforce Manager/a_dLabel"), 30): Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_dLabel' is visible
+
+26-05-2026T16:18:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_dLabel' is visible
+
+26-05-2026T16:18:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Work Order  View- Workforce Manager/a_dLabel"), 30): Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_dLabel' is clickable
+
+26-05-2026T16:18:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_dLabel' is clickable
+
+26-05-2026T16:18:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/a_dLabel")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_dLabel' is clicked on
+
+26-05-2026T16:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_dLabel' is clicked on
+
+26-05-2026T16:18:54 - [TEST_STEP][PASSED] - println("Upload menu opened"): null
+
+26-05-2026T16:18:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Work Order  View- Workforce Manager/a_cde-upload"), 30): Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is visible
+
+26-05-2026T16:18:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is visible
+
+26-05-2026T16:18:55 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Work Order  View- Workforce Manager/a_cde-upload"), 30): Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is clickable
+
+26-05-2026T16:18:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is clickable
+
+26-05-2026T16:18:55 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is clicked on
+
+26-05-2026T16:18:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/a_cde-upload")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is clicked on
+
+26-05-2026T16:18:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is clicked on
+
+26-05-2026T16:18:56 - [TEST_STEP][PASSED] - println("GovDrive selected"): null
+
+26-05-2026T16:18:56 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+26-05-2026T16:18:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Work Order  View- Workforce Manager/iframe_cde-widget"), 30): Object 'Object Repository/Page_Work Order  View- Workforce Manager/iframe_cde-widget' is visible
+
+26-05-2026T16:18:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/iframe_cde-widget' is visible
+
+26-05-2026T16:18:56 - [TEST_STEP][PASSED] - switched = false: null
+
+26-05-2026T16:18:56 - [TEST_STEP][PASSED] - for ([i = 0, i < 3, (i++)]): null
+
+26-05-2026T16:18:56 - [TEST_STEP][PASSED] - try: null
+
+26-05-2026T16:18:56 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Page_Work Order  View- Workforce Manager/iframe_cde-widget"), 10): null
+
+26-05-2026T16:18:58 - [TEST_STEP][PASSED] - switched = true: null
+
+26-05-2026T16:18:58 - [TEST_STEP][PASSED] - break: null
+
+26-05-2026T16:18:58 - [TEST_STEP][PASSED] - if (!(switched)): null
+
+26-05-2026T16:18:58 - [TEST_STEP][PASSED] - println("Inside iframe"): null
+
+26-05-2026T16:18:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+26-05-2026T16:19:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+26-05-2026T16:19:03 - [TEST_STEP][PASSED] - println("Waiting for files to appear..."): null
+
+26-05-2026T16:19:03 - [TEST_STEP][PASSED] - found = false: null
+
+26-05-2026T16:19:03 - [TEST_STEP][PASSED] - checkbox = null: null
+
+26-05-2026T16:19:03 - [TEST_STEP][ERROR] - for ([i = 0, i < 20, (i++)]): Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive FAILED.
+Reason:
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [225a5c05b78441a85e954eb01dfcce4b, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.4DAC052CA3FEB4FE51CE0528B32FF850.d.1C08B71D40416BD199F0CE767F43DCB6.e.28805}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\CROWN-~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60209}, goog:processID: 37312, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60209/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:37136/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 225a5c05b78441a85e954eb01dfcce4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$R84BUx1H.executeScript(Unknown Source)
+	at Upload_File_From_Govdrive.run(Upload_File_From_Govdrive:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:152)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:294)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Prepare_Task.run(TC_Prepare_Task:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0526_48.run(S0526_48.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+26-05-2026T16:19:03 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+26-05-2026T16:19:03 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+26-05-2026T16:19:03 - [TEST_STEP][PASSED] - if (!(checkboxes.isEmpty())): null
+
+26-05-2026T16:19:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:19:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:19:05 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+26-05-2026T16:19:05 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+26-05-2026T16:19:05 - [TEST_STEP][PASSED] - if (!(checkboxes.isEmpty())): null
+
+26-05-2026T16:19:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:19:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:19:07 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+26-05-2026T16:19:07 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+26-05-2026T16:19:07 - [TEST_STEP][PASSED] - if (!(checkboxes.isEmpty())): null
+
+26-05-2026T16:19:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:19:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:19:09 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+26-05-2026T16:19:09 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+26-05-2026T16:19:09 - [TEST_STEP][PASSED] - if (!(checkboxes.isEmpty())): null
+
+26-05-2026T16:19:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:19:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:19:11 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+26-05-2026T16:19:11 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+26-05-2026T16:19:11 - [TEST_STEP][PASSED] - if (!(checkboxes.isEmpty())): null
+
+26-05-2026T16:19:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:19:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:19:13 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+26-05-2026T16:19:13 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+26-05-2026T16:19:13 - [TEST_STEP][PASSED] - if (!(checkboxes.isEmpty())): null
+
+26-05-2026T16:19:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:19:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:19:15 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+26-05-2026T16:19:15 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+26-05-2026T16:19:15 - [TEST_STEP][PASSED] - if (!(checkboxes.isEmpty())): null
+
+26-05-2026T16:19:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:19:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:19:17 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+26-05-2026T16:19:17 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+26-05-2026T16:19:17 - [TEST_STEP][PASSED] - if (!(checkboxes.isEmpty())): null
+
+26-05-2026T16:19:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:19:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:19:19 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+26-05-2026T16:19:19 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+26-05-2026T16:19:19 - [TEST_STEP][PASSED] - if (!(checkboxes.isEmpty())): null
+
+26-05-2026T16:19:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:19:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:19:21 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+26-05-2026T16:19:21 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+26-05-2026T16:19:21 - [TEST_STEP][PASSED] - if (!(checkboxes.isEmpty())): null
+
+26-05-2026T16:19:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:19:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:19:23 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+26-05-2026T16:19:23 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+26-05-2026T16:19:23 - [TEST_STEP][PASSED] - if (!(checkboxes.isEmpty())): null
+
+26-05-2026T16:19:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:19:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:19:25 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+26-05-2026T16:19:25 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+26-05-2026T16:19:25 - [TEST_STEP][PASSED] - if (!(checkboxes.isEmpty())): null
+
+26-05-2026T16:19:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-05-2026T16:19:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-05-2026T16:19:27 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+26-05-2026T16:19:28 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+26-05-2026T16:19:28 - [TEST_STEP][ERROR] - if (!(checkboxes.isEmpty())): Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive FAILED.
+Reason:
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [225a5c05b78441a85e954eb01dfcce4b, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.4DAC052CA3FEB4FE51CE0528B32FF850.d.1C08B71D40416BD199F0CE767F43DCB6.e.28805}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\CROWN-~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60209}, goog:processID: 37312, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60209/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:37136/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 225a5c05b78441a85e954eb01dfcce4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$R84BUx1H.executeScript(Unknown Source)
+	at Upload_File_From_Govdrive.run(Upload_File_From_Govdrive:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:152)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:294)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Prepare_Task.run(TC_Prepare_Task:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0526_48.run(S0526_48.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+26-05-2026T16:19:28 - [TEST_STEP][PASSED] - checkbox = checkboxes[0]: null
+
+26-05-2026T16:19:28 - [TEST_STEP][PASSED] - driver.executeScript("arguments[0].scrollIntoView(true)", checkbox): null
+
+26-05-2026T16:19:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+26-05-2026T16:19:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-05-2026T16:19:29 - [TEST_STEP][ERROR] - driver.executeScript("arguments[0].click();", checkbox): Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive FAILED.
+Reason:
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [225a5c05b78441a85e954eb01dfcce4b, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.4DAC052CA3FEB4FE51CE0528B32FF850.d.1C08B71D40416BD199F0CE767F43DCB6.e.28805}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\CROWN-~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60209}, goog:processID: 37312, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60209/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:37136/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 225a5c05b78441a85e954eb01dfcce4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$R84BUx1H.executeScript(Unknown Source)
+	at Upload_File_From_Govdrive.run(Upload_File_From_Govdrive:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:152)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:294)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Prepare_Task.run(TC_Prepare_Task:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0526_48.run(S0526_48.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+26-05-2026T16:19:29 - [MESSAGE][ERROR] - Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive FAILED.
+Reason:
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [225a5c05b78441a85e954eb01dfcce4b, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.4DAC052CA3FEB4FE51CE0528B32FF850.d.1C08B71D40416BD199F0CE767F43DCB6.e.28805}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\CROWN-~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60209}, goog:processID: 37312, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60209/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:37136/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 225a5c05b78441a85e954eb01dfcce4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$R84BUx1H.executeScript(Unknown Source)
+	at Upload_File_From_Govdrive.run(Upload_File_From_Govdrive:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:152)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:294)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Prepare_Task.run(TC_Prepare_Task:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0526_48.run(S0526_48.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+
+26-05-2026T16:19:29 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:294)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Prepare_Task.run(TC_Prepare_Task:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0526_48.run(S0526_48.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [225a5c05b78441a85e954eb01dfcce4b, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.4DAC052CA3FEB4FE51CE0528B32FF850.d.1C08B71D40416BD199F0CE767F43DCB6.e.28805}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\CROWN-~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60209}, goog:processID: 37312, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60209/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:37136/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 225a5c05b78441a85e954eb01dfcce4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$R84BUx1H.executeScript(Unknown Source)
+	at Upload_File_From_Govdrive.run(Upload_File_From_Govdrive:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:152)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 24 more
+)
+
+26-05-2026T16:19:29 - [MESSAGE][ERROR] - Test Cases/Setup/TC_Prepare_Task FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:294)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Prepare_Task.run(TC_Prepare_Task:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0526_48.run(S0526_48.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [225a5c05b78441a85e954eb01dfcce4b, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.4DAC052CA3FEB4FE51CE0528B32FF850.d.1C08B71D40416BD199F0CE767F43DCB6.e.28805}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\CROWN-~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60209}, goog:processID: 37312, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60209/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:37136/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 225a5c05b78441a85e954eb01dfcce4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$R84BUx1H.executeScript(Unknown Source)
+	at Upload_File_From_Govdrive.run(Upload_File_From_Govdrive:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:152)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 24 more]]></system-out>
+         <system-err><![CDATA[26-05-2026T16:16:14 - [TEST_CASE][ERROR] - Test Cases/Setup/TC_Prepare_Task: Test Cases/Setup/TC_Prepare_Task FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:99)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:294)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at TC_Prepare_Task.run(TC_Prepare_Task:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:424)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:206)
+	at S0526_48.run(S0526_48.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [225a5c05b78441a85e954eb01dfcce4b, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.4DAC052CA3FEB4FE51CE0528B32FF850.d.1C08B71D40416BD199F0CE767F43DCB6.e.28805}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\CROWN-~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60209}, goog:processID: 37312, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60209/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:37136/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 225a5c05b78441a85e954eb01dfcce4b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$R84BUx1H.executeScript(Unknown Source)
+	at Upload_File_From_Govdrive.run(Upload_File_From_Govdrive:174)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:203)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:115)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:504)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:495)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:474)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:466)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:152)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 24 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-05-2026T16:09:56 - [TEST_SUITE][ERROR] - Survey_suite_model: null]]></system-out>
+      <system-err><![CDATA[26-05-2026T16:09:56 - [TEST_SUITE][ERROR] - Survey_suite_model: null]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_assign-modal-close-btn</name>
+   <tag></tag>
+   <elementGuidId>9504cb2c-0811-456f-bade-7197faba5797</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#assign-modal-close-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'assign-modal-close-btn']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'assign-modal-close-btn' and (text() = 'Ignore' or . = 'Ignore')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Ignore&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2fa78b5f-b7ca-47fd-a710-ac5fa2cdd8c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>assign-modal-close-btn</value>
+      <webElementGuid>258b838f-253d-4c54-bbe8-9936757b2337</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wfm-c-button wfm-c-button--primary wfm-c-button--sm _confirm</value>
+      <webElementGuid>5c62056d-fbb2-4faa-971f-3e29bef50ef1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ignore</value>
+      <webElementGuid>2588cdd4-2ef2-4a37-b12c-13994156b867</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-092e9dd5520afa94d46378820b118b8d</value>
+      <webElementGuid>7b3ce878-8a0c-46b9-b446-b59e5e81803d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'assign-modal-close-btn']</value>
+      <webElementGuid>2922c177-9c9e-4fc4-ab32-26e627363c4b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'assign-modal-close-btn']</value>
+      <webElementGuid>7894787c-e6bd-4bf6-bca8-6b9e49e95361</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'assign-modal-close-btn' and (text() = 'Ignore' or . = 'Ignore')]</value>
+      <webElementGuid>ace238b8-b952-45a0-85c4-141fbb476c00</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

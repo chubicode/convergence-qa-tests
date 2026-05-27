@@ -1,0 +1,83 @@
+2026-05-19 08:33:38.080 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\CROWN-STAFF\.katalon\packages\KS-11.1.3\configuration\org.eclipse.osgi\150\0\.cp\resources\logback\logback-execution.xml
+2026-05-19 08:33:38.090 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\CROWN-STAFF\git\convergence-qa-tests\Include\config\log.properties
+2026-05-19 08:33:40.345 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Survey_suite_model
+2026-05-19 08:33:40.958 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Chinwuba Okafor
+2026-05-19 08:33:40.962 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = convergence-qa-tests
+2026-05-19 08:33:40.963 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = CROWN-STAFF - DESKTOP-4SI0S1N
+2026-05-19 08:33:40.965 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-05-19 08:33:40.968 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.2.111
+2026-05-19 08:33:40.970 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.3.0
+2026-05-19 08:33:41.452 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-19 08:33:41.452 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/Login with Invalid Credentials_Wrong Password
+2026-05-19 08:33:42.444 DEBUG  with Invalid Credentials_Wrong Password - 1: openBrowser("")
+2026-05-19 08:33:43.272 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-19 08:33:43.424 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-19 08:33:52.641 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4a9ae75f7f5394fcc53d3de16e9c3392
+2026-05-19 08:33:52.644 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.168
+2026-05-19 08:33:52.647 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-05-19 08:33:52.649 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-19 08:33:52.684 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-19 08:33:52.876 DEBUG  with Invalid Credentials_Wrong Password - 2: navigateToUrl("https://convergenceondemand.com/login")
+2026-05-19 08:33:55.012 DEBUG  with Invalid Credentials_Wrong Password - 3: openBrowser("")
+2026-05-19 08:33:55.026 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-05-19 08:34:26.179 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-19 08:34:26.184 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-19 08:34:30.830 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fae546b7b7dd411c8594f505f68085a9
+2026-05-19 08:34:30.835 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.168
+2026-05-19 08:34:30.838 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-05-19 08:34:30.846 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-19 08:34:30.849 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-19 08:34:30.964 DEBUG  with Invalid Credentials_Wrong Password - 4: navigateToUrl("https://convergenceondemand.com/login")
+2026-05-19 08:34:32.153 DEBUG  with Invalid Credentials_Wrong Password - 5: setText(findTestObject("Page_1Government Login/input_Enter your MDA"), "govtest")
+2026-05-19 08:34:35.112 DEBUG  with Invalid Credentials_Wrong Password - 6: setText(findTestObject("Page_1Government Login/input_Enter Email"), "apisupport@cicod.com")
+2026-05-19 08:34:37.399 DEBUG  with Invalid Credentials_Wrong Password - 7: setEncryptedText(findTestObject("Page_1Government Login/input_Enter password"), "4nvbrPglk7k=")
+2026-05-19 08:34:38.248 DEBUG  with Invalid Credentials_Wrong Password - 8: click(findTestObject("Page_1Government Login/button_Login"))
+2026-05-19 08:34:40.201 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/Login with Invalid Credentials_Wrong Password
+2026-05-19 08:34:40.217 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-19 08:34:40.217 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/Login With Valid Credentials
+2026-05-19 08:34:40.565 DEBUG testcase.Login With Valid Credentials    - 1: openBrowser("")
+2026-05-19 08:34:40.574 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-05-19 08:34:41.391 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-19 08:34:41.396 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-19 08:34:44.061 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8b40a15c369842e83ab5a342db59db87
+2026-05-19 08:34:44.063 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.168
+2026-05-19 08:34:44.065 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-05-19 08:34:44.066 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-19 08:34:44.069 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-19 08:34:44.240 DEBUG testcase.Login With Valid Credentials    - 2: navigateToUrl("https://convergenceondemand.com/login")
+2026-05-19 08:34:45.463 DEBUG testcase.Login With Valid Credentials    - 3: openBrowser("")
+2026-05-19 08:34:45.468 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-05-19 08:34:46.575 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-19 08:34:46.579 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-19 08:34:48.646 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 047db0deb9ba083a14c67f7f13b8ce18
+2026-05-19 08:34:48.657 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.168
+2026-05-19 08:34:48.664 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-05-19 08:34:48.666 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-19 08:34:48.682 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-19 08:34:48.775 DEBUG testcase.Login With Valid Credentials    - 4: navigateToUrl("https://convergenceondemand.com/login")
+2026-05-19 08:34:56.560 DEBUG testcase.Login With Valid Credentials    - 5: setText(findTestObject("Page_1Government Login/input_Enter your MDA"), "govtest")
+2026-05-19 08:34:58.262 DEBUG testcase.Login With Valid Credentials    - 6: setText(findTestObject("Page_1Government Login/input_Enter Email"), "apisupport@cicod.com")
+2026-05-19 08:35:01.887 DEBUG testcase.Login With Valid Credentials    - 7: setEncryptedText(findTestObject("Page_1Government Login/input_Enter password"), "9zJdpvfgkgtFa8MQRHGI0w==")
+2026-05-19 08:35:02.752 DEBUG testcase.Login With Valid Credentials    - 8: click(findTestObject("Page_1Government Login/button_Login"))
+2026-05-19 08:35:03.297 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/Login With Valid Credentials
+2026-05-19 08:35:03.306 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-05-19 08:35:03.306 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/Login with Invalid Credentials_ Empty Username
+2026-05-19 08:35:03.573 DEBUG with Invalid Credentials_ Empty Username - 1: openBrowser("")
+2026-05-19 08:35:03.580 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-05-19 08:35:34.644 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-05-19 08:35:34.657 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-05-19 08:35:36.659 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 67f4efb509f94a58e06a12d4f7917784
+2026-05-19 08:35:36.660 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 148.0.7778.168
+2026-05-19 08:35:36.661 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-05-19 08:35:36.673 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-05-19 08:35:36.681 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-05-19 08:35:36.748 DEBUG with Invalid Credentials_ Empty Username - 2: navigateToUrl("https://convergenceondemand.com/login")
+2026-05-19 08:35:37.114 DEBUG with Invalid Credentials_ Empty Username - 3: click(findTestObject("Page_1Government Login/input_Enter your MDA"))
+2026-05-19 08:35:38.513 DEBUG with Invalid Credentials_ Empty Username - 4: setText(findTestObject("Page_1Government Login/input_Enter Email"), "apisupport@cicod.com")
+2026-05-19 08:35:39.599 DEBUG with Invalid Credentials_ Empty Username - 5: setEncryptedText(findTestObject("Page_1Government Login/input_Enter password"), "9zJdpvfgkgtFa8MQRHGI0w==")
+2026-05-19 08:35:40.158 DEBUG with Invalid Credentials_ Empty Username - 6: click(findTestObject("Page_1Government Login/button_Login"))
+2026-05-19 08:35:50.206 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-05-19 08:35:50.349 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/Login with Invalid Credentials_ Empty Username
+2026-05-19 08:35:52.201 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-05-19 08:35:52.201 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Survey_suite_model
+2026-05-19 08:35:52.201 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

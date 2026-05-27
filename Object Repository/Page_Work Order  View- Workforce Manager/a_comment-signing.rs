@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_comment-signing</name>
+   <tag></tag>
+   <elementGuidId>1753b638-e37a-46a1-97ee-f07f4983df31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'comment-signing']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#comment-signing</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Append Signature&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3ce8d53c-ec72-4cdc-b9c3-bbc0810b314b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>b188e555-14d8-41d0-84d3-07cdd0740aac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>comment-signing</value>
+      <webElementGuid>e24aef59-d2e6-4db7-8608-40be60e30530</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wfm-c-button wfm-c-button--secondary wfm-c-button--sm</value>
+      <webElementGuid>2c06fece-d987-48be-8ab4-410f295b7a0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Append Signature</value>
+      <webElementGuid>1d93f18f-57ac-4667-84a7-e1b95c54d4a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f44610df44e44089e861d7c8762255ee</value>
+      <webElementGuid>29187aca-1093-4c37-8b0f-74edc30f01b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'comment-signing']</value>
+      <webElementGuid>2562fdb7-42b1-4fe3-b38d-83efb5f7af2f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'comment-signing']</value>
+      <webElementGuid>cdcdc436-fc96-4b51-8e4f-ee7b3fc34931</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and @id = 'comment-signing' and (text() = 'Append Signature' or . = 'Append Signature')]</value>
+      <webElementGuid>5a6d76a1-4b20-48d1-9f55-a8664f27f0ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

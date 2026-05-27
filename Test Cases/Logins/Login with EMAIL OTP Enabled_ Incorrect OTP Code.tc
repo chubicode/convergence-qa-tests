@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login with EMAIL OTP Enabled_ Incorrect OTP Code</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f7c9eb4-5d91-4325-95c6-e869fb0a6cf8</testCaseGuid>
+</TestCaseEntity>

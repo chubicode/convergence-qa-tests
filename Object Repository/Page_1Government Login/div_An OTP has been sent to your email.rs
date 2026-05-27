@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_An OTP has been sent to your email</name>
+   <tag></tag>
+   <elementGuidId>9567e371-ac88-408d-9c23-e39eefc9e341</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'An OTP has been sent to your email.' or . = 'An OTP has been sent to your email.')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[aria-live=&quot;polite&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-live = 'polite']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;An OTP has been sent to your email.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>214b03ac-1c7e-4353-ad2f-3e2c8e0755f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>status</value>
+      <webElementGuid>206601f4-ec79-465a-819b-fc6c4eac81cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>polite</value>
+      <webElementGuid>c60fa63d-e149-4f26-8fae-b61d2049225b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>go3958317564</value>
+      <webElementGuid>8db395ba-7366-4c3b-a498-1159d2ac5778</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>An OTP has been sent to your email.</value>
+      <webElementGuid>c106f16b-4e07-4e74-aa7d-f41c01304520</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-16f25860536b1543d1285d59f5090c5f</value>
+      <webElementGuid>b579cf3b-7c2f-4111-862d-78458bd0793c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@aria-live = 'polite']</value>
+      <webElementGuid>5c72adea-345b-458d-bb2b-f8a5957fb949</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@aria-live = 'polite']</value>
+      <webElementGuid>04b5703d-fa94-41f8-ae59-0d45c1b93fbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'An OTP has been sent to your email.' or . = 'An OTP has been sent to your email.')]</value>
+      <webElementGuid>5a90d298-5905-4892-ac6d-bd0ca4a8044c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
