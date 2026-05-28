@@ -1,0 +1,58 @@
+# Naming Conventions — convergence-qa-tests
+
+## ⚡ Quick Rules
+1. NEW objects → put in `Pages_NEW/<PageName>/`
+2. NEVER create _1, _2 duplicates — reuse the original object
+3. NEVER use auto-generated names like `focus_ring`, `flex_items`
+4. NEVER hardcode dynamic IDs (Ticket ID 16381) — use wildcards
+5. ALWAYS put objects in a page folder, never at root
+
+## 📁 Folder Structure (NEW)
+Object Repository/
+└── Pages_NEW/
+    ├── Common/           ← Reused popups, modals, navbar
+    ├── Login/
+    ├── ForgotPassword/
+    ├── WorkOrder_Create/
+    ├── WorkOrder_Index/
+    └── WorkOrder_View/
+
+## 🏷️ Object Naming
+Format: <prefix>_<camelCaseName>
+
+| Type     | Prefix    | Example                |
+|----------|-----------|------------------------|
+| Button   | btn_      | btn_login              |
+| Input    | input_    | input_emailAddress     |
+| Link     | lnk_      | lnk_forgotPassword     |
+| Select   | select_   | select_country         |
+| Checkbox | chk_      | chk_termsAccepted      |
+| Radio    | rad_      | rad_male               |
+| Text     | txt_      | txt_errorMessage       |
+| Div      | div_      | div_successBanner      |
+| Iframe   | iframe_   | iframe_esignWidget     |
+| Menu     | menu_     | menu_toggler           |
+
+## 🧪 Test Case Naming
+Format: TC_<Feature>_<Scenario>
+
+Examples:
+- TC_Login_Valid_Credentials
+- TC_Login_Invalid_Password
+- TC_WorkOrder_Create_With_All_Fields
+- TC_WorkOrder_View_Add_Comment
+
+## 🔒 Locator Priority (best to worst)
+1. id (`#login-button`)
+2. data-testid / data-test
+3. name attribute
+4. CSS with stable classes
+5. XPath with text (`//button[text()='Login']`)
+6. ❌ NEVER use absolute XPath (`/html/body/div[3]/...`)
+
+## 🎯 Before Creating a New Object
+Ask yourself:
+- Does this object already exist? (Search OR first!)
+- What page does it belong to? (Put it there)
+- Is the name clear without context?
+- Did I use a stable locator?
