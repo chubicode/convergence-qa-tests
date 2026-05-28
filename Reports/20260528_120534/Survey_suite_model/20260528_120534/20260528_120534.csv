@@ -1,0 +1,246 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Survey_suite_model,Chrome 148.0.7778.179,,,28-05-2026 12:05:43,28-05-2026 12:13:10,7m - 26.913s,PASSED
+,,,,,,,
+Test Cases/Authentication/TC_Login,Chrome 148.0.7778.179,,,28-05-2026 12:05:43,28-05-2026 12:05:54,10.371s,PASSED
+"openBrowser("""")",Chrome 148.0.7778.179,,,28-05-2026 12:05:44,28-05-2026 12:05:50,5.547s,PASSED
+"navigateToUrl(""https://convergenceondemand.com/login"")",Chrome 148.0.7778.179,,,28-05-2026 12:05:50,28-05-2026 12:05:51,0.963s,PASSED
+"setText(findTestObject(""Page_1Government Login/input_Enter your MDA""), ""govtest"")",Chrome 148.0.7778.179,,,28-05-2026 12:05:51,28-05-2026 12:05:52,1.383s,PASSED
+"setText(findTestObject(""Page_1Government Login/input_Enter Email""), ""apisupport@cicod.com"")",Chrome 148.0.7778.179,,,28-05-2026 12:05:52,28-05-2026 12:05:53,0.820s,PASSED
+"setEncryptedText(findTestObject(""Page_1Government Login/input_Enter password""), ""9zJdpvfgkgtFa8MQRHGI0w=="")",Chrome 148.0.7778.179,,,28-05-2026 12:05:53,28-05-2026 12:05:53,0.472s,PASSED
+"click(findTestObject(""Page_1Government Login/button_Login""))",Chrome 148.0.7778.179,,,28-05-2026 12:05:53,28-05-2026 12:05:54,0.412s,PASSED
+,,,,,,,
+Test Cases/Navigation/TC_Open_Task_Module,Chrome 148.0.7778.179,,,28-05-2026 12:05:54,28-05-2026 12:05:59,5.077s,PASSED
+"click(findTestObject(""Page_1Gov/p_Automate Government MDAs critical operations,""))",Chrome 148.0.7778.179,,,28-05-2026 12:05:54,28-05-2026 12:05:59,4.972s,PASSED
+,,,,,,,
+Test Cases/Setup/TC_Create_Task,Chrome 148.0.7778.179,,,28-05-2026 12:05:59,28-05-2026 12:06:29,30.419s,PASSED
+"navigateToUrl(""https://govtest.convergenceondemand.com/wfm/index.php?r=workOrder#active-tickets"")",Chrome 148.0.7778.179,,,28-05-2026 12:05:59,28-05-2026 12:05:59,0.024s,PASSED
+delay(5),Chrome 148.0.7778.179,,,28-05-2026 12:05:59,28-05-2026 12:06:04,5.075s,PASSED
+maximizeWindow(),Chrome 148.0.7778.179,// Maximize Browser,,28-05-2026 12:06:04,28-05-2026 12:06:05,0.349s,PASSED
+"click(findTestObject(""Page_Work Order  Index- Workforce Manager/a_Create Task""))",Chrome 148.0.7778.179,,,28-05-2026 12:06:05,28-05-2026 12:06:07,2.089s,PASSED
+"click(findTestObject(""Page_Work Order  Create- Workforce Manager/span_Select Queue""))",Chrome 148.0.7778.179,,,28-05-2026 12:06:07,28-05-2026 12:06:10,2.773s,PASSED
+"setText(findTestObject(""Page_Work Order  Create- Workforce Manager/input_Search""), ""aut"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:10,28-05-2026 12:06:11,1.075s,PASSED
+"click(findTestObject(""Page_Work Order  Create- Workforce Manager/a_TEST AUTOMATION""))",Chrome 148.0.7778.179,,,28-05-2026 12:06:11,28-05-2026 12:06:11,0.396s,PASSED
+"click(findTestObject(""Page_Work Order  Create- Workforce Manager/span_Select Queue Type""))",Chrome 148.0.7778.179,,,28-05-2026 12:06:11,28-05-2026 12:06:14,2.585s,PASSED
+"click(findTestObject(""Page_Work Order  Create- Workforce Manager/span_Automated Testing""))",Chrome 148.0.7778.179,,,28-05-2026 12:06:14,28-05-2026 12:06:14,0.422s,PASSED
+"setText(findTestObject(""Page_Work Order  Create- Workforce Manager/input_Task Title _""), ""TEST AUTOMATION 10028791"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:14,28-05-2026 12:06:17,2.666s,PASSED
+"setText(findTestObject(""Page_Work Order  Create- Workforce Manager/textarea_Description""), ""Smoke Test"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:17,28-05-2026 12:06:17,0.763s,PASSED
+"setText(findTestObject(""Page_Work Order  Create- Workforce Manager/input_Input First Name""), ""Mr"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:17,28-05-2026 12:06:18,0.870s,PASSED
+"setText(findTestObject(""Page_Work Order  Create- Workforce Manager/input_Input Last Name""), ""Adekola"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:18,28-05-2026 12:06:19,0.939s,PASSED
+"setText(findTestObject(""Page_Work Order  Create- Workforce Manager/input_Input Phone Number""), ""Cole"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:19,28-05-2026 12:06:20,0.928s,PASSED
+"setText(findTestObject(""Page_Work Order  Create- Workforce Manager/input_Input Email Address""), ""testautomation@cicod.com"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:20,28-05-2026 12:06:21,0.998s,PASSED
+"setText(findTestObject(""Page_Work Order  Create- Workforce Manager/input_house_no""), ""45b"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:21,28-05-2026 12:06:22,0.887s,PASSED
+"setText(findTestObject(""Page_Work Order  Create- Workforce Manager/input_street""), ""Admiralty Way"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:22,28-05-2026 12:06:23,0.877s,PASSED
+"selectOptionByValue(findTestObject(""Page_Work Order  Create- Workforce Manager/select_AngolaCameroonCongoEthopiaNigeriaSouth Af""), ""Nigeria"", false)",Chrome 148.0.7778.179,,,28-05-2026 12:06:23,28-05-2026 12:06:24,0.810s,PASSED
+"selectOptionByValue(findTestObject(""Page_Work Order  Create- Workforce Manager/select_Select StateAbiaAbujaAdamawaAkwa IbomAnam""), ""Lagos"", false)",Chrome 148.0.7778.179,,,28-05-2026 12:06:24,28-05-2026 12:06:24,0.701s,PASSED
+"switchToWindowTitle(""Work Order | Create- Workforce Manager"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:24,28-05-2026 12:06:25,0.060s,PASSED
+"click(findTestObject(""Page_Work Order  Create- Workforce Manager/input_optionsRadios1""))",Chrome 148.0.7778.179,,,28-05-2026 12:06:25,28-05-2026 12:06:25,0.483s,PASSED
+"click(findTestObject(""Page_Work Order  Create- Workforce Manager/input_optionsChecks1""))",Chrome 148.0.7778.179,,,28-05-2026 12:06:25,28-05-2026 12:06:25,0.468s,PASSED
+"setText(findTestObject(""Page_Work Order  Create- Workforce Manager/input_Select Date""), ""2026-05-20"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:25,28-05-2026 12:06:26,0.800s,PASSED
+"filePath = getProjectDir() + ""/Include/test-files/data_backup.png""",Chrome 148.0.7778.179,,,28-05-2026 12:06:26,28-05-2026 12:06:26,0.010s,PASSED
+assert File(filePath).exists(),Chrome 148.0.7778.179,,,28-05-2026 12:06:26,28-05-2026 12:06:26,0.025s,PASSED
+"uploadObj = findTestObject(""Page_Work Order  Create- Workforce Manager/input_take-photo-input-selected_file"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:26,28-05-2026 12:06:26,0.012s,PASSED
+"waitForElementPresent(uploadObj, 10)",Chrome 148.0.7778.179,,,28-05-2026 12:06:26,28-05-2026 12:06:27,0.340s,PASSED
+"uploadFile(uploadObj, filePath)",Chrome 148.0.7778.179,,,28-05-2026 12:06:27,28-05-2026 12:06:27,0.362s,PASSED
+"click(findTestObject(""Page_Work Order  Create- Workforce Manager/input_should_assign_ticket""))",Chrome 148.0.7778.179,,,28-05-2026 12:06:27,28-05-2026 12:06:28,0.668s,PASSED
+"selectOptionByValue(findTestObject(""Page_Work Order  Create- Workforce Manager/select_assign-to-user""), ""82"", false)",Chrome 148.0.7778.179,,,28-05-2026 12:06:28,28-05-2026 12:06:28,0.705s,PASSED
+"waitForElementClickable(findTestObject(""Page_Work Order  Create- Workforce Manager/button_Create""), 20)",Chrome 148.0.7778.179,,,28-05-2026 12:06:28,28-05-2026 12:06:29,0.499s,PASSED
+"click(findTestObject(""Page_Work Order  Create- Workforce Manager/button_Create""))",Chrome 148.0.7778.179,,,28-05-2026 12:06:29,28-05-2026 12:06:29,0.412s,PASSED
+,,,,,,,
+Test Cases/Setup/TC_Open_Task_Details,Chrome 148.0.7778.179,,,28-05-2026 12:06:29,28-05-2026 12:07:01,31.738s,PASSED
+waitForPageLoad(30),Chrome 148.0.7778.179,,,28-05-2026 12:06:30,28-05-2026 12:06:30,0.154s,PASSED
+delay(3),Chrome 148.0.7778.179,,,28-05-2026 12:06:30,28-05-2026 12:06:33,3.038s,PASSED
+modal = new com.kms.katalon.core.testobject.TestObject(),Chrome 148.0.7778.179,,,28-05-2026 12:06:33,28-05-2026 12:06:33,0.006s,PASSED
+"modal.addProperty(""xpath"", EQUALS, ""//*[contains(text(),'Ticket ID')]"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:33,28-05-2026 12:06:33,0.017s,PASSED
+"waitForElementVisible(modal, 30)",Chrome 148.0.7778.179,,,28-05-2026 12:06:33,28-05-2026 12:06:34,0.778s,PASSED
+successMessage = getText(modal),Chrome 148.0.7778.179,,,28-05-2026 12:06:34,28-05-2026 12:06:34,0.321s,PASSED
+"println(""SUCCESS → "" + successMessage)",Chrome 148.0.7778.179,,,28-05-2026 12:06:34,28-05-2026 12:06:34,0.009s,PASSED
+"matcher = successMessage =~ ""\d+""",Chrome 148.0.7778.179,,,28-05-2026 12:06:34,28-05-2026 12:06:34,0.000s,PASSED
+if (!(matcher.find())),Chrome 148.0.7778.179,,,28-05-2026 12:06:34,28-05-2026 12:06:34,0.008s,PASSED
+ticketId = matcher.group(),Chrome 148.0.7778.179,,,28-05-2026 12:06:34,28-05-2026 12:06:34,0.002s,PASSED
+"println(""Captured Ticket → "" + ticketId)",Chrome 148.0.7778.179,,,28-05-2026 12:06:34,28-05-2026 12:06:34,0.003s,PASSED
+"click(findTestObject(""Page_Work Order  Create- Workforce Manager/button_message-dismiss""))",Chrome 148.0.7778.179,,,28-05-2026 12:06:34,28-05-2026 12:06:35,0.950s,PASSED
+waitForPageLoad(20),Chrome 148.0.7778.179,,,28-05-2026 12:06:35,28-05-2026 12:06:35,0.017s,PASSED
+delay(2),Chrome 148.0.7778.179,,,28-05-2026 12:06:35,28-05-2026 12:06:37,2.007s,PASSED
+"click(findTestObject(""Page_Work Order  Index- Workforce Manager/a_Created By Me""))",Chrome 148.0.7778.179,,,28-05-2026 12:06:37,28-05-2026 12:06:38,0.827s,PASSED
+waitForPageLoad(10),Chrome 148.0.7778.179,,,28-05-2026 12:06:38,28-05-2026 12:06:38,0.006s,PASSED
+delay(3),Chrome 148.0.7778.179,,,28-05-2026 12:06:38,28-05-2026 12:06:41,3.014s,PASSED
+"search = findTestObject(""Page_Work Order  Index- Workforce Manager/input_Search"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:41,28-05-2026 12:06:41,0.006s,PASSED
+"waitForElementVisible(search, 30)",Chrome 148.0.7778.179,,,28-05-2026 12:06:41,28-05-2026 12:06:41,0.278s,PASSED
+click(search),Chrome 148.0.7778.179,,,28-05-2026 12:06:41,28-05-2026 12:06:42,0.828s,PASSED
+clearText(search),Chrome 148.0.7778.179,,,28-05-2026 12:06:42,28-05-2026 12:06:43,0.320s,PASSED
+"setText(search, ticketId)",Chrome 148.0.7778.179,,,28-05-2026 12:06:43,28-05-2026 12:06:43,0.763s,PASSED
+"sendKeys(search, Keys.chord(ENTER))",Chrome 148.0.7778.179,,,28-05-2026 12:06:43,28-05-2026 12:06:44,0.365s,PASSED
+"println(""Searching → "" + ticketId)",Chrome 148.0.7778.179,,,28-05-2026 12:06:44,28-05-2026 12:06:44,0.009s,PASSED
+delay(8),Chrome 148.0.7778.179,,,28-05-2026 12:06:44,28-05-2026 12:06:52,8.018s,PASSED
+row = new com.kms.katalon.core.testobject.TestObject(),Chrome 148.0.7778.179,,,28-05-2026 12:06:52,28-05-2026 12:06:52,0.003s,PASSED
+"row.addProperty(""xpath"", EQUALS, //tr[.//*[contains(text(),'$ticketId')]])",Chrome 148.0.7778.179,,,28-05-2026 12:06:52,28-05-2026 12:06:52,0.046s,PASSED
+"found = waitForElementPresent(row, 30)",Chrome 148.0.7778.179,,,28-05-2026 12:06:52,28-05-2026 12:06:52,0.247s,PASSED
+if (!(found)),Chrome 148.0.7778.179,,,28-05-2026 12:06:52,28-05-2026 12:06:52,0.001s,PASSED
+"println(""Ticket row found"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:52,28-05-2026 12:06:52,0.002s,PASSED
+titleLink = new com.kms.katalon.core.testobject.TestObject(),Chrome 148.0.7778.179,,,28-05-2026 12:06:52,28-05-2026 12:06:52,0.002s,PASSED
+"titleLink.addProperty(""xpath"", EQUALS, (//tr[.//*[contains(text(),'$ticketId')]]//td[3]//a) | (//tr[.//*[contains(text(),'$ticketId')]]//td[3]//*[self::span or self::div]))",Chrome 148.0.7778.179,,,28-05-2026 12:06:52,28-05-2026 12:06:52,0.002s,PASSED
+"waitForElementVisible(titleLink, 30)",Chrome 148.0.7778.179,,,28-05-2026 12:06:52,28-05-2026 12:06:52,0.288s,PASSED
+"scrollToElement(titleLink, 10)",Chrome 148.0.7778.179,,,28-05-2026 12:06:52,28-05-2026 12:06:53,0.307s,PASSED
+"link = findWebElement(titleLink, 20)",Chrome 148.0.7778.179,,,28-05-2026 12:06:53,28-05-2026 12:06:53,0.281s,PASSED
+"executeJavaScript(""\narguments[0].scrollIntoView({\nblock:'center'\n});\n"", Arrays.asList(link))",Chrome 148.0.7778.179,,,28-05-2026 12:06:53,28-05-2026 12:06:53,0.030s,PASSED
+delay(2),Chrome 148.0.7778.179,,,28-05-2026 12:06:53,28-05-2026 12:06:55,2.005s,PASSED
+"println(""Opening ticket"")",Chrome 148.0.7778.179,,,28-05-2026 12:06:55,28-05-2026 12:06:55,0.003s,PASSED
+try,Chrome 148.0.7778.179,,,28-05-2026 12:06:55,28-05-2026 12:06:59,3.724s,PASSED
+opened = false,Chrome 148.0.7778.179,,,28-05-2026 12:06:59,28-05-2026 12:06:59,0.006s,PASSED
+"for ([i = 0, i < 30, (i++)])",Chrome 148.0.7778.179,,,28-05-2026 12:06:59,28-05-2026 12:07:01,2.378s,PASSED
+if (!(opened)),Chrome 148.0.7778.179,,,28-05-2026 12:07:01,28-05-2026 12:07:01,0.002s,PASSED
+"println(""TASK DETAILS OPENED → "" + ticketId)",Chrome 148.0.7778.179,,,28-05-2026 12:07:01,28-05-2026 12:07:01,0.000s,PASSED
+,,,,,,,
+Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive,Chrome 148.0.7778.179,,,28-05-2026 12:07:01,28-05-2026 12:07:22,21.121s,PASSED
+driver = getWebDriver(),Chrome 148.0.7778.179,,,28-05-2026 12:07:01,28-05-2026 12:07:01,0.008s,PASSED
+switchToDefaultContent(),Chrome 148.0.7778.179,,,28-05-2026 12:07:01,28-05-2026 12:07:01,0.040s,PASSED
+waitForPageLoad(30),Chrome 148.0.7778.179,,,28-05-2026 12:07:01,28-05-2026 12:07:01,0.020s,PASSED
+"println(""Starting upload flow"")",Chrome 148.0.7778.179,,,28-05-2026 12:07:01,28-05-2026 12:07:01,0.002s,PASSED
+"waitForElementVisible(findTestObject(""Page_Work Order  View- Workforce Manager/a_dLabel""), 30)",Chrome 148.0.7778.179,,,28-05-2026 12:07:01,28-05-2026 12:07:03,1.833s,PASSED
+"waitForElementClickable(findTestObject(""Page_Work Order  View- Workforce Manager/a_dLabel""), 30)",Chrome 148.0.7778.179,,,28-05-2026 12:07:03,28-05-2026 12:07:04,0.295s,PASSED
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/a_dLabel""))",Chrome 148.0.7778.179,,,28-05-2026 12:07:04,28-05-2026 12:07:04,0.444s,PASSED
+"println(""Upload menu opened"")",Chrome 148.0.7778.179,,,28-05-2026 12:07:04,28-05-2026 12:07:04,0.007s,PASSED
+"waitForElementVisible(findTestObject(""Page_Work Order  View- Workforce Manager/a_cde-upload""), 30)",Chrome 148.0.7778.179,,,28-05-2026 12:07:04,28-05-2026 12:07:04,0.300s,PASSED
+"waitForElementClickable(findTestObject(""Page_Work Order  View- Workforce Manager/a_cde-upload""), 30)",Chrome 148.0.7778.179,,,28-05-2026 12:07:04,28-05-2026 12:07:05,0.544s,PASSED
+try,Chrome 148.0.7778.179,,,28-05-2026 12:07:05,28-05-2026 12:07:05,0.417s,PASSED
+"println(""GovDrive selected"")",Chrome 148.0.7778.179,,,28-05-2026 12:07:05,28-05-2026 12:07:05,0.007s,PASSED
+switchToDefaultContent(),Chrome 148.0.7778.179,,,28-05-2026 12:07:05,28-05-2026 12:07:05,0.030s,PASSED
+"waitForElementVisible(findTestObject(""Page_Work Order  View- Workforce Manager/iframe_cde-widget""), 30)",Chrome 148.0.7778.179,,,28-05-2026 12:07:05,28-05-2026 12:07:06,0.602s,PASSED
+switched = false,Chrome 148.0.7778.179,,,28-05-2026 12:07:06,28-05-2026 12:07:06,0.001s,PASSED
+"for ([i = 0, i < 3, (i++)])",Chrome 148.0.7778.179,,,28-05-2026 12:07:06,28-05-2026 12:07:06,0.467s,PASSED
+if (!(switched)),Chrome 148.0.7778.179,,,28-05-2026 12:07:06,28-05-2026 12:07:06,0.001s,PASSED
+"println(""Inside iframe"")",Chrome 148.0.7778.179,,,28-05-2026 12:07:06,28-05-2026 12:07:06,0.002s,PASSED
+delay(5),Chrome 148.0.7778.179,,,28-05-2026 12:07:06,28-05-2026 12:07:11,5.008s,PASSED
+"println(""Waiting for files to appear..."")",Chrome 148.0.7778.179,,,28-05-2026 12:07:11,28-05-2026 12:07:11,0.002s,PASSED
+found = false,Chrome 148.0.7778.179,,,28-05-2026 12:07:11,28-05-2026 12:07:11,0.002s,PASSED
+checkbox = null,Chrome 148.0.7778.179,,,28-05-2026 12:07:11,28-05-2026 12:07:11,0.002s,PASSED
+"for ([i = 0, i < 20, (i++)])",Chrome 148.0.7778.179,,,28-05-2026 12:07:11,28-05-2026 12:07:13,1.131s,PASSED
+if (!(found)),Chrome 148.0.7778.179,,,28-05-2026 12:07:13,28-05-2026 12:07:13,0.000s,PASSED
+delay(3),Chrome 148.0.7778.179,,,28-05-2026 12:07:13,28-05-2026 12:07:16,3.013s,PASSED
+insertBtn = null,Chrome 148.0.7778.179,,,28-05-2026 12:07:16,28-05-2026 12:07:16,0.001s,PASSED
+"for ([i = 0, i < 15, (i++)])",Chrome 148.0.7778.179,,,28-05-2026 12:07:16,28-05-2026 12:07:16,0.120s,PASSED
+if (insertBtn == null),Chrome 148.0.7778.179,,,28-05-2026 12:07:16,28-05-2026 12:07:16,0.002s,PASSED
+"driver.executeScript(""\narguments[0].scrollIntoView({\nblock:'center'\n});\n"", insertBtn)",Chrome 148.0.7778.179,,,28-05-2026 12:07:16,28-05-2026 12:07:16,0.012s,PASSED
+delay(1),Chrome 148.0.7778.179,,,28-05-2026 12:07:16,28-05-2026 12:07:17,1.009s,PASSED
+"driver.executeScript(""arguments[0].click();"", insertBtn)",Chrome 148.0.7778.179,,,28-05-2026 12:07:17,28-05-2026 12:07:17,0.027s,PASSED
+"println(""Insert clicked"")",Chrome 148.0.7778.179,,,28-05-2026 12:07:17,28-05-2026 12:07:17,0.000s,PASSED
+switchToDefaultContent(),Chrome 148.0.7778.179,,,28-05-2026 12:07:17,28-05-2026 12:07:17,0.007s,PASSED
+try,Chrome 148.0.7778.179,,,28-05-2026 12:07:17,28-05-2026 12:07:22,5.424s,PASSED
+switchToDefaultContent(),Chrome 148.0.7778.179,,,28-05-2026 12:07:22,28-05-2026 12:07:22,0.008s,PASSED
+"println(""Upload completed"")",Chrome 148.0.7778.179,,,28-05-2026 12:07:22,28-05-2026 12:07:22,0.001s,PASSED
+,,,,,,,
+Test Cases/TaskActions/Uploads/Upload_file_Without_Classification,Chrome 148.0.7778.179,,,28-05-2026 12:07:22,28-05-2026 12:07:46,23.942s,PASSED
+"taskName = ""TEST AUTOMATION""",Chrome 148.0.7778.179,,,28-05-2026 12:07:22,28-05-2026 12:07:22,0.007s,PASSED
+"uploadFile = getProjectDir() + ""/Include/test-files/TASK CYCLE.pdf""",Chrome 148.0.7778.179,,,28-05-2026 12:07:22,28-05-2026 12:07:22,0.000s,PASSED
+waitForPageLoad(20),Chrome 148.0.7778.179,,,28-05-2026 12:07:22,28-05-2026 12:07:22,0.008s,PASSED
+switchToDefaultContent(),Chrome 148.0.7778.179,,,28-05-2026 12:07:22,28-05-2026 12:07:22,0.012s,PASSED
+"println(""Looking for task: "" + taskName)",Chrome 148.0.7778.179,,,28-05-2026 12:07:22,28-05-2026 12:07:22,0.000s,PASSED
+task = new com.kms.katalon.core.testobject.TestObject(),Chrome 148.0.7778.179,,,28-05-2026 12:07:22,28-05-2026 12:07:22,0.002s,PASSED
+"task.addProperty(""xpath"", EQUALS, ""//p[contains(normalize-space(.),'"" + taskName + ""')]"")",Chrome 148.0.7778.179,,,28-05-2026 12:07:22,28-05-2026 12:07:22,0.002s,PASSED
+"taskExists = waitForElementPresent(task, 20, OPTIONAL)",Chrome 148.0.7778.179,,,28-05-2026 12:07:22,28-05-2026 12:07:24,1.375s,PASSED
+"println(""Task exists = "" + taskExists)",Chrome 148.0.7778.179,,,28-05-2026 12:07:24,28-05-2026 12:07:24,0.004s,PASSED
+if (!(taskExists)),Chrome 148.0.7778.179,,,28-05-2026 12:07:24,28-05-2026 12:07:24,0.002s,PASSED
+assert taskExists,Chrome 148.0.7778.179,,,28-05-2026 12:07:24,28-05-2026 12:07:24,0.000s,PASSED
+"scrollToElement(task, 10)",Chrome 148.0.7778.179,,,28-05-2026 12:07:24,28-05-2026 12:07:24,0.285s,PASSED
+enhancedClick(task),Chrome 148.0.7778.179,,,28-05-2026 12:07:24,28-05-2026 12:07:35,10.552s,PASSED
+waitForPageLoad(20),Chrome 148.0.7778.179,,,28-05-2026 12:07:35,28-05-2026 12:07:35,0.018s,PASSED
+"uploadBtn = findTestObject(""Page_Work Order  View- Workforce Manager/Page_Work Order  View- Workforce Manager/a_dLabel"")",Chrome 148.0.7778.179,,,28-05-2026 12:07:35,28-05-2026 12:07:35,0.049s,PASSED
+"waitForElementClickable(uploadBtn, 20)",Chrome 148.0.7778.179,,,28-05-2026 12:07:35,28-05-2026 12:07:35,0.395s,PASSED
+enhancedClick(uploadBtn),Chrome 148.0.7778.179,,,28-05-2026 12:07:35,28-05-2026 12:07:36,0.434s,PASSED
+"println(""Upload modal opened"")",Chrome 148.0.7778.179,,,28-05-2026 12:07:36,28-05-2026 12:07:36,0.004s,PASSED
+assert Files.exists(Paths.get(uploadFile)),Chrome 148.0.7778.179,,,28-05-2026 12:07:36,28-05-2026 12:07:36,0.031s,PASSED
+"println(""Uploading -> "" + uploadFile)",Chrome 148.0.7778.179,,,28-05-2026 12:07:36,28-05-2026 12:07:36,0.003s,PASSED
+fileInput = new com.kms.katalon.core.testobject.TestObject(),Chrome 148.0.7778.179,,,28-05-2026 12:07:36,28-05-2026 12:07:36,0.004s,PASSED
+"fileInput.addProperty(""xpath"", EQUALS, ""//*[@id='file_upload']"")",Chrome 148.0.7778.179,,,28-05-2026 12:07:36,28-05-2026 12:07:36,0.002s,PASSED
+"waitForElementPresent(fileInput, 20)",Chrome 148.0.7778.179,,,28-05-2026 12:07:36,28-05-2026 12:07:36,0.502s,PASSED
+"executeJavaScript(""\narguments[0].style.display='block';\narguments[0].style.visibility='visible';\narguments[0].removeAttribute('hidden');\narguments[0].removeAttribute('disabled');\n"", [findWebElement(fileInput, 20)])",Chrome 148.0.7778.179,,,28-05-2026 12:07:36,28-05-2026 12:07:36,0.371s,PASSED
+"uploadFile(fileInput, uploadFile)",Chrome 148.0.7778.179,,,28-05-2026 12:07:36,28-05-2026 12:07:37,0.580s,PASSED
+"println(""File injected successfully"")",Chrome 148.0.7778.179,,,28-05-2026 12:07:37,28-05-2026 12:07:37,0.006s,PASSED
+delay(8),Chrome 148.0.7778.179,,,28-05-2026 12:07:37,28-05-2026 12:07:45,8.009s,PASSED
+noButton = new com.kms.katalon.core.testobject.TestObject(),Chrome 148.0.7778.179,,,28-05-2026 12:07:45,28-05-2026 12:07:45,0.002s,PASSED
+"noButton.addProperty(""xpath"", EQUALS, ""//button[normalize-space()='No']"")",Chrome 148.0.7778.179,,,28-05-2026 12:07:45,28-05-2026 12:07:45,0.001s,PASSED
+"modalPresent = waitForElementPresent(noButton, 10, OPTIONAL)",Chrome 148.0.7778.179,,,28-05-2026 12:07:45,28-05-2026 12:07:45,0.285s,PASSED
+if (modalPresent),Chrome 148.0.7778.179,,,28-05-2026 12:07:45,28-05-2026 12:07:46,0.798s,PASSED
+"println(""Upload completed"")",Chrome 148.0.7778.179,,,28-05-2026 12:07:46,28-05-2026 12:07:46,0.000s,PASSED
+,,,,,,,
+Test Cases/TaskActions/Table_Actions/Esign,Chrome 148.0.7778.179,,,28-05-2026 12:07:46,28-05-2026 12:09:21,1m - 35.341s,PASSED
+driver = getWebDriver(),Chrome 148.0.7778.179,,,28-05-2026 12:07:47,28-05-2026 12:07:47,0.008s,PASSED
+"wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, java.time.Duration.ofSeconds(30))",Chrome 148.0.7778.179,,,28-05-2026 12:07:47,28-05-2026 12:07:47,0.008s,PASSED
+"println(""===== START ESIGN ====="")",Chrome 148.0.7778.179,,,28-05-2026 12:07:47,28-05-2026 12:07:47,0.011s,PASSED
+waitForPageLoad(30),Chrome 148.0.7778.179,,,28-05-2026 12:07:47,28-05-2026 12:07:47,0.034s,PASSED
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/svg_svg""))",Chrome 148.0.7778.179,,,28-05-2026 12:07:47,28-05-2026 12:08:00,12.835s,PASSED
+"println(""eSign modal opened"")",Chrome 148.0.7778.179,,,28-05-2026 12:08:00,28-05-2026 12:08:00,0.005s,PASSED
+iframe = new com.kms.katalon.core.testobject.TestObject(),Chrome 148.0.7778.179,,,28-05-2026 12:08:00,28-05-2026 12:08:00,0.002s,PASSED
+"iframe.addProperty(""xpath"", EQUALS, ""//iframe[contains(@id,'esign')]"")",Chrome 148.0.7778.179,,,28-05-2026 12:08:00,28-05-2026 12:08:00,0.000s,PASSED
+"waitForElementPresent(iframe, 60)",Chrome 148.0.7778.179,,,28-05-2026 12:08:00,28-05-2026 12:08:01,0.649s,PASSED
+"switchToFrame(iframe, 20)",Chrome 148.0.7778.179,,,28-05-2026 12:08:01,28-05-2026 12:08:01,0.397s,PASSED
+"println(""Inside iframe"")",Chrome 148.0.7778.179,,,28-05-2026 12:08:01,28-05-2026 12:08:01,0.001s,PASSED
+"signTool = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(""//*[normalize-space()='Signature']"")))",Chrome 148.0.7778.179,,,28-05-2026 12:08:01,28-05-2026 12:08:06,4.321s,PASSED
+"driver.executeScript(""arguments[0].click();"", signTool)",Chrome 148.0.7778.179,,,28-05-2026 12:08:06,28-05-2026 12:08:06,0.026s,PASSED
+"println(""Signature selected"")",Chrome 148.0.7778.179,,,28-05-2026 12:08:06,28-05-2026 12:08:06,0.002s,PASSED
+"page = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(""//*[contains(@id,'page-')]"")))",Chrome 148.0.7778.179,,,28-05-2026 12:08:06,28-05-2026 12:08:14,8.670s,PASSED
+"println(""PDF located"")",Chrome 148.0.7778.179,,,28-05-2026 12:08:14,28-05-2026 12:08:14,0.002s,PASSED
+"driver.executeScript(""\nvar rect=arguments[0].getBoundingClientRect();\n\nvar x=rect.left+(rect.width/2);\nvar y=rect.top+250;\n\nvar el=document.elementFromPoint(x,y);\n\nif(el){\nel.dispatchEvent(\nnew MouseEvent(\n'click',\n{\nbubbles:true,\nclientX:x,\nclientY:y\n}\n)\n);\n}\n"", page)",Chrome 148.0.7778.179,,,28-05-2026 12:08:14,28-05-2026 12:08:14,0.050s,PASSED
+"println(""Signature dropped"")",Chrome 148.0.7778.179,,,28-05-2026 12:08:14,28-05-2026 12:08:14,0.001s,PASSED
+Thread.sleep(2000),Chrome 148.0.7778.179,,,28-05-2026 12:08:14,28-05-2026 12:08:17,3.178s,PASSED
+try,Chrome 148.0.7778.179,,,28-05-2026 12:08:17,28-05-2026 12:08:48,30.256s,PASSED
+catch (Exception e),Chrome 148.0.7778.179,,,28-05-2026 12:08:48,28-05-2026 12:08:48,0.005s,PASSED
+"previewBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(""//button[contains(.,'Preview')]"")))",Chrome 148.0.7778.179,,,28-05-2026 12:08:48,28-05-2026 12:08:48,0.072s,PASSED
+"driver.executeScript(""arguments[0].click();"", previewBtn)",Chrome 148.0.7778.179,,,28-05-2026 12:08:48,28-05-2026 12:08:48,0.044s,PASSED
+"println(""Preview clicked"")",Chrome 148.0.7778.179,,,28-05-2026 12:08:48,28-05-2026 12:08:48,0.000s,PASSED
+"wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath(""//button[contains(.,'Preview') or contains(.,'Save')]""), ""Save""))",Chrome 148.0.7778.179,,,28-05-2026 12:08:48,28-05-2026 12:08:48,0.084s,PASSED
+"saveBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(""//button[contains(.,'Save')]"")))",Chrome 148.0.7778.179,,,28-05-2026 12:08:48,28-05-2026 12:08:48,0.077s,PASSED
+Thread.sleep(1000),Chrome 148.0.7778.179,,,28-05-2026 12:08:48,28-05-2026 12:08:49,1.002s,PASSED
+"driver.executeScript(""arguments[0].click();"", saveBtn)",Chrome 148.0.7778.179,,,28-05-2026 12:08:49,28-05-2026 12:08:49,0.018s,PASSED
+"println(""Save clicked"")",Chrome 148.0.7778.179,,,28-05-2026 12:08:49,28-05-2026 12:08:49,0.000s,PASSED
+switchToDefaultContent(),Chrome 148.0.7778.179,,,28-05-2026 12:08:49,28-05-2026 12:08:49,0.015s,PASSED
+"println(""Back to main page"")",Chrome 148.0.7778.179,,,28-05-2026 12:08:49,28-05-2026 12:08:49,0.000s,PASSED
+okModalClosed = false,Chrome 148.0.7778.179,,,28-05-2026 12:08:49,28-05-2026 12:08:49,0.000s,PASSED
+try,Chrome 148.0.7778.179,,,28-05-2026 12:08:49,28-05-2026 12:09:01,12.187s,PASSED
+if (!(okModalClosed)),Chrome 148.0.7778.179,,,28-05-2026 12:09:01,28-05-2026 12:09:01,0.022s,PASSED
+modal = new com.kms.katalon.core.testobject.TestObject(),Chrome 148.0.7778.179,,,28-05-2026 12:09:01,28-05-2026 12:09:01,0.000s,PASSED
+"modal.addProperty(""xpath"", EQUALS, ""//*[contains(@class,'modal')]"")",Chrome 148.0.7778.179,,,28-05-2026 12:09:01,28-05-2026 12:09:01,0.006s,PASSED
+"waitForElementNotPresent(modal, 20, OPTIONAL)",Chrome 148.0.7778.179,,,28-05-2026 12:09:01,28-05-2026 12:09:21,20.260s,WARNING
+"println(""===== ESIGN SUCCESS ====="")",Chrome 148.0.7778.179,,,28-05-2026 12:09:21,28-05-2026 12:09:21,0.000s,PASSED
+,,,,,,,
+Test Cases/TaskActions/Comments/TC_Add_Comment,Chrome 148.0.7778.179,,,28-05-2026 12:11:06,28-05-2026 12:12:17,1m - 11.191s,PASSED
+waitForPageLoad(20),Chrome 148.0.7778.179,,,28-05-2026 12:11:06,28-05-2026 12:11:06,0.009s,PASSED
+"waitForElementPresent(findTestObject(""Page_Work Order  Index- Workforce Manager/input_Search""), 20)",Chrome 148.0.7778.179,,,28-05-2026 12:11:06,28-05-2026 12:11:26,20.202s,WARNING
+waitForPageLoad(20),Chrome 148.0.7778.179,,,28-05-2026 12:11:26,28-05-2026 12:11:26,0.008s,PASSED
+"waitForElementPresent(findTestObject(""Page_Work Order  Index- Workforce Manager/input_Search""), 20)",Chrome 148.0.7778.179,,,28-05-2026 12:11:26,28-05-2026 12:11:46,20.037s,WARNING
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/div_Hi there, For line manager escalation or app""))",Chrome 148.0.7778.179,,,28-05-2026 12:11:46,28-05-2026 12:11:46,0.333s,PASSED
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/button_assign-modal-close-btn_1""))",Chrome 148.0.7778.179,,,28-05-2026 12:11:46,28-05-2026 12:11:47,0.322s,PASSED
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/a_Add Comment""))",Chrome 148.0.7778.179,,,28-05-2026 12:11:47,28-05-2026 12:11:47,0.389s,PASSED
+"setText(findTestObject(""Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr""), ""@chubby"")",Chrome 148.0.7778.179,,,28-05-2026 12:11:47,28-05-2026 12:11:48,0.902s,PASSED
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/a_Chubby Chubbystandard user""))",Chrome 148.0.7778.179,,,28-05-2026 12:11:48,28-05-2026 12:11:50,1.622s,PASSED
+"setText(findTestObject(""Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr""), ""[~Chubby Chubby] "")",Chrome 148.0.7778.179,,,28-05-2026 12:11:50,28-05-2026 12:11:50,0.685s,PASSED
+"setText(findTestObject(""Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr""), ""[~Chubby Chubby] Smoke test comment Automation "")",Chrome 148.0.7778.179,,,28-05-2026 12:11:50,28-05-2026 12:11:51,0.955s,PASSED
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/a_save_comment""))",Chrome 148.0.7778.179,,,28-05-2026 12:11:51,28-05-2026 12:11:52,0.536s,PASSED
+"waitForElementVisible(findTestObject(""Page_Work Order  View- Workforce Manager/div_Comment saved successfully""), 20)",Chrome 148.0.7778.179,,,28-05-2026 12:11:52,28-05-2026 12:12:12,20.323s,WARNING
+delay(2),Chrome 148.0.7778.179,,,28-05-2026 12:12:12,28-05-2026 12:12:14,2.005s,PASSED
+"waitForElementClickable(findTestObject(""Page_Work Order  View- Workforce Manager/button_SaveComment""), 20)",Chrome 148.0.7778.179,,,28-05-2026 12:12:14,28-05-2026 12:12:16,2.061s,PASSED
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/button_SaveComment""))",Chrome 148.0.7778.179,,,28-05-2026 12:12:16,28-05-2026 12:12:17,0.789s,PASSED
+,,,,,,,
+Test Cases/TaskActions/Change_Priority/Priority,Chrome 148.0.7778.179,,,28-05-2026 12:12:17,28-05-2026 12:12:23,5.682s,PASSED
+waitForPageLoad(20),Chrome 148.0.7778.179,,,28-05-2026 12:12:17,28-05-2026 12:12:17,0.007s,PASSED
+"waitForElementClickable(findTestObject(""Page_Work Order  View- Workforce Manager/i_fa fa-pencil text-interact-blue""), 20)",Chrome 148.0.7778.179,,,28-05-2026 12:12:17,28-05-2026 12:12:17,0.297s,PASSED
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/i_fa fa-pencil text-interact-blue""))",Chrome 148.0.7778.179,,,28-05-2026 12:12:17,28-05-2026 12:12:18,0.345s,PASSED
+"waitForElementClickable(findTestObject(""Page_Work Order  View- Workforce Manager/small_High""), 20)",Chrome 148.0.7778.179,,,28-05-2026 12:12:18,28-05-2026 12:12:18,0.271s,PASSED
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/small_High""))",Chrome 148.0.7778.179,,,28-05-2026 12:12:18,28-05-2026 12:12:20,2.214s,PASSED
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/div_Successful""))",Chrome 148.0.7778.179,,,28-05-2026 12:12:20,28-05-2026 12:12:22,2.181s,PASSED
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/button_OK""))",Chrome 148.0.7778.179,,,28-05-2026 12:12:22,28-05-2026 12:12:23,0.330s,PASSED
+,,,,,,,
+Test Cases/TaskActions/Table_Actions/Download_File,Chrome 148.0.7778.179,,,28-05-2026 12:12:23,28-05-2026 12:12:43,20.670s,PASSED
+waitForPageLoad(20),Chrome 148.0.7778.179,,,28-05-2026 12:12:23,28-05-2026 12:12:23,0.007s,PASSED
+"waitForElementPresent(findTestObject(""Page_Work Order  Index- Workforce Manager/input_Search""), 20)",Chrome 148.0.7778.179,,,28-05-2026 12:12:23,28-05-2026 12:12:43,20.076s,WARNING
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/btn_Download""))",Chrome 148.0.7778.179,,,28-05-2026 12:12:43,28-05-2026 12:12:43,0.541s,PASSED
+,,,,,,,
+Test Cases/TaskActions/Table_Actions/View_File,Chrome 148.0.7778.179,,,28-05-2026 12:12:43,28-05-2026 12:13:10,26.259s,PASSED
+waitForPageLoad(20),Chrome 148.0.7778.179,,,28-05-2026 12:12:43,28-05-2026 12:12:43,0.014s,PASSED
+"waitForElementPresent(findTestObject(""Page_Work Order  Index- Workforce Manager/input_Search""), 20)",Chrome 148.0.7778.179,,,28-05-2026 12:12:43,28-05-2026 12:13:04,20.238s,WARNING
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/btn_View""))",Chrome 148.0.7778.179,,,28-05-2026 12:13:04,28-05-2026 12:13:04,0.352s,PASSED
+"println(""Viewer opened"")",Chrome 148.0.7778.179,,,28-05-2026 12:13:04,28-05-2026 12:13:04,0.001s,PASSED
+delay(5),Chrome 148.0.7778.179,,,28-05-2026 12:13:04,28-05-2026 12:13:09,5.005s,PASSED
+"waitForElementVisible(findTestObject(""Page_Work Order  View- Workforce Manager/i_fa fa-chevron-right_1""), 20)",Chrome 148.0.7778.179,,,28-05-2026 12:13:09,28-05-2026 12:13:09,0.267s,PASSED
+"click(findTestObject(""Page_Work Order  View- Workforce Manager/i_fa fa-chevron-right_1""))",Chrome 148.0.7778.179,,,28-05-2026 12:13:09,28-05-2026 12:13:10,0.326s,PASSED
+"println(""Viewer closed"")",Chrome 148.0.7778.179,,,28-05-2026 12:13:10,28-05-2026 12:13:10,0.000s,PASSED

@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Survey_suite_model" time="446.571" tests="11" passed="11" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Survey_suite_model" tests="11" passed="11" failures="0" errors="0" incompleted="0" skipped="0" time="446.571" timestamp="2026-05-28T11:05:43.602Z" hostname="CROWN-STAFF - DESKTOP-4SI0S1N" id="Test Suites/Survey_suite_model" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\CROWN-STAFF\\git\\convergence-qa-tests\\Reports\\20260528_120534\\Survey_suite_model\\20260528_120534"/>
+         <property name="logFiles" value="C:\\Users\\CROWN-STAFF\\git\\convergence-qa-tests\\Reports\\20260528_120534\\Survey_suite_model\\20260528_120534\\console0.log, C:\\Users\\CROWN-STAFF\\git\\convergence-qa-tests\\Reports\\20260528_120534\\Survey_suite_model\\20260528_120534\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\CROWN-STAFF\\git\\convergence-qa-tests\\Reports\\20260528_120534\\Survey_suite_model\\20260528_120534\\1779966613777.png, C:\\Users\\CROWN-STAFF\\git\\convergence-qa-tests\\Reports\\20260528_120534\\Survey_suite_model\\20260528_120534\\1779966666262.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="CROWN-STAFF - DESKTOP-4SI0S1N"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.1.3.0"/>
+         <property name="browser" value="Chrome 148.0.7778.179"/>
+         <property name="userFullName" value="Chinwuba Okafor"/>
+         <property name="hostAddress" value="192.168.100.9"/>
+         <property name="sessionId" value="e43099d9a5ed4667c645b535b1e9b03f"/>
+         <property name="projectName" value="convergence-qa-tests"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Authentication/TC_Login" time="10.371" classname="Test Cases/Authentication/TC_Login" status="PASSED">
+         <system-out><![CDATA[28-05-2026T12:05:43 - [TEST_CASE][PASSED] - Test Cases/Authentication/TC_Login: Test Cases/Authentication/TC_Login
+
+28-05-2026T12:05:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2026T12:05:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2026T12:05:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2026T12:05:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2026T12:05:50 - [TEST_STEP][PASSED] - navigateToUrl("https://convergenceondemand.com/login"): Navigate to 'https://convergenceondemand.com/login' successfully
+
+28-05-2026T12:05:51 - [MESSAGE][PASSED] - Navigate to 'https://convergenceondemand.com/login' successfully
+
+28-05-2026T12:05:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_1Government Login/input_Enter your MDA"), "govtest"): Text 'govtest' is set on object 'Object Repository/Page_1Government Login/input_Enter your MDA'
+
+28-05-2026T12:05:52 - [MESSAGE][PASSED] - Text 'govtest' is set on object 'Object Repository/Page_1Government Login/input_Enter your MDA'
+
+28-05-2026T12:05:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_1Government Login/input_Enter Email"), "apisupport@cicod.com"): Text 'apisupport@cicod.com' is set on object 'Object Repository/Page_1Government Login/input_Enter Email'
+
+28-05-2026T12:05:53 - [MESSAGE][PASSED] - Text 'apisupport@cicod.com' is set on object 'Object Repository/Page_1Government Login/input_Enter Email'
+
+28-05-2026T12:05:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_1Government Login/input_Enter password"), "9zJdpvfgkgtFa8MQRHGI0w=="): Text ****** has been set on object 'Object Repository/Page_1Government Login/input_Enter password'
+
+28-05-2026T12:05:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_1Government Login/input_Enter password'
+
+28-05-2026T12:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_1Government Login/button_Login")): Object: 'Object Repository/Page_1Government Login/button_Login' is clicked on
+
+28-05-2026T12:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_1Government Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Navigation/TC_Open_Task_Module" time="5.077" classname="Test Cases/Navigation/TC_Open_Task_Module" status="PASSED">
+         <system-out><![CDATA[28-05-2026T12:05:54 - [TEST_CASE][PASSED] - Test Cases/Navigation/TC_Open_Task_Module: Test Cases/Navigation/TC_Open_Task_Module
+
+28-05-2026T12:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_1Gov/p_Automate Government MDAs critical operations,")): Object: 'Object Repository/Page_1Gov/p_Automate Government MDAs critical operations,' is clicked on
+
+28-05-2026T12:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_1Gov/p_Automate Government MDAs critical operations,' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setup/TC_Create_Task" time="30.419" classname="Test Cases/Setup/TC_Create_Task" status="PASSED">
+         <system-out><![CDATA[28-05-2026T12:05:59 - [TEST_CASE][PASSED] - Test Cases/Setup/TC_Create_Task: Test Cases/Setup/TC_Create_Task
+
+28-05-2026T12:05:59 - [TEST_STEP][PASSED] - navigateToUrl("https://govtest.convergenceondemand.com/wfm/index.php?r=workOrder#active-tickets"): Navigate to 'https://govtest.convergenceondemand.com/wfm/index.php?r=workOrder#active-tickets' successfully
+
+28-05-2026T12:05:59 - [MESSAGE][PASSED] - Navigate to 'https://govtest.convergenceondemand.com/wfm/index.php?r=workOrder#active-tickets' successfully
+
+28-05-2026T12:05:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-05-2026T12:06:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-05-2026T12:06:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-05-2026T12:06:05 - [MESSAGE][PASSED] - Current window maximized
+
+28-05-2026T12:06:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Index- Workforce Manager/a_Create Task")): Object: 'Object Repository/Page_Work Order  Index- Workforce Manager/a_Create Task' is clicked on
+
+28-05-2026T12:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Index- Workforce Manager/a_Create Task' is clicked on
+
+28-05-2026T12:06:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/span_Select Queue")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/span_Select Queue' is clicked on
+
+28-05-2026T12:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/span_Select Queue' is clicked on
+
+28-05-2026T12:06:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Search"), "aut"): Text 'aut' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Search'
+
+28-05-2026T12:06:11 - [MESSAGE][PASSED] - Text 'aut' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Search'
+
+28-05-2026T12:06:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/a_TEST AUTOMATION")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/a_TEST AUTOMATION' is clicked on
+
+28-05-2026T12:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/a_TEST AUTOMATION' is clicked on
+
+28-05-2026T12:06:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/span_Select Queue Type")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/span_Select Queue Type' is clicked on
+
+28-05-2026T12:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/span_Select Queue Type' is clicked on
+
+28-05-2026T12:06:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/span_Automated Testing")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/span_Automated Testing' is clicked on
+
+28-05-2026T12:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/span_Automated Testing' is clicked on
+
+28-05-2026T12:06:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Task Title _"), "TEST AUTOMATION 10028791"): Text 'TEST AUTOMATION 10028791' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Task Title _'
+
+28-05-2026T12:06:17 - [MESSAGE][PASSED] - Text 'TEST AUTOMATION 10028791' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Task Title _'
+
+28-05-2026T12:06:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/textarea_Description"), "Smoke Test"): Text 'Smoke Test' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/textarea_Description'
+
+28-05-2026T12:06:17 - [MESSAGE][PASSED] - Text 'Smoke Test' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/textarea_Description'
+
+28-05-2026T12:06:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Input First Name"), "Mr"): Text 'Mr' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input First Name'
+
+28-05-2026T12:06:18 - [MESSAGE][PASSED] - Text 'Mr' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input First Name'
+
+28-05-2026T12:06:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Input Last Name"), "Adekola"): Text 'Adekola' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input Last Name'
+
+28-05-2026T12:06:19 - [MESSAGE][PASSED] - Text 'Adekola' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input Last Name'
+
+28-05-2026T12:06:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Input Phone Number"), "Cole"): Text 'Cole' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input Phone Number'
+
+28-05-2026T12:06:20 - [MESSAGE][PASSED] - Text 'Cole' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input Phone Number'
+
+28-05-2026T12:06:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Input Email Address"), "testautomation@cicod.com"): Text 'testautomation@cicod.com' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input Email Address'
+
+28-05-2026T12:06:21 - [MESSAGE][PASSED] - Text 'testautomation@cicod.com' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Input Email Address'
+
+28-05-2026T12:06:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_house_no"), "45b"): Text '45b' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_house_no'
+
+28-05-2026T12:06:22 - [MESSAGE][PASSED] - Text '45b' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_house_no'
+
+28-05-2026T12:06:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_street"), "Admiralty Way"): Text 'Admiralty Way' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_street'
+
+28-05-2026T12:06:23 - [MESSAGE][PASSED] - Text 'Admiralty Way' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_street'
+
+28-05-2026T12:06:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Work Order  Create- Workforce Manager/select_AngolaCameroonCongoEthopiaNigeriaSouth Af"), "Nigeria", false): All options with value 'Nigeria' are selected in object 'Object Repository/Page_Work Order  Create- Workforce Manager/select_AngolaCameroonCongoEthopiaNigeriaSouth Af' 
+
+28-05-2026T12:06:24 - [MESSAGE][PASSED] - All options with value 'Nigeria' are selected in object 'Object Repository/Page_Work Order  Create- Workforce Manager/select_AngolaCameroonCongoEthopiaNigeriaSouth Af' 
+
+28-05-2026T12:06:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Work Order  Create- Workforce Manager/select_Select StateAbiaAbujaAdamawaAkwa IbomAnam"), "Lagos", false): All options with value 'Lagos' are selected in object 'Object Repository/Page_Work Order  Create- Workforce Manager/select_Select StateAbiaAbujaAdamawaAkwa IbomAnam' 
+
+28-05-2026T12:06:24 - [MESSAGE][PASSED] - All options with value 'Lagos' are selected in object 'Object Repository/Page_Work Order  Create- Workforce Manager/select_Select StateAbiaAbujaAdamawaAkwa IbomAnam' 
+
+28-05-2026T12:06:24 - [TEST_STEP][PASSED] - switchToWindowTitle("Work Order | Create- Workforce Manager"): Switched to window with title: 'Work Order | Create- Workforce Manager'
+
+28-05-2026T12:06:25 - [MESSAGE][PASSED] - Switched to window with title: 'Work Order | Create- Workforce Manager'
+
+28-05-2026T12:06:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/input_optionsRadios1")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_optionsRadios1' is clicked on
+
+28-05-2026T12:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_optionsRadios1' is clicked on
+
+28-05-2026T12:06:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/input_optionsChecks1")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_optionsChecks1' is clicked on
+
+28-05-2026T12:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_optionsChecks1' is clicked on
+
+28-05-2026T12:06:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  Create- Workforce Manager/input_Select Date"), "2026-05-20"): Text '2026-05-20' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Select Date'
+
+28-05-2026T12:06:26 - [MESSAGE][PASSED] - Text '2026-05-20' is set on object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_Select Date'
+
+28-05-2026T12:06:26 - [TEST_STEP][PASSED] - filePath = getProjectDir() + "/Include/test-files/data_backup.png": null
+
+28-05-2026T12:06:26 - [TEST_STEP][PASSED] - assert File(filePath).exists(): null
+
+28-05-2026T12:06:26 - [TEST_STEP][PASSED] - uploadObj = findTestObject("Page_Work Order  Create- Workforce Manager/input_take-photo-input-selected_file"): null
+
+28-05-2026T12:06:26 - [TEST_STEP][PASSED] - waitForElementPresent(uploadObj, 10): Object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_take-photo-input-selected_file' is present
+
+28-05-2026T12:06:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  Create- Workforce Manager/input_take-photo-input-selected_file' is present
+
+28-05-2026T12:06:27 - [TEST_STEP][PASSED] - uploadFile(uploadObj, filePath): File 'C:/Users/CROWN-STAFF/git/convergence-qa-tests/Include/test-files/data_backup.png' sent to object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_take-photo-input-selected_file'
+
+28-05-2026T12:06:27 - [MESSAGE][WARNING] - Cannot clear the existing file path in the input element. Continue to upload file.
+
+28-05-2026T12:06:27 - [MESSAGE][PASSED] - File 'C:/Users/CROWN-STAFF/git/convergence-qa-tests/Include/test-files/data_backup.png' sent to object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_take-photo-input-selected_file'
+
+28-05-2026T12:06:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/input_should_assign_ticket")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_should_assign_ticket' is clicked on
+
+28-05-2026T12:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/input_should_assign_ticket' is clicked on
+
+28-05-2026T12:06:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Work Order  Create- Workforce Manager/select_assign-to-user"), "82", false): All options with value '82' are selected in object 'Object Repository/Page_Work Order  Create- Workforce Manager/select_assign-to-user' 
+
+28-05-2026T12:06:28 - [MESSAGE][PASSED] - All options with value '82' are selected in object 'Object Repository/Page_Work Order  Create- Workforce Manager/select_assign-to-user' 
+
+28-05-2026T12:06:28 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Work Order  Create- Workforce Manager/button_Create"), 20): Object 'Object Repository/Page_Work Order  Create- Workforce Manager/button_Create' is clickable
+
+28-05-2026T12:06:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  Create- Workforce Manager/button_Create' is clickable
+
+28-05-2026T12:06:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/button_Create")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/button_Create' is clicked on
+
+28-05-2026T12:06:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/button_Create' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Setup/TC_Open_Task_Details" time="31.738" classname="Test Cases/Setup/TC_Open_Task_Details" status="PASSED">
+         <system-out><![CDATA[28-05-2026T12:06:29 - [TEST_CASE][PASSED] - Test Cases/Setup/TC_Open_Task_Details: Test Cases/Setup/TC_Open_Task_Details
+
+28-05-2026T12:06:30 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+28-05-2026T12:06:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-05-2026T12:06:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+28-05-2026T12:06:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+28-05-2026T12:06:33 - [TEST_STEP][PASSED] - modal = new com.kms.katalon.core.testobject.TestObject(): null
+
+28-05-2026T12:06:33 - [TEST_STEP][PASSED] - modal.addProperty("xpath", EQUALS, "//*[contains(text(),'Ticket ID')]"): null
+
+28-05-2026T12:06:33 - [TEST_STEP][PASSED] - waitForElementVisible(modal, 30): Object '' is visible
+
+28-05-2026T12:06:34 - [MESSAGE][PASSED] - Object '' is visible
+
+28-05-2026T12:06:34 - [TEST_STEP][PASSED] - successMessage = getText(modal): Text of object '' is: 'Task Created Successfully - Ticket ID: 16714'
+
+28-05-2026T12:06:34 - [MESSAGE][PASSED] - Text of object '' is: 'Task Created Successfully - Ticket ID: 16714'
+
+28-05-2026T12:06:34 - [TEST_STEP][PASSED] - println("SUCCESS → " + successMessage): null
+
+28-05-2026T12:06:34 - [TEST_STEP][PASSED] - matcher = successMessage =~ "\d+": null
+
+28-05-2026T12:06:34 - [TEST_STEP][PASSED] - if (!(matcher.find())): null
+
+28-05-2026T12:06:34 - [TEST_STEP][PASSED] - ticketId = matcher.group(): null
+
+28-05-2026T12:06:34 - [TEST_STEP][PASSED] - println("Captured Ticket → " + ticketId): null
+
+28-05-2026T12:06:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Create- Workforce Manager/button_message-dismiss")): Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/button_message-dismiss' is clicked on
+
+28-05-2026T12:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Create- Workforce Manager/button_message-dismiss' is clicked on
+
+28-05-2026T12:06:35 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+28-05-2026T12:06:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-05-2026T12:06:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-05-2026T12:06:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-05-2026T12:06:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  Index- Workforce Manager/a_Created By Me")): Object: 'Object Repository/Page_Work Order  Index- Workforce Manager/a_Created By Me' is clicked on
+
+28-05-2026T12:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Index- Workforce Manager/a_Created By Me' is clicked on
+
+28-05-2026T12:06:38 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+28-05-2026T12:06:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-05-2026T12:06:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+28-05-2026T12:06:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+28-05-2026T12:06:41 - [TEST_STEP][PASSED] - search = findTestObject("Page_Work Order  Index- Workforce Manager/input_Search"): null
+
+28-05-2026T12:06:41 - [TEST_STEP][PASSED] - waitForElementVisible(search, 30): Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is visible
+
+28-05-2026T12:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is visible
+
+28-05-2026T12:06:41 - [TEST_STEP][PASSED] - click(search): Object: 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is clicked on
+
+28-05-2026T12:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is clicked on
+
+28-05-2026T12:06:42 - [TEST_STEP][PASSED] - clearText(search): Text of object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is cleared
+
+28-05-2026T12:06:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is cleared
+
+28-05-2026T12:06:43 - [TEST_STEP][PASSED] - setText(search, ticketId): Text '16714' is set on object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search'
+
+28-05-2026T12:06:43 - [MESSAGE][PASSED] - Text '16714' is set on object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search'
+
+28-05-2026T12:06:43 - [TEST_STEP][PASSED] - sendKeys(search, Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search'
+
+28-05-2026T12:06:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search'
+
+28-05-2026T12:06:44 - [TEST_STEP][PASSED] - println("Searching → " + ticketId): null
+
+28-05-2026T12:06:44 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+28-05-2026T12:06:52 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+28-05-2026T12:06:52 - [TEST_STEP][PASSED] - row = new com.kms.katalon.core.testobject.TestObject(): null
+
+28-05-2026T12:06:52 - [TEST_STEP][PASSED] - row.addProperty("xpath", EQUALS, //tr[.//*[contains(text(),'$ticketId')]]): null
+
+28-05-2026T12:06:52 - [TEST_STEP][PASSED] - found = waitForElementPresent(row, 30): Object '' is present
+
+28-05-2026T12:06:52 - [MESSAGE][PASSED] - Object '' is present
+
+28-05-2026T12:06:52 - [TEST_STEP][PASSED] - if (!(found)): null
+
+28-05-2026T12:06:52 - [TEST_STEP][PASSED] - println("Ticket row found"): null
+
+28-05-2026T12:06:52 - [TEST_STEP][PASSED] - titleLink = new com.kms.katalon.core.testobject.TestObject(): null
+
+28-05-2026T12:06:52 - [TEST_STEP][PASSED] - titleLink.addProperty("xpath", EQUALS, (//tr[.//*[contains(text(),'$ticketId')]]//td[3]//a) | (//tr[.//*[contains(text(),'$ticketId')]]//td[3]//*[self::span or self::div])): null
+
+28-05-2026T12:06:52 - [TEST_STEP][PASSED] - waitForElementVisible(titleLink, 30): Object '' is visible
+
+28-05-2026T12:06:52 - [MESSAGE][PASSED] - Object '' is visible
+
+28-05-2026T12:06:52 - [TEST_STEP][PASSED] - scrollToElement(titleLink, 10): Scroll to object '' successfully
+
+28-05-2026T12:06:53 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+28-05-2026T12:06:53 - [TEST_STEP][PASSED] - link = findWebElement(titleLink, 20): Found web element by test object 
+
+28-05-2026T12:06:53 - [MESSAGE][PASSED] - Found web element by test object 
+
+28-05-2026T12:06:53 - [TEST_STEP][PASSED] - executeJavaScript("\narguments[0].scrollIntoView({\nblock:'center'\n});\n", Arrays.asList(link)): Execute JavaScript '
+arguments[0].scrollIntoView({
+block:'center'
+});
+' successfully
+
+28-05-2026T12:06:53 - [MESSAGE][PASSED] - Execute JavaScript '
+arguments[0].scrollIntoView({
+block:'center'
+});
+' successfully
+
+28-05-2026T12:06:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-05-2026T12:06:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-05-2026T12:06:55 - [TEST_STEP][PASSED] - println("Opening ticket"): null
+
+28-05-2026T12:06:55 - [TEST_STEP][PASSED] - try: Object: '' is clicked on
+
+28-05-2026T12:06:55 - [TEST_STEP][PASSED] - click(titleLink): Object: '' is clicked on
+
+28-05-2026T12:06:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+28-05-2026T12:06:59 - [TEST_STEP][PASSED] - opened = false: null
+
+28-05-2026T12:06:59 - [TEST_STEP][PASSED] - for ([i = 0, i < 30, (i++)]): null
+
+28-05-2026T12:06:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+28-05-2026T12:07:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+28-05-2026T12:07:00 - [TEST_STEP][PASSED] - details = new com.kms.katalon.core.testobject.TestObject(): null
+
+28-05-2026T12:07:00 - [TEST_STEP][PASSED] - details.addProperty("xpath", EQUALS, "\n//*[contains(text(),'Priority')]\n|\n//*[contains(text(),'Task Details')]\n|\n//*[contains(text(),'Queue')]\n"): null
+
+28-05-2026T12:07:00 - [TEST_STEP][PASSED] - if (verifyElementPresent(details, 1, OPTIONAL)): null
+
+28-05-2026T12:07:01 - [MESSAGE][PASSED] - Object '' is present
+
+28-05-2026T12:07:01 - [TEST_STEP][PASSED] - opened = true: null
+
+28-05-2026T12:07:01 - [TEST_STEP][PASSED] - break: null
+
+28-05-2026T12:07:01 - [TEST_STEP][PASSED] - if (!(opened)): null
+
+28-05-2026T12:07:01 - [TEST_STEP][PASSED] - println("TASK DETAILS OPENED → " + ticketId): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive" time="21.121" classname="Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive" status="PASSED">
+         <system-out><![CDATA[28-05-2026T12:07:01 - [TEST_CASE][PASSED] - Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive: Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive
+
+28-05-2026T12:07:01 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+28-05-2026T12:07:01 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+28-05-2026T12:07:01 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+28-05-2026T12:07:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-05-2026T12:07:01 - [TEST_STEP][PASSED] - println("Starting upload flow"): null
+
+28-05-2026T12:07:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Work Order  View- Workforce Manager/a_dLabel"), 30): Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_dLabel' is visible
+
+28-05-2026T12:07:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_dLabel' is visible
+
+28-05-2026T12:07:03 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Work Order  View- Workforce Manager/a_dLabel"), 30): Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_dLabel' is clickable
+
+28-05-2026T12:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_dLabel' is clickable
+
+28-05-2026T12:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/a_dLabel")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_dLabel' is clicked on
+
+28-05-2026T12:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_dLabel' is clicked on
+
+28-05-2026T12:07:04 - [TEST_STEP][PASSED] - println("Upload menu opened"): null
+
+28-05-2026T12:07:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Work Order  View- Workforce Manager/a_cde-upload"), 30): Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is visible
+
+28-05-2026T12:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is visible
+
+28-05-2026T12:07:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Work Order  View- Workforce Manager/a_cde-upload"), 30): Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is clickable
+
+28-05-2026T12:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is clickable
+
+28-05-2026T12:07:05 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is clicked on
+
+28-05-2026T12:07:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/a_cde-upload")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is clicked on
+
+28-05-2026T12:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_cde-upload' is clicked on
+
+28-05-2026T12:07:05 - [TEST_STEP][PASSED] - println("GovDrive selected"): null
+
+28-05-2026T12:07:05 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+28-05-2026T12:07:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Work Order  View- Workforce Manager/iframe_cde-widget"), 30): Object 'Object Repository/Page_Work Order  View- Workforce Manager/iframe_cde-widget' is visible
+
+28-05-2026T12:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/iframe_cde-widget' is visible
+
+28-05-2026T12:07:06 - [TEST_STEP][PASSED] - switched = false: null
+
+28-05-2026T12:07:06 - [TEST_STEP][PASSED] - for ([i = 0, i < 3, (i++)]): null
+
+28-05-2026T12:07:06 - [TEST_STEP][PASSED] - try: null
+
+28-05-2026T12:07:06 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Page_Work Order  View- Workforce Manager/iframe_cde-widget"), 10): null
+
+28-05-2026T12:07:06 - [TEST_STEP][PASSED] - switched = true: null
+
+28-05-2026T12:07:06 - [TEST_STEP][PASSED] - break: null
+
+28-05-2026T12:07:06 - [TEST_STEP][PASSED] - if (!(switched)): null
+
+28-05-2026T12:07:06 - [TEST_STEP][PASSED] - println("Inside iframe"): null
+
+28-05-2026T12:07:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-05-2026T12:07:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-05-2026T12:07:11 - [TEST_STEP][PASSED] - println("Waiting for files to appear..."): null
+
+28-05-2026T12:07:11 - [TEST_STEP][PASSED] - found = false: null
+
+28-05-2026T12:07:11 - [TEST_STEP][PASSED] - checkbox = null: null
+
+28-05-2026T12:07:11 - [TEST_STEP][PASSED] - for ([i = 0, i < 20, (i++)]): null
+
+28-05-2026T12:07:11 - [TEST_STEP][PASSED] - checkboxes = driver.findElements(By.xpath("//input[@type='checkbox'] | //*[@role='checkbox']")): null
+
+28-05-2026T12:07:11 - [TEST_STEP][PASSED] - println("Checkbox count = " + checkboxes.size()): null
+
+28-05-2026T12:07:11 - [TEST_STEP][PASSED] - if (!(checkboxes.isEmpty())): null
+
+28-05-2026T12:07:11 - [TEST_STEP][PASSED] - checkbox = checkboxes[0]: null
+
+28-05-2026T12:07:11 - [TEST_STEP][PASSED] - driver.executeScript("arguments[0].scrollIntoView(true)", checkbox): null
+
+28-05-2026T12:07:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+28-05-2026T12:07:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+28-05-2026T12:07:13 - [TEST_STEP][PASSED] - driver.executeScript("arguments[0].click();", checkbox): null
+
+28-05-2026T12:07:13 - [TEST_STEP][PASSED] - found = true: null
+
+28-05-2026T12:07:13 - [TEST_STEP][PASSED] - println("File selected"): null
+
+28-05-2026T12:07:13 - [TEST_STEP][PASSED] - break: null
+
+28-05-2026T12:07:13 - [TEST_STEP][PASSED] - if (!(found)): null
+
+28-05-2026T12:07:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+28-05-2026T12:07:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+28-05-2026T12:07:16 - [TEST_STEP][PASSED] - insertBtn = null: null
+
+28-05-2026T12:07:16 - [TEST_STEP][PASSED] - for ([i = 0, i < 15, (i++)]): null
+
+28-05-2026T12:07:16 - [TEST_STEP][PASSED] - try: null
+
+28-05-2026T12:07:16 - [TEST_STEP][PASSED] - insertBtn = driver.findElement(By.xpath("//button[normalize-space()='Insert']")): null
+
+28-05-2026T12:07:16 - [TEST_STEP][PASSED] - visible = insertBtn.isDisplayed(): null
+
+28-05-2026T12:07:16 - [TEST_STEP][PASSED] - enabled = insertBtn.isEnabled(): null
+
+28-05-2026T12:07:16 - [TEST_STEP][PASSED] - disabled = insertBtn.getAttribute("disabled"): null
+
+28-05-2026T12:07:16 - [TEST_STEP][PASSED] - if (visible && enabled && disabled == null): null
+
+28-05-2026T12:07:16 - [TEST_STEP][PASSED] - break: null
+
+28-05-2026T12:07:16 - [TEST_STEP][PASSED] - if (insertBtn == null): null
+
+28-05-2026T12:07:16 - [TEST_STEP][PASSED] - driver.executeScript("\narguments[0].scrollIntoView({\nblock:'center'\n});\n", insertBtn): null
+
+28-05-2026T12:07:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+28-05-2026T12:07:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+28-05-2026T12:07:17 - [TEST_STEP][PASSED] - driver.executeScript("arguments[0].click();", insertBtn): null
+
+28-05-2026T12:07:17 - [TEST_STEP][PASSED] - println("Insert clicked"): null
+
+28-05-2026T12:07:17 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+28-05-2026T12:07:17 - [TEST_STEP][PASSED] - try: null
+
+28-05-2026T12:07:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+28-05-2026T12:07:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+28-05-2026T12:07:20 - [TEST_STEP][PASSED] - okButton = driver.findElement(By.xpath("//button[normalize-space()='OK'] | //a[normalize-space()='OK']")): null
+
+28-05-2026T12:07:22 - [TEST_STEP][PASSED] - driver.executeScript("arguments[0].click();", okButton): null
+
+28-05-2026T12:07:22 - [TEST_STEP][PASSED] - println("Success popup closed"): null
+
+28-05-2026T12:07:22 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+28-05-2026T12:07:22 - [TEST_STEP][PASSED] - println("Upload completed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TaskActions/Uploads/Upload_file_Without_Classification" time="23.942" classname="Test Cases/TaskActions/Uploads/Upload_file_Without_Classification" status="PASSED">
+         <system-out><![CDATA[28-05-2026T12:07:22 - [TEST_CASE][PASSED] - Test Cases/TaskActions/Uploads/Upload_file_Without_Classification: Test Cases/TaskActions/Uploads/Upload_file_Without_Classification
+
+28-05-2026T12:07:22 - [TEST_STEP][PASSED] - taskName = "TEST AUTOMATION": null
+
+28-05-2026T12:07:22 - [TEST_STEP][PASSED] - uploadFile = getProjectDir() + "/Include/test-files/TASK CYCLE.pdf": null
+
+28-05-2026T12:07:22 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+28-05-2026T12:07:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-05-2026T12:07:22 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+28-05-2026T12:07:22 - [TEST_STEP][PASSED] - println("Looking for task: " + taskName): null
+
+28-05-2026T12:07:22 - [TEST_STEP][PASSED] - task = new com.kms.katalon.core.testobject.TestObject(): null
+
+28-05-2026T12:07:22 - [TEST_STEP][PASSED] - task.addProperty("xpath", EQUALS, "//p[contains(normalize-space(.),'" + taskName + "')]"): null
+
+28-05-2026T12:07:22 - [TEST_STEP][PASSED] - taskExists = waitForElementPresent(task, 20, OPTIONAL): Object '' is present
+
+28-05-2026T12:07:24 - [MESSAGE][PASSED] - Object '' is present
+
+28-05-2026T12:07:24 - [TEST_STEP][PASSED] - println("Task exists = " + taskExists): null
+
+28-05-2026T12:07:24 - [TEST_STEP][PASSED] - if (!(taskExists)): null
+
+28-05-2026T12:07:24 - [TEST_STEP][PASSED] - assert taskExists: null
+
+28-05-2026T12:07:24 - [TEST_STEP][PASSED] - scrollToElement(task, 10): Scroll to object '' successfully
+
+28-05-2026T12:07:24 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+28-05-2026T12:07:24 - [TEST_STEP][PASSED] - enhancedClick(task): Object: '' is clicked on
+
+28-05-2026T12:07:24 - [MESSAGE][ERROR] - element not interactable: [object HTMLParagraphElement] has no size and location
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [e43099d9a5ed4667c645b535b1e9b03f, actions {actions=[org.openqa.selenium.interactions.Sequence@41e156ee]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\CROWN-~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59267}, goog:processID: 51480, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59267/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:29467/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e43099d9a5ed4667c645b535b1e9b03f
+
+28-05-2026T12:07:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+28-05-2026T12:07:35 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+28-05-2026T12:07:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-05-2026T12:07:35 - [TEST_STEP][PASSED] - uploadBtn = findTestObject("Page_Work Order  View- Workforce Manager/Page_Work Order  View- Workforce Manager/a_dLabel"): null
+
+28-05-2026T12:07:35 - [TEST_STEP][PASSED] - waitForElementClickable(uploadBtn, 20): Object 'Object Repository/Page_Work Order  View- Workforce Manager/Page_Work Order  View- Workforce Manager/a_dLabel' is clickable
+
+28-05-2026T12:07:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/Page_Work Order  View- Workforce Manager/a_dLabel' is clickable
+
+28-05-2026T12:07:35 - [TEST_STEP][PASSED] - enhancedClick(uploadBtn): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/Page_Work Order  View- Workforce Manager/a_dLabel' is clicked on
+
+28-05-2026T12:07:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/Page_Work Order  View- Workforce Manager/a_dLabel' is clicked on
+
+28-05-2026T12:07:36 - [TEST_STEP][PASSED] - println("Upload modal opened"): null
+
+28-05-2026T12:07:36 - [TEST_STEP][PASSED] - assert Files.exists(Paths.get(uploadFile)): null
+
+28-05-2026T12:07:36 - [TEST_STEP][PASSED] - println("Uploading -> " + uploadFile): null
+
+28-05-2026T12:07:36 - [TEST_STEP][PASSED] - fileInput = new com.kms.katalon.core.testobject.TestObject(): null
+
+28-05-2026T12:07:36 - [TEST_STEP][PASSED] - fileInput.addProperty("xpath", EQUALS, "//*[@id='file_upload']"): null
+
+28-05-2026T12:07:36 - [TEST_STEP][PASSED] - waitForElementPresent(fileInput, 20): Object '' is present
+
+28-05-2026T12:07:36 - [MESSAGE][PASSED] - Object '' is present
+
+28-05-2026T12:07:36 - [TEST_STEP][PASSED] - executeJavaScript("\narguments[0].style.display='block';\narguments[0].style.visibility='visible';\narguments[0].removeAttribute('hidden');\narguments[0].removeAttribute('disabled');\n", [findWebElement(fileInput, 20)]): Execute JavaScript '
+arguments[0].style.display='block';
+arguments[0].style.visibility='visible';
+arguments[0].removeAttribute('hidden');
+arguments[0].removeAttribute('disabled');
+' successfully
+
+28-05-2026T12:07:36 - [MESSAGE][PASSED] - Found web element by test object 
+
+28-05-2026T12:07:36 - [MESSAGE][PASSED] - Execute JavaScript '
+arguments[0].style.display='block';
+arguments[0].style.visibility='visible';
+arguments[0].removeAttribute('hidden');
+arguments[0].removeAttribute('disabled');
+' successfully
+
+28-05-2026T12:07:36 - [TEST_STEP][PASSED] - uploadFile(fileInput, uploadFile): File 'C:/Users/CROWN-STAFF/git/convergence-qa-tests/Include/test-files/TASK CYCLE.pdf' sent to object: ''
+
+28-05-2026T12:07:37 - [MESSAGE][WARNING] - Cannot clear the existing file path in the input element. Continue to upload file.
+
+28-05-2026T12:07:37 - [MESSAGE][PASSED] - File 'C:/Users/CROWN-STAFF/git/convergence-qa-tests/Include/test-files/TASK CYCLE.pdf' sent to object: ''
+
+28-05-2026T12:07:37 - [TEST_STEP][PASSED] - println("File injected successfully"): null
+
+28-05-2026T12:07:37 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+28-05-2026T12:07:45 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+28-05-2026T12:07:45 - [TEST_STEP][PASSED] - noButton = new com.kms.katalon.core.testobject.TestObject(): null
+
+28-05-2026T12:07:45 - [TEST_STEP][PASSED] - noButton.addProperty("xpath", EQUALS, "//button[normalize-space()='No']"): null
+
+28-05-2026T12:07:45 - [TEST_STEP][PASSED] - modalPresent = waitForElementPresent(noButton, 10, OPTIONAL): Object '' is present
+
+28-05-2026T12:07:45 - [MESSAGE][PASSED] - Object '' is present
+
+28-05-2026T12:07:45 - [TEST_STEP][PASSED] - if (modalPresent): null
+
+28-05-2026T12:07:45 - [TEST_STEP][PASSED] - waitForElementClickable(noButton, 10): Object '' is clickable
+
+28-05-2026T12:07:46 - [MESSAGE][PASSED] - Object '' is clickable
+
+28-05-2026T12:07:46 - [TEST_STEP][PASSED] - enhancedClick(noButton): Object: '' is clicked on
+
+28-05-2026T12:07:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+28-05-2026T12:07:46 - [TEST_STEP][PASSED] - println("Clicked NO"): null
+
+28-05-2026T12:07:46 - [TEST_STEP][PASSED] - println("Upload completed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TaskActions/Table_Actions/Esign" time="95.341" classname="Test Cases/TaskActions/Table_Actions/Esign" status="PASSED">
+         <system-out><![CDATA[28-05-2026T12:07:46 - [TEST_CASE][PASSED] - Test Cases/TaskActions/Table_Actions/Esign: Test Cases/TaskActions/Table_Actions/Esign
+
+28-05-2026T12:07:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+28-05-2026T12:07:47 - [TEST_STEP][PASSED] - wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, java.time.Duration.ofSeconds(30)): null
+
+28-05-2026T12:07:47 - [TEST_STEP][PASSED] - println("===== START ESIGN ====="): null
+
+28-05-2026T12:07:47 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+28-05-2026T12:07:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-05-2026T12:07:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/svg_svg")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/svg_svg' is clicked on
+
+28-05-2026T12:08:00 - [MESSAGE][WARNING] - Waiting for element timed out
+
+28-05-2026T12:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/svg_svg' is clicked on
+
+28-05-2026T12:08:00 - [TEST_STEP][PASSED] - println("eSign modal opened"): null
+
+28-05-2026T12:08:00 - [TEST_STEP][PASSED] - iframe = new com.kms.katalon.core.testobject.TestObject(): null
+
+28-05-2026T12:08:00 - [TEST_STEP][PASSED] - iframe.addProperty("xpath", EQUALS, "//iframe[contains(@id,'esign')]"): null
+
+28-05-2026T12:08:00 - [TEST_STEP][PASSED] - waitForElementPresent(iframe, 60): Object '' is present
+
+28-05-2026T12:08:01 - [MESSAGE][PASSED] - Object '' is present
+
+28-05-2026T12:08:01 - [TEST_STEP][PASSED] - switchToFrame(iframe, 20): null
+
+28-05-2026T12:08:01 - [TEST_STEP][PASSED] - println("Inside iframe"): null
+
+28-05-2026T12:08:01 - [TEST_STEP][PASSED] - signTool = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[normalize-space()='Signature']"))): null
+
+28-05-2026T12:08:06 - [TEST_STEP][PASSED] - driver.executeScript("arguments[0].click();", signTool): null
+
+28-05-2026T12:08:06 - [TEST_STEP][PASSED] - println("Signature selected"): null
+
+28-05-2026T12:08:06 - [TEST_STEP][PASSED] - page = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(@id,'page-')]"))): null
+
+28-05-2026T12:08:14 - [TEST_STEP][PASSED] - println("PDF located"): null
+
+28-05-2026T12:08:14 - [TEST_STEP][PASSED] - driver.executeScript("\nvar rect=arguments[0].getBoundingClientRect();\n\nvar x=rect.left+(rect.width/2);\nvar y=rect.top+250;\n\nvar el=document.elementFromPoint(x,y);\n\nif(el){\nel.dispatchEvent(\nnew MouseEvent(\n'click',\n{\nbubbles:true,\nclientX:x,\nclientY:y\n}\n)\n);\n}\n", page): null
+
+28-05-2026T12:08:14 - [TEST_STEP][PASSED] - println("Signature dropped"): null
+
+28-05-2026T12:08:14 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+28-05-2026T12:08:17 - [TEST_STEP][PASSED] - try: null
+
+28-05-2026T12:08:17 - [TEST_STEP][PASSED] - okSign = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[normalize-space()='OK']"))): null
+
+28-05-2026T12:08:48 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+28-05-2026T12:08:48 - [TEST_STEP][PASSED] - println("No signature OK popup"): null
+
+28-05-2026T12:08:48 - [TEST_STEP][PASSED] - previewBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(.,'Preview')]"))): null
+
+28-05-2026T12:08:48 - [TEST_STEP][PASSED] - driver.executeScript("arguments[0].click();", previewBtn): null
+
+28-05-2026T12:08:48 - [TEST_STEP][PASSED] - println("Preview clicked"): null
+
+28-05-2026T12:08:48 - [TEST_STEP][PASSED] - wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//button[contains(.,'Preview') or contains(.,'Save')]"), "Save")): null
+
+28-05-2026T12:08:48 - [TEST_STEP][PASSED] - saveBtn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(.,'Save')]"))): null
+
+28-05-2026T12:08:48 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+28-05-2026T12:08:49 - [TEST_STEP][PASSED] - driver.executeScript("arguments[0].click();", saveBtn): null
+
+28-05-2026T12:08:49 - [TEST_STEP][PASSED] - println("Save clicked"): null
+
+28-05-2026T12:08:49 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+28-05-2026T12:08:49 - [TEST_STEP][PASSED] - println("Back to main page"): null
+
+28-05-2026T12:08:49 - [TEST_STEP][PASSED] - okModalClosed = false: null
+
+28-05-2026T12:08:49 - [TEST_STEP][PASSED] - try: Object '' is not visible after 10 second(s)
+
+28-05-2026T12:08:49 - [TEST_STEP][PASSED] - okBtn = new com.kms.katalon.core.testobject.TestObject(): null
+
+28-05-2026T12:08:49 - [TEST_STEP][PASSED] - okBtn.addProperty("xpath", EQUALS, "//button[normalize-space()='OK']"): null
+
+28-05-2026T12:08:49 - [TEST_STEP][WARNING] - if (waitForElementVisible(okBtn, 10, OPTIONAL)): Object '' is not visible after 10 second(s)
+
+28-05-2026T12:09:01 - [MESSAGE][WARNING] - Object '' is not visible after 10 second(s)
+
+28-05-2026T12:09:01 - [TEST_STEP][PASSED] - if (!(okModalClosed)): null
+
+28-05-2026T12:09:01 - [TEST_STEP][PASSED] - executeJavaScript("document.body.click();", []): Execute JavaScript 'document.body.click();' successfully
+
+28-05-2026T12:09:01 - [MESSAGE][PASSED] - Execute JavaScript 'document.body.click();' successfully
+
+28-05-2026T12:09:01 - [TEST_STEP][PASSED] - println("Clicked outside modal"): null
+
+28-05-2026T12:09:01 - [TEST_STEP][PASSED] - modal = new com.kms.katalon.core.testobject.TestObject(): null
+
+28-05-2026T12:09:01 - [TEST_STEP][PASSED] - modal.addProperty("xpath", EQUALS, "//*[contains(@class,'modal')]"): null
+
+28-05-2026T12:09:01 - [TEST_STEP][WARNING] - waitForElementNotPresent(modal, 20, OPTIONAL): Web element with id: '' located by 'By.xpath: //*[contains(@class,'modal')]' is present after '20' second(s)
+
+28-05-2026T12:09:21 - [MESSAGE][WARNING] - Web element with id: '' located by 'By.xpath: //*[contains(@class,'modal')]' is present after '20' second(s)
+
+28-05-2026T12:09:21 - [TEST_STEP][PASSED] - println("===== ESIGN SUCCESS ====="): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TaskActions/Comments/TC_Add_Comment" time="71.191" classname="Test Cases/TaskActions/Comments/TC_Add_Comment" status="PASSED">
+         <system-out><![CDATA[28-05-2026T12:11:06 - [TEST_CASE][PASSED] - Test Cases/TaskActions/Comments/TC_Add_Comment: Test Cases/TaskActions/Comments/TC_Add_Comment
+
+28-05-2026T12:11:06 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+28-05-2026T12:11:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-05-2026T12:11:06 - [TEST_STEP][WARNING] - waitForElementPresent(findTestObject("Page_Work Order  Index- Workforce Manager/input_Search"), 20): Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is not present after 20 second(s)
+
+28-05-2026T12:11:26 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is not present after 20 second(s)
+
+28-05-2026T12:11:26 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+28-05-2026T12:11:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-05-2026T12:11:26 - [TEST_STEP][WARNING] - waitForElementPresent(findTestObject("Page_Work Order  Index- Workforce Manager/input_Search"), 20): Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is not present after 20 second(s)
+
+28-05-2026T12:11:46 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is not present after 20 second(s)
+
+28-05-2026T12:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/div_Hi there, For line manager escalation or app")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/div_Hi there, For line manager escalation or app' is clicked on
+
+28-05-2026T12:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/div_Hi there, For line manager escalation or app' is clicked on
+
+28-05-2026T12:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/button_assign-modal-close-btn_1")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/button_assign-modal-close-btn_1' is clicked on
+
+28-05-2026T12:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/button_assign-modal-close-btn_1' is clicked on
+
+28-05-2026T12:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/a_Add Comment")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_Add Comment' is clicked on
+
+28-05-2026T12:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_Add Comment' is clicked on
+
+28-05-2026T12:11:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr"), "@chubby"): Text '@chubby' is set on object 'Object Repository/Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr'
+
+28-05-2026T12:11:48 - [MESSAGE][PASSED] - Text '@chubby' is set on object 'Object Repository/Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr'
+
+28-05-2026T12:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/a_Chubby Chubbystandard user")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_Chubby Chubbystandard user' is clicked on
+
+28-05-2026T12:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_Chubby Chubbystandard user' is clicked on
+
+28-05-2026T12:11:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr"), "[~Chubby Chubby] "): Text '[~Chubby Chubby] ' is set on object 'Object Repository/Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr'
+
+28-05-2026T12:11:50 - [MESSAGE][PASSED] - Text '[~Chubby Chubby] ' is set on object 'Object Repository/Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr'
+
+28-05-2026T12:11:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr"), "[~Chubby Chubby] Smoke test comment Automation "): Text '[~Chubby Chubby] Smoke test comment Automation ' is set on object 'Object Repository/Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr'
+
+28-05-2026T12:11:51 - [MESSAGE][PASSED] - Text '[~Chubby Chubby] Smoke test comment Automation ' is set on object 'Object Repository/Page_Work Order  View- Workforce Manager/textarea_To mention a user or role, type  in fr'
+
+28-05-2026T12:11:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/a_save_comment")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_save_comment' is clicked on
+
+28-05-2026T12:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/a_save_comment' is clicked on
+
+28-05-2026T12:11:52 - [TEST_STEP][WARNING] - waitForElementVisible(findTestObject("Page_Work Order  View- Workforce Manager/div_Comment saved successfully"), 20): Object 'Object Repository/Page_Work Order  View- Workforce Manager/div_Comment saved successfully' is not visible after 20 second(s)
+
+28-05-2026T12:12:12 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/div_Comment saved successfully' is not visible after 20 second(s)
+
+28-05-2026T12:12:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-05-2026T12:12:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-05-2026T12:12:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Work Order  View- Workforce Manager/button_SaveComment"), 20): Object 'Object Repository/Page_Work Order  View- Workforce Manager/button_SaveComment' is clickable
+
+28-05-2026T12:12:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/button_SaveComment' is clickable
+
+28-05-2026T12:12:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/button_SaveComment")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/button_SaveComment' is clicked on
+
+28-05-2026T12:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/button_SaveComment' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TaskActions/Change_Priority/Priority" time="5.682" classname="Test Cases/TaskActions/Change_Priority/Priority" status="PASSED">
+         <system-out><![CDATA[28-05-2026T12:12:17 - [TEST_CASE][PASSED] - Test Cases/TaskActions/Change_Priority/Priority: Test Cases/TaskActions/Change_Priority/Priority
+
+28-05-2026T12:12:17 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+28-05-2026T12:12:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-05-2026T12:12:17 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Work Order  View- Workforce Manager/i_fa fa-pencil text-interact-blue"), 20): Object 'Object Repository/Page_Work Order  View- Workforce Manager/i_fa fa-pencil text-interact-blue' is clickable
+
+28-05-2026T12:12:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/i_fa fa-pencil text-interact-blue' is clickable
+
+28-05-2026T12:12:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/i_fa fa-pencil text-interact-blue")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/i_fa fa-pencil text-interact-blue' is clicked on
+
+28-05-2026T12:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/i_fa fa-pencil text-interact-blue' is clicked on
+
+28-05-2026T12:12:18 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Work Order  View- Workforce Manager/small_High"), 20): Object 'Object Repository/Page_Work Order  View- Workforce Manager/small_High' is clickable
+
+28-05-2026T12:12:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/small_High' is clickable
+
+28-05-2026T12:12:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/small_High")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/small_High' is clicked on
+
+28-05-2026T12:12:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/small_High' is clicked on
+
+28-05-2026T12:12:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/div_Successful")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/div_Successful' is clicked on
+
+28-05-2026T12:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/div_Successful' is clicked on
+
+28-05-2026T12:12:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/button_OK")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/button_OK' is clicked on
+
+28-05-2026T12:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/button_OK' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TaskActions/Table_Actions/Download_File" time="20.67" classname="Test Cases/TaskActions/Table_Actions/Download_File" status="PASSED">
+         <system-out><![CDATA[28-05-2026T12:12:23 - [TEST_CASE][PASSED] - Test Cases/TaskActions/Table_Actions/Download_File: Test Cases/TaskActions/Table_Actions/Download_File
+
+28-05-2026T12:12:23 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+28-05-2026T12:12:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-05-2026T12:12:23 - [TEST_STEP][WARNING] - waitForElementPresent(findTestObject("Page_Work Order  Index- Workforce Manager/input_Search"), 20): Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is not present after 20 second(s)
+
+28-05-2026T12:12:43 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is not present after 20 second(s)
+
+28-05-2026T12:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/btn_Download")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/btn_Download' is clicked on
+
+28-05-2026T12:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/btn_Download' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TaskActions/Table_Actions/View_File" time="26.259" classname="Test Cases/TaskActions/Table_Actions/View_File" status="PASSED">
+         <system-out><![CDATA[28-05-2026T12:12:43 - [TEST_CASE][PASSED] - Test Cases/TaskActions/Table_Actions/View_File: Test Cases/TaskActions/Table_Actions/View_File
+
+28-05-2026T12:12:43 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+28-05-2026T12:12:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-05-2026T12:12:43 - [TEST_STEP][WARNING] - waitForElementPresent(findTestObject("Page_Work Order  Index- Workforce Manager/input_Search"), 20): Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is not present after 20 second(s)
+
+28-05-2026T12:13:04 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Work Order  Index- Workforce Manager/input_Search' is not present after 20 second(s)
+
+28-05-2026T12:13:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/btn_View")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/btn_View' is clicked on
+
+28-05-2026T12:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/btn_View' is clicked on
+
+28-05-2026T12:13:04 - [TEST_STEP][PASSED] - println("Viewer opened"): null
+
+28-05-2026T12:13:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-05-2026T12:13:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-05-2026T12:13:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Work Order  View- Workforce Manager/i_fa fa-chevron-right_1"), 20): Object 'Object Repository/Page_Work Order  View- Workforce Manager/i_fa fa-chevron-right_1' is visible
+
+28-05-2026T12:13:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Work Order  View- Workforce Manager/i_fa fa-chevron-right_1' is visible
+
+28-05-2026T12:13:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Work Order  View- Workforce Manager/i_fa fa-chevron-right_1")): Object: 'Object Repository/Page_Work Order  View- Workforce Manager/i_fa fa-chevron-right_1' is clicked on
+
+28-05-2026T12:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Work Order  View- Workforce Manager/i_fa fa-chevron-right_1' is clicked on
+
+28-05-2026T12:13:10 - [TEST_STEP][PASSED] - println("Viewer closed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-05-2026T12:05:43 - [TEST_SUITE][PASSED] - Survey_suite_model: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
