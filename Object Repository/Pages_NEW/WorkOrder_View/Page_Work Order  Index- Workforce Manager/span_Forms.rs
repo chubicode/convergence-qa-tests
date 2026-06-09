@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Forms</name>
+   <tag></tag>
+   <elementGuidId>fd5f3405-aeab-47b0-a836-ea4cb57d96b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'forms_menu']//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' title ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#forms_menu span.title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Forms &quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c5992bdc-adcf-4550-9f4e-b3a0187841e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>ea332a9a-c61b-4c11-a2c5-267502e9f816</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Forms</value>
+      <webElementGuid>4f5ae9a5-3aaf-4072-b7a0-30d0f64551e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9b7e72f718f770bd5a2056d1c96a5917</value>
+      <webElementGuid>64d6fc36-86b9-4d41-b8a8-850ae95d5382</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'forms_menu']//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' title ')]</value>
+      <webElementGuid>66d83685-f609-49d0-b8d5-a085f44cd835</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'forms_menu']//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' title ')]</value>
+      <webElementGuid>b562f252-0882-41e0-b5f8-9aa1d59d254d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Forms' or . = 'Forms')]</value>
+      <webElementGuid>3d5b58bf-f566-4cf0-97a3-77a0b69991c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

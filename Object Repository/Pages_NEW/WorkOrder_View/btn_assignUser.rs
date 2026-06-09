@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_assignUser</name>
+   <tag></tag>
+   <elementGuidId>20743a43-5cb2-4e6c-ab79-9336e5284aa3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.wfm-c-button--primary[data-comment=&quot;TEST\ AUTOMATION\ REASSIGN&quot;][data-user-email=&quot;joshua\.eb\@cicod\.com&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wfm-c-button--primary ') and (@data-comment = 'TEST AUTOMATION REASSIGN') and (@data-user-email = 'joshua.eb@cicod.com')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Save and Assign&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3e47c706-c597-4846-bff1-48dd7d1e9ffc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>assign_user</value>
+      <webElementGuid>1bff8ffc-9f29-4a83-a22b-23264e2d7baf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>handleUserAssignment(event)</value>
+      <webElementGuid>1d7d796d-d64e-48c1-8ecc-8be4b64e32ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-user</name>
+      <type>Main</type>
+      <value>8</value>
+      <webElementGuid>16b57cfd-68f6-4a50-b57b-c54a2da58b50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-user-email</name>
+      <type>Main</type>
+      <value>joshua.eb@cicod.com</value>
+      <webElementGuid>ea7f3765-a3f3-410c-a265-2f9ccfea3cb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wfm-c-button wfm-c-button--primary wfm-c-button--sm</value>
+      <webElementGuid>aafb74ea-2ace-4e4a-b9aa-8450932d477a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-comment</name>
+      <type>Main</type>
+      <value>TEST AUTOMATION REASSIGN</value>
+      <webElementGuid>f78d85f9-cb23-4143-97c2-71421c73abf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save and Assign</value>
+      <webElementGuid>e57860e3-0f32-426b-98d2-b7552ef38c21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9b70c82bf2da5a874a32f8990bc3d584</value>
+      <webElementGuid>b8a046e6-5962-432c-b244-279076cbd7e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wfm-c-button--primary ') and (@data-comment = 'TEST AUTOMATION REASSIGN') and (@data-user-email = 'joshua.eb@cicod.com')]</value>
+      <webElementGuid>e326d668-675c-4c54-ac68-b444def7186c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wfm-c-button--primary ') and (@data-comment = 'TEST AUTOMATION REASSIGN') and (@data-user-email = 'joshua.eb@cicod.com')]</value>
+      <webElementGuid>8b20b397-52db-47b6-8297-6e52a600a24f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'assign_user' and (text() = 'Save and Assign' or . = 'Save and Assign')]</value>
+      <webElementGuid>4dad6e84-2fd7-4d2c-8507-38934097029a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

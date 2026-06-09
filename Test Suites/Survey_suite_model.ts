@@ -33,59 +33,66 @@
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>dac560b1-86f5-4a60-a31a-9f7b7224cc6d</guid>
+      <guid>7cb95cd9-be01-4240-9da6-bed2d1c84d88</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Setup/TC_Open_Task_Details</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>afa93e48-dcbb-48f9-8ade-003d85f90d9f</guid>
+      <guid>eb5dd243-5ac1-4835-bccb-44218e60c67d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TaskActions/Uploads/Upload_File_From_Govdrive</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>44677aa1-3213-422e-8aaa-b3a1aad5b675</guid>
+      <guid>479c50f2-ac26-40d7-a926-b8c91d574a2b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TaskActions/Uploads/Upload_file_Without_Classification</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>02e7f57f-1dc8-4536-85d2-b11396bb73be</guid>
+      <guid>5b2e28ca-d091-41b9-b44b-eef477a28871</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TaskActions/Table_Actions/Esign</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>13620b8f-5af0-4fb3-89cd-9e0f2e11131e</guid>
+      <guid>7a7eef0f-62cc-49cb-aff4-da97be724f17</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TaskActions/Comments/TC_Add_Comment</testCaseId>
+      <testCaseId>Test Cases/TaskActions/Table_Actions/View_File</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f3b00db2-f6f1-44a2-a430-fb2c5bdd855d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TaskActions/Change_Priority/Priority</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8d99595f-2acd-46e3-a645-47e625d66c42</guid>
+      <guid>2878dbad-f955-46c8-aa33-9dc858693aa1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TaskActions/Table_Actions/Download_File</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b9a02217-5e89-4175-8e87-de0f276cb05e</guid>
+      <guid>15b51248-4608-4b45-9e8b-ebb8174016fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TaskActions/Table_Actions/View_File</testCaseId>
+      <testCaseId>Test Cases/TaskActions/Table_Actions/Delete</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f897b60c-7ee6-4648-99b0-78124a66c47d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TaskActions/Comments/TC_Add_Comment</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>419ed07b-6ba1-43a2-8c3b-36a05ef9604d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TaskActions/Engagement/Engagement</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

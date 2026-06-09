@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Select - country</name>
+   <tag></tag>
+   <elementGuidId>d56a6c47-6ea2-4fa1-8477-0cb56006f789</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@name = 'address.fields.country']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[name=&quot;address\.fields\.country&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>input[name=&quot;address\.fields\.country&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>608b7cd9-ee6b-4d73-a573-b2ebf5f3e3ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>45ff274c-0560-45e5-966c-31af2483d45e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>TextField_input__-8eep</value>
+      <webElementGuid>c9ab899a-677e-4ac0-960c-736952d19944</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Select - country</value>
+      <webElementGuid>43ec33c1-bc6a-4a25-b035-1776d003ce24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>address.fields.country</value>
+      <webElementGuid>7d31bdd1-a5e4-4e20-89cc-fb1a96d24242</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-367b039534a61ebd2942c64629a231ed</value>
+      <webElementGuid>ec6097b0-2ae2-4697-b830-397dfd751c73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@name = 'address.fields.country']</value>
+      <webElementGuid>8cc6f9e1-c21e-4b99-9950-4b644201537c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pages_NEW/WorkOrder_View/Page_Web Form  Internal- Workforce Manager/iframe_iframe</value>
+      <webElementGuid>4425b9cc-db32-4b73-8da8-3e811d90416e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@name = 'address.fields.country']</value>
+      <webElementGuid>ebd6e300-484b-4021-82d2-e92e2d8c3756</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Select - country' and @name = 'address.fields.country']</value>
+      <webElementGuid>3748c8af-6e71-491c-82e6-7b942b357eaf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Share</name>
+   <tag></tag>
+   <elementGuidId>05d323f4-db4e-4099-af68-4a2b7e07627c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' page-header-fixed ')]/*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wfm-l-table__table-action-dropdown ')]//*[@data-type = 'internal']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.page-header-fixed > .wfm-l-table__table-action-dropdown [data-type=&quot;internal&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=list[name=&quot;Quick Actions&quot;i] >> a >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c0b45a28-3252-48b3-b9bc-8ddbfb66fc47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>setFormData()</value>
+      <webElementGuid>b006a5d4-0d61-4df7-ba9b-d502bd1847a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>63d64e4c-9ba0-4215-a157-90b5ac186925</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-type</name>
+      <type>Main</type>
+      <value>internal</value>
+      <webElementGuid>9dadd4dd-cdcf-4471-a762-50f837db4fa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-name</name>
+      <type>Main</type>
+      <value>TEST AUTOMATION 5</value>
+      <webElementGuid>5812d79a-2e9f-4d85-ad99-2ac4ed89bfcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-target</name>
+      <type>Main</type>
+      <value>#shareWebformModal</value>
+      <webElementGuid>00e5c120-6d87-45b5-83b1-a9bb818f1603</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                        Share
+                                    </value>
+      <webElementGuid>58a49ec8-f7e5-45c1-8783-dcb86edf0582</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-65b8b419c811582a5da28ffb5f068780</value>
+      <webElementGuid>df6b6b1b-2c1d-40e2-b3fe-cf988da1a7ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' page-header-fixed ')]/*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wfm-l-table__table-action-dropdown ')]//*[@data-type = 'internal']</value>
+      <webElementGuid>ffa4a198-52e5-4b8f-a835-ad47704369a3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' page-header-fixed ')]/*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wfm-l-table__table-action-dropdown ')]//*[@data-type = 'internal']</value>
+      <webElementGuid>dc0b56ba-60ae-4642-a00d-654d7a830ac8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = '
+                                        Share
+                                    ' or . = '
+                                        Share
+                                    ')]</value>
+      <webElementGuid>74b1cf94-c13d-4fe4-9ab9-fff190f85de2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

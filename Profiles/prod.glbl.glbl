@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>prod.glbl</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Login domain</description>
+      <initValue>'https://www.1gov.ng/'</initValue>
+      <name>baseUrl</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Work Order app URL with default tab</description>
+      <initValue>'https://testgov.1gov.ng/wfm/index.php?r=workOrder#created-by-me'</initValue>
+      <name>workOrderUrl</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Work Order index page with active tickets tab</description>
+      <initValue>'https://testgov.1gov.ng/wfm/index.php?r=workOrder/index#active-tickets'</initValue>
+      <name>workOrderIndexUrl</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>MDA name</description>
+      <initValue>'testgov'</initValue>
+      <name>username</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'apisupport@cicod.com'</initValue>
+      <name>email</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Encrypted password</description>
+      <initValue>'9zJdpvfgkgtFa8MQRHGI0w=='</initValue>
+      <name>password</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Captured ticket ID from TC_Create_Task</description>
+      <initValue>''</initValue>
+      <name>capturedTicketId</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>User ID for assign-to-user dropdown (TC_Create_Task)</description>
+      <initValue>'617'</initValue>
+      <name>assignUserValue</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Displayed name of user to assign task to (AssignToUser)</description>
+      <initValue>'api support'</initValue>
+      <name>assignUserName</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Search keyword for @ mention in comments</description>
+      <initValue>'chu'</initValue>
+      <name>mentionUserKeyword</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Full name of user to click in mention dropdown</description>
+      <initValue>'Chinwuba'</initValue>
+      <name>mentionUserFullName</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Folder name to upload files to in Gov Drive</description>
+      <initValue>'INFORMATION AND COMMUNICATIONS TECHNOLOGY'</initValue>
+      <name>policyFolderName</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

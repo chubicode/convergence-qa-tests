@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_assign_user</name>
+   <tag></tag>
+   <elementGuidId>08855f6a-6961-4398-ac7c-9acb64f87959</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#assignUserForm_new .wfm-c-button--primary[data-user-email=&quot;test\@cicod\.com&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'assignUserForm_new']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wfm-c-button--primary ') and (@data-user-email = 'test@cicod.com')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Save and Assign&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7e3da6c5-c2bb-489d-8faa-a253a0b13f41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>assign_user</value>
+      <webElementGuid>0eb49a66-6d80-4b79-a0d1-bf1e65fe8b76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>handleUserAssignment(event)</value>
+      <webElementGuid>1b8d2282-2f31-4ec3-a434-dd2a2d1f691a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-user</name>
+      <type>Main</type>
+      <value>154</value>
+      <webElementGuid>87cb93cb-0993-4230-8532-ceae594e8640</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-user-email</name>
+      <type>Main</type>
+      <value>test@cicod.com</value>
+      <webElementGuid>cfcda2d2-75a2-4c39-b8b3-a712f28d3637</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wfm-c-button wfm-c-button--primary wfm-c-button--sm</value>
+      <webElementGuid>3912674a-d772-4de0-9c24-ad79374a227c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-comment</name>
+      <type>Main</type>
+      <value>Test Automation 234156</value>
+      <webElementGuid>50fe840d-4f05-4b7b-91ac-abe4910c9349</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save and Assign</value>
+      <webElementGuid>7fbc7cd5-0c17-414d-ad17-cb31387824f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9178664d10ead69126cc634b6d088d53</value>
+      <webElementGuid>471be67b-cb47-4fc3-8db7-55fc4141d35d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'assignUserForm_new']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wfm-c-button--primary ') and (@data-user-email = 'test@cicod.com')]</value>
+      <webElementGuid>be6ce551-e6fe-483e-b1e4-fb1dab8d8e60</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'assignUserForm_new']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' wfm-c-button--primary ') and (@data-user-email = 'test@cicod.com')]</value>
+      <webElementGuid>c3f34d39-18d0-40ce-87af-174e9eb83ad7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'assign_user' and (text() = 'Save and Assign' or . = 'Save and Assign')]</value>
+      <webElementGuid>6a7baddd-5690-403c-80a9-a4e82ad1c583</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

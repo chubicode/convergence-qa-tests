@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_searchUsers</name>
+   <tag></tag>
+   <elementGuidId>db9df196-98fb-4ff1-b1c7-881d394e5c9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#userMenuToggler [placeholder=&quot;Search\ users\ or\ roles\.\.\.&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'userMenuToggler']//*[@placeholder = 'Search users or roles...']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=textbox[name=&quot;Type in a name&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>2de3506b-7f4e-4a2e-804c-b6316d5099d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>a3a38039-6f0f-4896-977b-e9279cbf3443</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>searchUser</value>
+      <webElementGuid>166cc3a8-fb08-411f-9a37-d28647328dbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onkeyup</name>
+      <type>Main</type>
+      <value>searchAssignToUser(event)</value>
+      <webElementGuid>e6391648-1dd6-4277-aa0a-64e4c2c45eb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search users or roles...</value>
+      <webElementGuid>871a5f28-2184-41ef-a9c3-12edd28b0269</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Type in a name</value>
+      <webElementGuid>f36893cf-64d1-4187-abc0-796b6c86b620</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ab8e186121ab9e9fecc9a9374d6b25b1</value>
+      <webElementGuid>07ac6eaa-02b8-4191-b979-2e4ef1876085</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'userMenuToggler']//*[@placeholder = 'Search users or roles...']</value>
+      <webElementGuid>084abf5d-1e8b-4fe4-80a1-fb1d90d22cca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'userMenuToggler']//*[@placeholder = 'Search users or roles...']</value>
+      <webElementGuid>d9de8a61-aa33-4ee2-a97b-e15f83141918</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @id = 'searchUser' and @placeholder = 'Search users or roles...' and @title = 'Type in a name']</value>
+      <webElementGuid>c2a3c7c8-fac8-41f2-9eb6-46e30b026e63</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

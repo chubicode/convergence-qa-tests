@@ -1,58 +1,67 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-// WAIT FOR PAGE TO LOAD FULLY
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.Alert
+import org.openqa.selenium.WebElement
+
+println("===== START VIEW FILE =====")
+
+// ============================
+// DISMISS ANY LEFTOVER ALERTS
+// ============================
+try {
+    WebDriver driver = DriverFactory.getWebDriver()
+    Alert leftoverAlert = driver.switchTo().alert()
+    println("⚠️ Found leftover alert: " + leftoverAlert.getText())
+    leftoverAlert.dismiss()
+    println("✅ Dismissed leftover alert")
+} catch (Exception e) {
+    // No alert — that's fine
+}
+
 WebUI.waitForPageLoad(20)
+WebUI.delay(2)
 
-WebUI.waitForElementPresent(
-    findTestObject(
-        'Page_Work Order  Index- Workforce Manager/input_Search'
-    ),
-    20
-)
+// ============================
+// CLICK VIEW ICON (with JS click)
+// ============================
+TestObject viewBtn = new TestObject('View icon')
+viewBtn.addProperty('xpath', ConditionType.EQUALS,
+    "(//a[@title='View'] | //*[@title='View'])[1]")
 
-// OPEN FILE
-WebUI.click(
-    findTestObject(
-        'Page_Work Order  View- Workforce Manager/btn_View'
-    )
-)
+WebUI.waitForElementPresent(viewBtn, 15)
 
-println('Viewer opened')
+WebElement viewEl = WebUI.findWebElement(viewBtn, 10)
+WebUI.executeJavaScript('arguments[0].scrollIntoView({block:"center"});', [viewEl])
+WebUI.delay(1)
+WebUI.executeJavaScript('arguments[0].click();', [viewEl])
+println("✅ View clicked")
 
-// WAIT 2 SECONDS FOR FILE TO RENDER
 WebUI.delay(5)
 
-// WAIT FOR CLOSE BUTTON
-WebUI.waitForElementVisible(
-    findTestObject(
-        'Page_Work Order  View- Workforce Manager/i_fa fa-chevron-right_1'
-    ),
-    20
-)
+// ============================
+// CLOSE VIEWER (chevron-right icon)
+// ============================
+TestObject closeBtn = new TestObject('Close viewer')
+closeBtn.addProperty('xpath', ConditionType.EQUALS,
+    "//i[contains(@class,'fa-chevron-right')] | //*[contains(@class,'close-viewer')] | //*[@title='Close']")
 
-// CLOSE VIEWER
-WebUI.click(
-    findTestObject(
-        'Page_Work Order  View- Workforce Manager/i_fa fa-chevron-right_1'
-    )
-)
+try {
+    WebUI.waitForElementPresent(closeBtn, 15)
+    WebElement closeEl = WebUI.findWebElement(closeBtn, 10)
+    WebUI.executeJavaScript('arguments[0].click();', [closeEl])
+    println("✅ Viewer closed")
+} catch (Exception e) {
+    println("⚠️ Close button not found, pressing Escape")
+    WebUI.executeJavaScript("document.dispatchEvent(new KeyboardEvent('keydown', {key:'Escape', keyCode:27}));", null)
+}
 
-println('Viewer closed')
+WebUI.delay(2)
 
+println("===== END VIEW FILE =====")

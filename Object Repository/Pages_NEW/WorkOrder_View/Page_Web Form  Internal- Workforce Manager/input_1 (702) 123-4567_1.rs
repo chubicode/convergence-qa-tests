@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_1 (702) 123-4567_1</name>
+   <tag></tag>
+   <elementGuidId>e4da5598-2605-4493-acd9-4708e3772769</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@name = 'organization.fields.phone_number']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[name=&quot;organization\.fields\.phone_number&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>input[name=&quot;organization\.fields\.phone_number&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>b9faa6b3-75c6-4cd8-8ce7-f6bd23192c1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control PhoneInput_input__kWxRl</value>
+      <webElementGuid>41ce9a8d-646f-42cf-bcaa-ac6186072db1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>1 (702) 123-4567</value>
+      <webElementGuid>8204a812-4eae-4409-b5af-b4219d82bae2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>531c0c8e-deeb-4b12-b328-e379334f955b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>organization.fields.phone_number</value>
+      <webElementGuid>50934a68-38c8-4a2f-9ae1-09c7f85befab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>18</value>
+      <webElementGuid>68a40fc8-edeb-4d24-8beb-374a416311b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>+234</value>
+      <webElementGuid>07769017-3583-43bf-8075-1e7443a23955</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-47daebda64277f88096fb1722b9cf18c</value>
+      <webElementGuid>18195c5b-9435-43c6-bb6c-884f7fa169a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@name = 'organization.fields.phone_number']</value>
+      <webElementGuid>ea7c57f0-ed98-4f5f-978b-d87105bb8685</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pages_NEW/WorkOrder_View/Page_Web Form  Internal- Workforce Manager/iframe_iframe</value>
+      <webElementGuid>77fa2a0d-1b7e-4b8f-9639-d7f9b165619e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@name = 'organization.fields.phone_number']</value>
+      <webElementGuid>157ad6f5-0f47-4c8c-bd09-4eec7a1bef14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = '1 (702) 123-4567' and @type = 'tel' and @name = 'organization.fields.phone_number']</value>
+      <webElementGuid>e02e5018-3e51-47df-9dee-c8cfd40578c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

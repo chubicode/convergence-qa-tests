@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_img</name>
+   <tag></tag>
+   <elementGuidId>6c05748f-00ef-4811-9d6d-b119bb47b3a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(name() = 'tr') and (position() = 1)]//*[@src = 'assets/global/img/icons/more-vertical.svg']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-child(1) [src=&quot;assets\/global\/img\/icons\/more-vertical\.svg&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;TEST AUTOMATION 5 Created 2026-06-04 QA Approval Test Internal active&quot;i] >> #dLabel</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>ff1e759c-11cb-41bd-a7c9-c2753f9f28f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/global/img/icons/more-vertical.svg</value>
+      <webElementGuid>bc4e57ef-0332-4cd2-986a-626315657578</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>17</value>
+      <webElementGuid>46eb1efb-c5ac-433c-8b8b-3277736c05fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-8bb06c1e7a9c3c98b7fb0b5e43b8dde3</value>
+      <webElementGuid>cd753f53-86b2-4fd9-a0eb-092ca58e7edf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(name() = 'tr') and (position() = 1)]//*[@src = 'assets/global/img/icons/more-vertical.svg']</value>
+      <webElementGuid>e9e461b8-a2d1-49ff-a274-49fc1c05365a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(name() = 'tr') and (position() = 1)]//*[@src = 'assets/global/img/icons/more-vertical.svg']</value>
+      <webElementGuid>0b0e42c1-72c7-4dae-8b41-e10637c8689c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/global/img/icons/more-vertical.svg']</value>
+      <webElementGuid>d400b192-a7cf-4f0a-b62c-b310d30ada72</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

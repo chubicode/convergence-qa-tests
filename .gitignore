@@ -1,7 +1,82 @@
-
-/bin/
-/Libs/
-/.settings/
-/.classpath
-.svn/
+# ============================
+# Katalon Generated Files
+# ============================
+Reports/
+Libs/
+bin/
 .cache/
+*.log
+
+# Eclipse/IDE files
+.classpath
+.project
+.settings/
+
+# Self-healing AI files
+Reports/Self-healing/
+
+# Auto-generated Groovy artifacts
+.staging/
+.staging-junit/
+
+# ============================
+# OS-Specific Files
+# ============================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ============================
+# IDE Files
+# ============================
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# ============================
+# Build Artifacts
+# ============================
+build/
+target/
+out/
+*.class
+
+# ============================
+# Sensitive / Environment Files
+# ============================
+# Don't commit local override configs
+local.properties
+*.local.glbl
+
+# ============================
+# Test Output Files
+# ============================
+# If you generate downloaded files during tests
+Downloads/
+test-output/
+
+# ============================
+# Backup Files
+# ============================
+*.bak
+*.backup
+*~
+
+# ============================
+# Console Logs (if you output any)
+# ============================
+console.log
+debug.log

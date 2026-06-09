@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_comment</name>
+   <tag></tag>
+   <elementGuidId>aa1bedea-db05-46ce-ab2d-ebabe6f4b372</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#assignUserForm_new .list-item:nth-child(14) [placeholder=&quot;Enter\ comment&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'assignUserForm_new']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' list-item ') and (position() = 14)]//*[@placeholder = 'Enter comment']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=textbox[name=&quot;Enter comment&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>98f4eaa2-a84f-4db6-833e-b5a96cf67376</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>3da2dad3-5d6d-4b0f-b90a-1c82521a2818</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>preventBubble(event)</value>
+      <webElementGuid>f081b231-b5e1-4846-9ce4-2f8c891fbf46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onkeyup</name>
+      <type>Main</type>
+      <value>handleSetDataComment(event)</value>
+      <webElementGuid>f4d4114b-356b-42d5-aac6-3da7de942134</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter comment</value>
+      <webElementGuid>b6999efe-68eb-4b41-8cde-f13682d96457</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-7923e94f5d45b479228e32bce9d54e31</value>
+      <webElementGuid>69ac80ab-1c3c-4a77-89c3-1aafe8121312</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'assignUserForm_new']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' list-item ') and (position() = 14)]//*[@placeholder = 'Enter comment']</value>
+      <webElementGuid>c2d4edda-1414-4c9f-a9a9-21a5882d06f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'assignUserForm_new']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' list-item ') and (position() = 14)]//*[@placeholder = 'Enter comment']</value>
+      <webElementGuid>bf994d7a-4f99-4bea-acca-0e12e6cd922c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = 'Enter comment']</value>
+      <webElementGuid>8f5650ad-a558-4887-ba08-5b42dde7dc97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
